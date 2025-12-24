@@ -1,0 +1,5027 @@
+[
+  {
+    "id": "T1_001",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-01-10",
+    "prediction": "2025-01-10",
+    "latency": 6.077417612075806,
+    "tokens": 286
+  },
+  {
+    "id": "T1_002",
+    "task": "T1",
+    "input_text": "어제",
+    "anchor_date": "2025-01-08",
+    "gold_standard": "2025-01-07",
+    "prediction": "2025-01-07",
+    "latency": 4.72279691696167,
+    "tokens": 283
+  },
+  {
+    "id": "T1_003",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-01-16",
+    "prediction": "2025-01-16",
+    "latency": 4.9083428382873535,
+    "tokens": 283
+  },
+  {
+    "id": "T1_004",
+    "task": "T1",
+    "input_text": "지난주 월요일",
+    "anchor_date": "2025-01-22",
+    "gold_standard": "2025-01-13",
+    "prediction": "2025-01-13",
+    "latency": 5.187499761581421,
+    "tokens": 285
+  },
+  {
+    "id": "T1_005",
+    "task": "T1",
+    "input_text": "다음주 화요일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-04",
+    "prediction": "2025-02-04",
+    "latency": 4.611492395401001,
+    "tokens": 286
+  },
+  {
+    "id": "T1_006",
+    "task": "T1",
+    "input_text": "오늘",
+    "anchor_date": "2025-02-05",
+    "gold_standard": "2025-02-05",
+    "prediction": "2025-02-05",
+    "latency": 4.916085720062256,
+    "tokens": 282
+  },
+  {
+    "id": "T1_007",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2025-02-12",
+    "gold_standard": "2025-02-14",
+    "prediction": "2025-02-14",
+    "latency": 6.699689149856567,
+    "tokens": 283
+  },
+  {
+    "id": "T1_008",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2025-02-19",
+    "gold_standard": "2025-02-17",
+    "prediction": "2025-02-17",
+    "latency": 5.098828077316284,
+    "tokens": 284
+  },
+  {
+    "id": "T1_009",
+    "task": "T1",
+    "input_text": "다음 달 1일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-03-01",
+    "prediction": "2025-03-01",
+    "latency": 4.765979290008545,
+    "tokens": 287
+  },
+  {
+    "id": "T1_010",
+    "task": "T1",
+    "input_text": "지난 달 마지막 날",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-02-28",
+    "prediction": "2025-02-28",
+    "latency": 4.891815662384033,
+    "tokens": 285
+  },
+  {
+    "id": "T1_011",
+    "task": "T1",
+    "input_text": "2주 뒤",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-26",
+    "prediction": "2025-03-26",
+    "latency": 5.037210941314697,
+    "tokens": 284
+  },
+  {
+    "id": "T1_012",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-16",
+    "prediction": "2025-03-16",
+    "latency": 5.034093856811523,
+    "tokens": 284
+  },
+  {
+    "id": "T1_013",
+    "task": "T1",
+    "input_text": "4주 전 수요일",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-02-26",
+    "prediction": "2025-02-26",
+    "latency": 4.740299701690674,
+    "tokens": 286
+  },
+  {
+    "id": "T1_014",
+    "task": "T1",
+    "input_text": "2달 뒤",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-06-02",
+    "prediction": "2025-06-02",
+    "latency": 4.875859022140503,
+    "tokens": 284
+  },
+  {
+    "id": "T1_015",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2026-04-09",
+    "prediction": [
+      "2026-01-01",
+      "2026-12-31"
+    ],
+    "latency": 5.0958452224731445,
+    "tokens": 291
+  },
+  {
+    "id": "T1_016",
+    "task": "T1",
+    "input_text": "지난달 첫 번째 일요일",
+    "anchor_date": "2025-04-16",
+    "gold_standard": "2025-03-02",
+    "prediction": "2025-03-02",
+    "latency": 5.100601434707642,
+    "tokens": 287
+  },
+  {
+    "id": "T1_017",
+    "task": "T1",
+    "input_text": "다음 달 세 번째 토요일",
+    "anchor_date": "2025-04-23",
+    "gold_standard": "2025-05-17",
+    "prediction": "2025-05-17",
+    "latency": 4.7876365184783936,
+    "tokens": 288
+  },
+  {
+    "id": "T1_018",
+    "task": "T1",
+    "input_text": "이번 주말 첫째 날",
+    "anchor_date": "2025-04-30",
+    "gold_standard": "2025-05-03",
+    "prediction": "2025-05-03",
+    "latency": 4.861129999160767,
+    "tokens": 287
+  },
+  {
+    "id": "T1_019",
+    "task": "T1",
+    "input_text": "지난주 주말 마지막 날",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-05-04",
+    "prediction": "2025-05-04",
+    "latency": 4.700772285461426,
+    "tokens": 287
+  },
+  {
+    "id": "T1_020",
+    "task": "T1",
+    "input_text": "다음 주 주말 첫째 날",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-05-24",
+    "prediction": "2025-05-17",
+    "latency": 4.945098876953125,
+    "tokens": 289
+  },
+  {
+    "id": "T1_021",
+    "task": "T1",
+    "input_text": "5일 뒤",
+    "anchor_date": "2025-05-21",
+    "gold_standard": "2025-05-26",
+    "prediction": "2025-05-26",
+    "latency": 5.079253435134888,
+    "tokens": 284
+  },
+  {
+    "id": "T1_022",
+    "task": "T1",
+    "input_text": "1주 전 목요일",
+    "anchor_date": "2025-05-28",
+    "gold_standard": "2025-05-22",
+    "prediction": "2025-05-15",
+    "latency": 4.679323673248291,
+    "tokens": 286
+  },
+  {
+    "id": "T1_023",
+    "task": "T1",
+    "input_text": "6달 뒤",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-12-04",
+    "prediction": "2025-12-04",
+    "latency": 4.990398168563843,
+    "tokens": 284
+  },
+  {
+    "id": "T1_024",
+    "task": "T1",
+    "input_text": "1년 전",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2024-06-11",
+    "prediction": "2024-06-11",
+    "latency": 4.770640850067139,
+    "tokens": 284
+  },
+  {
+    "id": "T1_025",
+    "task": "T1",
+    "input_text": "다음 달 둘째 주 수요일",
+    "anchor_date": "2025-06-18",
+    "gold_standard": "2025-07-09",
+    "prediction": "2025-07-09",
+    "latency": 4.838128566741943,
+    "tokens": 289
+  },
+  {
+    "id": "T1_026",
+    "task": "T1",
+    "input_text": "지난 달 마지막 주 화요일",
+    "anchor_date": "2025-06-25",
+    "gold_standard": "2025-05-27",
+    "prediction": "2025-05-27",
+    "latency": 5.077484607696533,
+    "tokens": 287
+  },
+  {
+    "id": "T1_027",
+    "task": "T1",
+    "input_text": "올해 마지막 날",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-12-31",
+    "prediction": "2025-12-31",
+    "latency": 4.733165502548218,
+    "tokens": 285
+  },
+  {
+    "id": "T1_028",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-07-31",
+    "prediction": "2025-07-31",
+    "latency": 4.886688232421875,
+    "tokens": 285
+  },
+  {
+    "id": "T1_029",
+    "task": "T1",
+    "input_text": "지난 달 첫날",
+    "anchor_date": "2025-07-16",
+    "gold_standard": "2025-06-01",
+    "prediction": "2025-06-01",
+    "latency": 4.78493070602417,
+    "tokens": 285
+  },
+  {
+    "id": "T1_030",
+    "task": "T1",
+    "input_text": "다음 주 월요일",
+    "anchor_date": "2025-07-23",
+    "gold_standard": "2025-07-28",
+    "prediction": "2025-07-28",
+    "latency": 4.829440593719482,
+    "tokens": 286
+  },
+  {
+    "id": "T1_031",
+    "task": "T1",
+    "input_text": "지난 달 15일",
+    "anchor_date": "2025-07-30",
+    "gold_standard": "2025-06-15",
+    "prediction": "2025-06-15",
+    "latency": 4.664077043533325,
+    "tokens": 286
+  },
+  {
+    "id": "T1_032",
+    "task": "T1",
+    "input_text": "10일 뒤",
+    "anchor_date": "2025-08-06",
+    "gold_standard": "2025-08-16",
+    "prediction": "2025-08-16",
+    "latency": 4.955282211303711,
+    "tokens": 284
+  },
+  {
+    "id": "T1_033",
+    "task": "T1",
+    "input_text": "1주 뒤",
+    "anchor_date": "2025-08-13",
+    "gold_standard": "2025-08-20",
+    "prediction": "2025-08-20",
+    "latency": 4.7185564041137695,
+    "tokens": 284
+  },
+  {
+    "id": "T1_034",
+    "task": "T1",
+    "input_text": "3주 전",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-07-30",
+    "prediction": "2025-07-30",
+    "latency": 4.925328254699707,
+    "tokens": 284
+  },
+  {
+    "id": "T1_035",
+    "task": "T1",
+    "input_text": "지난 달 마지막 금요일",
+    "anchor_date": "2025-08-27",
+    "gold_standard": "2025-07-25",
+    "prediction": "2025-07-25",
+    "latency": 5.052675247192383,
+    "tokens": 286
+  },
+  {
+    "id": "T1_036",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-10",
+    "latency": 5.055854558944702,
+    "tokens": 288
+  },
+  {
+    "id": "T1_037",
+    "task": "T1",
+    "input_text": "8주 뒤",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-11-05",
+    "prediction": "2025-11-05",
+    "latency": 4.752793312072754,
+    "tokens": 284
+  },
+  {
+    "id": "T1_038",
+    "task": "T1",
+    "input_text": "5달 전",
+    "anchor_date": "2025-09-17",
+    "gold_standard": "2025-04-17",
+    "prediction": "2025-04-17",
+    "latency": 4.719123363494873,
+    "tokens": 284
+  },
+  {
+    "id": "T1_039",
+    "task": "T1",
+    "input_text": "2년 뒤",
+    "anchor_date": "2025-09-24",
+    "gold_standard": "2027-09-24",
+    "prediction": "2027-09-24",
+    "latency": 4.739814043045044,
+    "tokens": 284
+  },
+  {
+    "id": "T1_040",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-10-08",
+    "prediction": "2025-10-08",
+    "latency": 4.976385116577148,
+    "tokens": 286
+  },
+  {
+    "id": "T1_041",
+    "task": "T1",
+    "input_text": "지난주 일요일",
+    "anchor_date": "2025-10-08",
+    "gold_standard": "2025-10-05",
+    "prediction": "2025-09-28",
+    "latency": 4.772328853607178,
+    "tokens": 285
+  },
+  {
+    "id": "T1_042",
+    "task": "T1",
+    "input_text": "3달 뒤 첫날",
+    "anchor_date": "2025-10-15",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 4.837623357772827,
+    "tokens": 286
+  },
+  {
+    "id": "T1_043",
+    "task": "T1",
+    "input_text": "4일 뒤",
+    "anchor_date": "2025-10-22",
+    "gold_standard": "2025-10-26",
+    "prediction": "2025-10-26",
+    "latency": 5.079725027084351,
+    "tokens": 284
+  },
+  {
+    "id": "T1_044",
+    "task": "T1",
+    "input_text": "7일 전",
+    "anchor_date": "2025-10-29",
+    "gold_standard": "2025-10-22",
+    "prediction": "2025-10-22",
+    "latency": 4.736567258834839,
+    "tokens": 284
+  },
+  {
+    "id": "T1_045",
+    "task": "T1",
+    "input_text": "다음 달 마지막 주 목요일",
+    "anchor_date": "2025-11-05",
+    "gold_standard": "2025-12-25",
+    "prediction": "2025-12-25",
+    "latency": 4.646299600601196,
+    "tokens": 288
+  },
+  {
+    "id": "T1_046",
+    "task": "T1",
+    "input_text": "1년 뒤 첫날",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 4.7586846351623535,
+    "tokens": 286
+  },
+  {
+    "id": "T1_047",
+    "task": "T1",
+    "input_text": "1년 전 마지막 날",
+    "anchor_date": "2025-11-19",
+    "gold_standard": "2024-12-31",
+    "prediction": "2024-12-31",
+    "latency": 4.795766115188599,
+    "tokens": 286
+  },
+  {
+    "id": "T1_048",
+    "task": "T1",
+    "input_text": "다음 달 20일",
+    "anchor_date": "2025-11-26",
+    "gold_standard": "2025-12-20",
+    "prediction": "2025-12-20",
+    "latency": 4.828282356262207,
+    "tokens": 287
+  },
+  {
+    "id": "T1_049",
+    "task": "T1",
+    "input_text": "지난 달 두 번째 화요일",
+    "anchor_date": "2025-12-03",
+    "gold_standard": "2025-11-11",
+    "prediction": "2025-11-11",
+    "latency": 4.775120496749878,
+    "tokens": 287
+  },
+  {
+    "id": "T1_050",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 월요일",
+    "anchor_date": "2025-12-10",
+    "gold_standard": "2026-01-05",
+    "prediction": "2026-01-05",
+    "latency": 4.831630706787109,
+    "tokens": 288
+  },
+  {
+    "id": "T1_051",
+    "task": "T1",
+    "input_text": "5주 뒤",
+    "anchor_date": "2025-12-17",
+    "gold_standard": "2026-01-21",
+    "prediction": "2026-01-21",
+    "latency": 4.654374599456787,
+    "tokens": 284
+  },
+  {
+    "id": "T1_052",
+    "task": "T1",
+    "input_text": "2일 전",
+    "anchor_date": "2025-12-24",
+    "gold_standard": "2025-12-22",
+    "prediction": "2025-12-22",
+    "latency": 4.8193604946136475,
+    "tokens": 284
+  },
+  {
+    "id": "T1_053",
+    "task": "T1",
+    "input_text": "다음 주 목요일",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-08",
+    "prediction": "2026-01-08",
+    "latency": 4.725491046905518,
+    "tokens": 286
+  },
+  {
+    "id": "T1_054",
+    "task": "T1",
+    "input_text": "지난주 화요일",
+    "anchor_date": "2026-01-07",
+    "gold_standard": "2025-12-30",
+    "prediction": "2025-12-30",
+    "latency": 4.76972770690918,
+    "tokens": 285
+  },
+  {
+    "id": "T1_055",
+    "task": "T1",
+    "input_text": "12달 전",
+    "anchor_date": "2026-01-14",
+    "gold_standard": "2025-01-14",
+    "prediction": "2025-01-14",
+    "latency": 4.67818546295166,
+    "tokens": 284
+  },
+  {
+    "id": "T1_056",
+    "task": "T1",
+    "input_text": "60일 뒤",
+    "anchor_date": "2026-01-21",
+    "gold_standard": "2026-03-22",
+    "prediction": "2026-03-22",
+    "latency": 5.658630847930908,
+    "tokens": 284
+  },
+  {
+    "id": "T1_057",
+    "task": "T1",
+    "input_text": "30일 전",
+    "anchor_date": "2026-01-28",
+    "gold_standard": "2025-12-29",
+    "prediction": "2025-12-29",
+    "latency": 4.948938846588135,
+    "tokens": 284
+  },
+  {
+    "id": "T1_058",
+    "task": "T1",
+    "input_text": "다음 달 첫날",
+    "anchor_date": "2026-02-04",
+    "gold_standard": "2026-03-01",
+    "prediction": "2026-03-01",
+    "latency": 5.150985956192017,
+    "tokens": 286
+  },
+  {
+    "id": "T1_059",
+    "task": "T1",
+    "input_text": "지난 달 마지막 날",
+    "anchor_date": "2026-02-11",
+    "gold_standard": "2026-01-31",
+    "prediction": "2026-01-31",
+    "latency": 4.7157580852508545,
+    "tokens": 285
+  },
+  {
+    "id": "T1_060",
+    "task": "T1",
+    "input_text": "다음 달 10일",
+    "anchor_date": "2026-02-18",
+    "gold_standard": "2026-03-10",
+    "prediction": "2026-03-10",
+    "latency": 5.249281644821167,
+    "tokens": 287
+  },
+  {
+    "id": "T1_061",
+    "task": "T1",
+    "input_text": "지난 달 25일",
+    "anchor_date": "2026-02-25",
+    "gold_standard": "2026-01-25",
+    "prediction": "2026-01-25",
+    "latency": 4.6999123096466064,
+    "tokens": 286
+  },
+  {
+    "id": "T1_062",
+    "task": "T1",
+    "input_text": "90일 뒤",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-04-01",
+    "prediction": "2025-03-32",
+    "latency": 4.959335565567017,
+    "tokens": 284
+  },
+  {
+    "id": "T1_063",
+    "task": "T1",
+    "input_text": "4년 전",
+    "anchor_date": "2025-01-08",
+    "gold_standard": "2021-01-08",
+    "prediction": "2021-01-08",
+    "latency": 4.780507326126099,
+    "tokens": 284
+  },
+  {
+    "id": "T1_064",
+    "task": "T1",
+    "input_text": "3년 뒤",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2028-01-15",
+    "prediction": "2028-01-15",
+    "latency": 4.757682800292969,
+    "tokens": 284
+  },
+  {
+    "id": "T1_065",
+    "task": "T1",
+    "input_text": "지난 달 첫 번째 수요일",
+    "anchor_date": "2025-01-22",
+    "gold_standard": "2025-01-01",
+    "prediction": "2024-12-04",
+    "latency": 5.117742300033569,
+    "tokens": 287
+  },
+  {
+    "id": "T1_066",
+    "task": "T1",
+    "input_text": "다음 달 세 번째 일요일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-16",
+    "prediction": "2025-02-16",
+    "latency": 5.092396259307861,
+    "tokens": 288
+  },
+  {
+    "id": "T1_067",
+    "task": "T1",
+    "input_text": "이번 주 월요일",
+    "anchor_date": "2025-02-05",
+    "gold_standard": "2025-02-03",
+    "prediction": "2025-02-03",
+    "latency": 4.762282609939575,
+    "tokens": 285
+  },
+  {
+    "id": "T1_068",
+    "task": "T1",
+    "input_text": "이번 주 화요일",
+    "anchor_date": "2025-02-12",
+    "gold_standard": "2025-02-11",
+    "prediction": "2025-02-11",
+    "latency": 4.720187187194824,
+    "tokens": 285
+  },
+  {
+    "id": "T1_069",
+    "task": "T1",
+    "input_text": "이번 주 수요일",
+    "anchor_date": "2025-02-19",
+    "gold_standard": "2025-02-19",
+    "prediction": "2025-02-19",
+    "latency": 5.1290600299835205,
+    "tokens": 285
+  },
+  {
+    "id": "T1_070",
+    "task": "T1",
+    "input_text": "이번 주 목요일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-02-27",
+    "prediction": "2025-02-27",
+    "latency": 5.042805910110474,
+    "tokens": 285
+  },
+  {
+    "id": "T1_071",
+    "task": "T1",
+    "input_text": "이번 주 토요일",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-08",
+    "prediction": "2025-03-08",
+    "latency": 4.770964622497559,
+    "tokens": 285
+  },
+  {
+    "id": "T1_072",
+    "task": "T1",
+    "input_text": "이번 주 일요일",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-16",
+    "prediction": "2025-03-16",
+    "latency": 5.280375957489014,
+    "tokens": 285
+  },
+  {
+    "id": "T1_073",
+    "task": "T1",
+    "input_text": "1주 전",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-12",
+    "prediction": "2025-03-12",
+    "latency": 4.684903383255005,
+    "tokens": 284
+  },
+  {
+    "id": "T1_074",
+    "task": "T1",
+    "input_text": "2달 전",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-01-26",
+    "prediction": "2025-01-26",
+    "latency": 4.915913105010986,
+    "tokens": 284
+  },
+  {
+    "id": "T1_075",
+    "task": "T1",
+    "input_text": "3달 뒤",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-07-02",
+    "prediction": "2025-07-02",
+    "latency": 4.848901271820068,
+    "tokens": 284
+  },
+  {
+    "id": "T1_076",
+    "task": "T1",
+    "input_text": "6달 전",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2024-10-09",
+    "prediction": "2024-10-09",
+    "latency": 4.740573406219482,
+    "tokens": 284
+  },
+  {
+    "id": "T1_077",
+    "task": "T1",
+    "input_text": "10달 뒤",
+    "anchor_date": "2025-04-16",
+    "gold_standard": "2026-02-16",
+    "prediction": "2025-04-16",
+    "latency": 4.7712695598602295,
+    "tokens": 284
+  },
+  {
+    "id": "T1_078",
+    "task": "T1",
+    "input_text": "다음 달 마지막 날",
+    "anchor_date": "2025-04-23",
+    "gold_standard": "2025-05-31",
+    "prediction": "2025-05-31",
+    "latency": 4.741068363189697,
+    "tokens": 286
+  },
+  {
+    "id": "T1_079",
+    "task": "T1",
+    "input_text": "지난 달 첫날",
+    "anchor_date": "2025-04-30",
+    "gold_standard": "2025-03-01",
+    "prediction": "2025-03-01",
+    "latency": 5.187070369720459,
+    "tokens": 285
+  },
+  {
+    "id": "T1_080",
+    "task": "T1",
+    "input_text": "다음 달 첫날",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-06-01",
+    "prediction": "2025-06-01",
+    "latency": 4.771825313568115,
+    "tokens": 286
+  },
+  {
+    "id": "T1_081",
+    "task": "T1",
+    "input_text": "5주 전",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-04-09",
+    "prediction": "2025-04-09",
+    "latency": 5.842112064361572,
+    "tokens": 284
+  },
+  {
+    "id": "T1_082",
+    "task": "T1",
+    "input_text": "2주 전 화요일",
+    "anchor_date": "2025-05-21",
+    "gold_standard": "2025-05-06",
+    "prediction": "2025-05-06",
+    "latency": 5.027442216873169,
+    "tokens": 286
+  },
+  {
+    "id": "T1_083",
+    "task": "T1",
+    "input_text": "4주 뒤 금요일",
+    "anchor_date": "2025-05-28",
+    "gold_standard": "2025-06-27",
+    "prediction": "2025-06-25",
+    "latency": 4.760302543640137,
+    "tokens": 286
+  },
+  {
+    "id": "T1_084",
+    "task": "T1",
+    "input_text": "지난주 목요일",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-05-29",
+    "prediction": "2025-05-22",
+    "latency": 4.697216749191284,
+    "tokens": 285
+  },
+  {
+    "id": "T1_085",
+    "task": "T1",
+    "input_text": "다음 주 토요일",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2025-06-21",
+    "prediction": "2025-06-21",
+    "latency": 4.683940410614014,
+    "tokens": 286
+  },
+  {
+    "id": "T1_086",
+    "task": "T1",
+    "input_text": "180일 뒤",
+    "anchor_date": "2025-06-18",
+    "gold_standard": "2025-12-15",
+    "prediction": "2025-12-15",
+    "latency": 5.072601556777954,
+    "tokens": 284
+  },
+  {
+    "id": "T1_087",
+    "task": "T1",
+    "input_text": "365일 뒤",
+    "anchor_date": "2025-06-25",
+    "gold_standard": "2026-06-25",
+    "prediction": "2026-06-25",
+    "latency": 4.6399219036102295,
+    "tokens": 284
+  },
+  {
+    "id": "T1_088",
+    "task": "T1",
+    "input_text": "100일 전",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-03-24",
+    "prediction": "2025-03-24",
+    "latency": 4.988767385482788,
+    "tokens": 284
+  },
+  {
+    "id": "T1_089",
+    "task": "T1",
+    "input_text": "50일 뒤",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-08-28",
+    "prediction": "2025-08-28",
+    "latency": 4.738618612289429,
+    "tokens": 284
+  },
+  {
+    "id": "T1_090",
+    "task": "T1",
+    "input_text": "다음 달 네 번째 목요일",
+    "anchor_date": "2025-07-16",
+    "gold_standard": "2025-08-28",
+    "prediction": "2025-08-28",
+    "latency": 4.852625608444214,
+    "tokens": 288
+  },
+  {
+    "id": "T1_091",
+    "task": "T1",
+    "input_text": "지난 달 마지막 수요일",
+    "anchor_date": "2025-07-23",
+    "gold_standard": "2025-06-25",
+    "prediction": "2025-06-25",
+    "latency": 4.745081663131714,
+    "tokens": 286
+  },
+  {
+    "id": "T1_092",
+    "task": "T1",
+    "input_text": "3달 전 마지막 날",
+    "anchor_date": "2025-07-30",
+    "gold_standard": "2025-04-30",
+    "prediction": "2025-04-30",
+    "latency": 4.738135099411011,
+    "tokens": 286
+  },
+  {
+    "id": "T1_093",
+    "task": "T1",
+    "input_text": "6개월 뒤 첫날",
+    "anchor_date": "2025-08-06",
+    "gold_standard": "2026-02-01",
+    "prediction": "2026-02-01",
+    "latency": 4.689507246017456,
+    "tokens": 286
+  },
+  {
+    "id": "T1_094",
+    "task": "T1",
+    "input_text": "지난주 금요일",
+    "anchor_date": "2025-08-13",
+    "gold_standard": "2025-08-08",
+    "prediction": "2025-08-01",
+    "latency": 4.9669623374938965,
+    "tokens": 285
+  },
+  {
+    "id": "T1_095",
+    "task": "T1",
+    "input_text": "이번 달 첫날",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-08-01",
+    "prediction": "2025-08-01",
+    "latency": 6.0669145584106445,
+    "tokens": 285
+  },
+  {
+    "id": "T1_096",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-08-27",
+    "gold_standard": "2025-08-31",
+    "prediction": "2025-08-31",
+    "latency": 4.8445823192596436,
+    "tokens": 285
+  },
+  {
+    "id": "T1_097",
+    "task": "T1",
+    "input_text": "다음 주 일요일",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "2025-09-14",
+    "prediction": "2025-09-14",
+    "latency": 4.776748180389404,
+    "tokens": 286
+  },
+  {
+    "id": "T1_098",
+    "task": "T1",
+    "input_text": "10년 뒤",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2035-09-10",
+    "prediction": "2035-09-10",
+    "latency": 5.038939952850342,
+    "tokens": 284
+  },
+  {
+    "id": "T1_099",
+    "task": "T1",
+    "input_text": "5년 전",
+    "anchor_date": "2025-09-17",
+    "gold_standard": "2020-09-17",
+    "prediction": "2020-09-17",
+    "latency": 5.0614118576049805,
+    "tokens": 284
+  },
+  {
+    "id": "T1_100",
+    "task": "T1",
+    "input_text": "다음 달 25일",
+    "anchor_date": "2025-09-24",
+    "gold_standard": "2025-10-25",
+    "prediction": "2025-10-25",
+    "latency": 5.072530031204224,
+    "tokens": 287
+  },
+  {
+    "id": "T1_101",
+    "task": "T1",
+    "input_text": "지난 달 5일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-09-05",
+    "prediction": "2025-09-05",
+    "latency": 5.141386270523071,
+    "tokens": 286
+  },
+  {
+    "id": "T1_102",
+    "task": "T1",
+    "input_text": "20일 뒤",
+    "anchor_date": "2025-10-08",
+    "gold_standard": "2025-10-28",
+    "prediction": "2025-10-28",
+    "latency": 4.616021394729614,
+    "tokens": 284
+  },
+  {
+    "id": "T1_103",
+    "task": "T1",
+    "input_text": "15일 전",
+    "anchor_date": "2025-10-15",
+    "gold_standard": "2025-09-30",
+    "prediction": "2025-09-30",
+    "latency": 4.901612997055054,
+    "tokens": 284
+  },
+  {
+    "id": "T1_104",
+    "task": "T1",
+    "input_text": "7달 뒤",
+    "anchor_date": "2025-10-22",
+    "gold_standard": "2026-05-22",
+    "prediction": "2026-05-22",
+    "latency": 5.072252035140991,
+    "tokens": 284
+  },
+  {
+    "id": "T1_105",
+    "task": "T1",
+    "input_text": "8달 전",
+    "anchor_date": "2025-10-29",
+    "gold_standard": "2025-02-28",
+    "prediction": "2025-02-29",
+    "latency": 4.804938554763794,
+    "tokens": 284
+  },
+  {
+    "id": "T1_106",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 수요일",
+    "anchor_date": "2025-11-05",
+    "gold_standard": "2025-12-10",
+    "prediction": "2025-12-10",
+    "latency": 4.8463826179504395,
+    "tokens": 288
+  },
+  {
+    "id": "T1_107",
+    "task": "T1",
+    "input_text": "지난 달 네 번째 토요일",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2025-10-25",
+    "prediction": "2025-10-25",
+    "latency": 5.084961652755737,
+    "tokens": 287
+  },
+  {
+    "id": "T1_108",
+    "task": "T1",
+    "input_text": "2달 뒤 마지막 날",
+    "anchor_date": "2025-11-19",
+    "gold_standard": "2026-01-31",
+    "prediction": "2026-01-31",
+    "latency": 4.716166734695435,
+    "tokens": 286
+  },
+  {
+    "id": "T1_109",
+    "task": "T1",
+    "input_text": "1년 전 첫날",
+    "anchor_date": "2025-11-26",
+    "gold_standard": "2024-01-01",
+    "prediction": "2024-01-01",
+    "latency": 4.833000898361206,
+    "tokens": 286
+  },
+  {
+    "id": "T1_110",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2025-12-03",
+    "gold_standard": "2025-12-10",
+    "prediction": "2025-12-10",
+    "latency": 5.042258977890015,
+    "tokens": 286
+  },
+  {
+    "id": "T1_111",
+    "task": "T1",
+    "input_text": "지난주 토요일",
+    "anchor_date": "2025-12-10",
+    "gold_standard": "2025-12-06",
+    "prediction": "2025-11-29",
+    "latency": 5.037609100341797,
+    "tokens": 285
+  },
+  {
+    "id": "T1_112",
+    "task": "T1",
+    "input_text": "4주 뒤",
+    "anchor_date": "2025-12-17",
+    "gold_standard": "2026-01-14",
+    "prediction": "2026-01-14",
+    "latency": 5.078460454940796,
+    "tokens": 284
+  },
+  {
+    "id": "T1_113",
+    "task": "T1",
+    "input_text": "6주 전",
+    "anchor_date": "2025-12-24",
+    "gold_standard": "2025-11-12",
+    "prediction": "2025-11-12",
+    "latency": 4.880387544631958,
+    "tokens": 284
+  },
+  {
+    "id": "T1_114",
+    "task": "T1",
+    "input_text": "120일 전",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2025-09-02",
+    "prediction": "2025-08-03",
+    "latency": 4.725370407104492,
+    "tokens": 284
+  },
+  {
+    "id": "T1_115",
+    "task": "T1",
+    "input_text": "240일 뒤",
+    "anchor_date": "2026-01-07",
+    "gold_standard": "2026-09-04",
+    "prediction": "2026-09-04",
+    "latency": 5.082852363586426,
+    "tokens": 284
+  },
+  {
+    "id": "T1_116",
+    "task": "T1",
+    "input_text": "다음 분기 첫 번째 월요일",
+    "anchor_date": "2026-01-14",
+    "gold_standard": "2026-04-06",
+    "prediction": "2026-04-06",
+    "latency": 5.072264671325684,
+    "tokens": 289
+  },
+  {
+    "id": "T1_117",
+    "task": "T1",
+    "input_text": "지난 분기 마지막 금요일",
+    "anchor_date": "2026-01-21",
+    "gold_standard": "2025-12-26",
+    "prediction": "2025-12-26",
+    "latency": 4.643448829650879,
+    "tokens": 287
+  },
+  {
+    "id": "T1_118",
+    "task": "T1",
+    "input_text": "다음 달 마지막 월요일",
+    "anchor_date": "2026-01-28",
+    "gold_standard": "2026-02-23",
+    "prediction": "2026-02-23",
+    "latency": 4.956610202789307,
+    "tokens": 287
+  },
+  {
+    "id": "T1_119",
+    "task": "T1",
+    "input_text": "지난 달 첫 번째 목요일",
+    "anchor_date": "2026-02-04",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 5.080966472625732,
+    "tokens": 287
+  },
+  {
+    "id": "T1_120",
+    "task": "T1",
+    "input_text": "오늘",
+    "anchor_date": "2026-02-11",
+    "gold_standard": "2026-02-11",
+    "prediction": "2026-02-11",
+    "latency": 5.000593185424805,
+    "tokens": 282
+  },
+  {
+    "id": "T1_121",
+    "task": "T1",
+    "input_text": "9달 뒤",
+    "anchor_date": "2026-02-18",
+    "gold_standard": "2026-11-18",
+    "prediction": "2026-11-18",
+    "latency": 4.966537952423096,
+    "tokens": 284
+  },
+  {
+    "id": "T1_122",
+    "task": "T1",
+    "input_text": "11달 전",
+    "anchor_date": "2026-02-25",
+    "gold_standard": "2025-03-25",
+    "prediction": "2025-03-25",
+    "latency": 6.204714775085449,
+    "tokens": 284
+  },
+  {
+    "id": "T1_123",
+    "task": "T1",
+    "input_text": "내년 첫날",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 4.7522807121276855,
+    "tokens": 285
+  },
+  {
+    "id": "T1_124",
+    "task": "T1",
+    "input_text": "작년 마지막 날",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2024-12-31",
+    "prediction": "2024-12-31",
+    "latency": 4.876904010772705,
+    "tokens": 285
+  },
+  {
+    "id": "T1_125",
+    "task": "T1",
+    "input_text": "30일 뒤",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-04-18",
+    "prediction": "2025-04-18",
+    "latency": 4.66299033164978,
+    "tokens": 284
+  },
+  {
+    "id": "T1_126",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-18",
+    "prediction": "2023-11-18",
+    "latency": 4.9881932735443115,
+    "tokens": 284
+  },
+  {
+    "id": "T1_127",
+    "task": "T1",
+    "input_text": "5일 전",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-10",
+    "prediction": "2023-11-10",
+    "latency": 4.773672580718994,
+    "tokens": 284
+  },
+  {
+    "id": "T1_128",
+    "task": "T1",
+    "input_text": "지난 주 토요일",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-11",
+    "prediction": "2023-11-04",
+    "latency": 4.855420351028442,
+    "tokens": 285
+  },
+  {
+    "id": "T1_129",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-17",
+    "prediction": "2023-11-17",
+    "latency": 4.60599946975708,
+    "tokens": 283
+  },
+  {
+    "id": "T1_130",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-30",
+    "prediction": "2023-11-30",
+    "latency": 4.9848222732543945,
+    "tokens": 284
+  },
+  {
+    "id": "T1_131",
+    "task": "T1",
+    "input_text": "올해 2월 1일",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-02-01",
+    "prediction": "2023-02-01",
+    "latency": 4.904972553253174,
+    "tokens": 289
+  },
+  {
+    "id": "T1_132",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "prediction": "2023-05-12",
+    "latency": 5.0512425899505615,
+    "tokens": 284
+  },
+  {
+    "id": "T1_133",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-01",
+    "gold_standard": "2023-11-16",
+    "prediction": "2023-11-16",
+    "latency": 4.723974704742432,
+    "tokens": 284
+  },
+  {
+    "id": "T1_134",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2024-08-20",
+    "gold_standard": "2024-08-22",
+    "prediction": "2024-08-22",
+    "latency": 5.075160026550293,
+    "tokens": 283
+  },
+  {
+    "id": "T1_135",
+    "task": "T1",
+    "input_text": "작년",
+    "anchor_date": "2022-02-14",
+    "gold_standard": "2021-02-14",
+    "prediction": [
+      "2021-01-01",
+      "2021-12-31"
+    ],
+    "latency": 4.743638038635254,
+    "tokens": 291
+  },
+  {
+    "id": "T1_136",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2023-06-30",
+    "gold_standard": "2023-07-07",
+    "prediction": "2023-07-07",
+    "latency": 4.662720680236816,
+    "tokens": 286
+  },
+  {
+    "id": "T1_137",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-02-27",
+    "prediction": "2024-02-29",
+    "latency": 4.803407907485962,
+    "tokens": 285
+  },
+  {
+    "id": "T1_138",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-09-15",
+    "gold_standard": "2023-09-18",
+    "prediction": "2023-09-18",
+    "latency": 4.972657203674316,
+    "tokens": 285
+  },
+  {
+    "id": "T1_139",
+    "task": "T1",
+    "input_text": "재작년",
+    "anchor_date": "2023-04-10",
+    "gold_standard": "2021-04-10",
+    "prediction": "2021-04-10",
+    "latency": 4.874359369277954,
+    "tokens": 284
+  },
+  {
+    "id": "T1_140",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "prediction": "2023-10-18",
+    "latency": 5.353807210922241,
+    "tokens": 284
+  },
+  {
+    "id": "T1_141",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-03-20",
+    "gold_standard": "2023-03-17",
+    "prediction": "2023-03-17",
+    "latency": 4.751897573471069,
+    "tokens": 285
+  },
+  {
+    "id": "T1_142",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2024-01-10",
+    "gold_standard": "2024-01-25",
+    "prediction": "2024-01-24",
+    "latency": 4.894581079483032,
+    "tokens": 284
+  },
+  {
+    "id": "T1_143",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-07-15",
+    "gold_standard": "2023-07-16",
+    "prediction": "2023-07-16",
+    "latency": 4.716312646865845,
+    "tokens": 283
+  },
+  {
+    "id": "T1_144",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2024-11-11",
+    "prediction": "2024-11-11",
+    "latency": 4.671473503112793,
+    "tokens": 285
+  },
+  {
+    "id": "T1_145",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-04-30",
+    "gold_standard": "2023-04-20",
+    "prediction": "2023-04-20",
+    "latency": 4.681020736694336,
+    "tokens": 285
+  },
+  {
+    "id": "T1_146",
+    "task": "T1",
+    "input_text": "지난 주 토요일",
+    "anchor_date": "2023-06-15",
+    "gold_standard": "2023-06-10",
+    "prediction": "2023-06-03",
+    "latency": 4.715265274047852,
+    "tokens": 285
+  },
+  {
+    "id": "T1_147",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-27",
+    "prediction": "2023-12-27",
+    "latency": 4.656251907348633,
+    "tokens": 283
+  },
+  {
+    "id": "T1_148",
+    "task": "T1",
+    "input_text": "다음 주 화요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-05",
+    "prediction": "2024-03-05",
+    "latency": 4.775616884231567,
+    "tokens": 286
+  },
+  {
+    "id": "T1_149",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2022-09-01",
+    "prediction": "2022-09-01",
+    "latency": 4.778074741363525,
+    "tokens": 285
+  },
+  {
+    "id": "T1_150",
+    "task": "T1",
+    "input_text": "일주일 전",
+    "anchor_date": "2023-03-20",
+    "gold_standard": "2023-03-13",
+    "prediction": "2023-03-13",
+    "latency": 4.657662630081177,
+    "tokens": 285
+  },
+  {
+    "id": "T1_151",
+    "task": "T1",
+    "input_text": "6개월 후",
+    "anchor_date": "2022-11-11",
+    "gold_standard": "2023-05-11",
+    "prediction": "2023-05-11",
+    "latency": 4.66748571395874,
+    "tokens": 284
+  },
+  {
+    "id": "T1_152",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-08-17",
+    "gold_standard": "2022-08-17",
+    "prediction": "2022-08-17",
+    "latency": 4.633285760879517,
+    "tokens": 285
+  },
+  {
+    "id": "T1_153",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-04-04",
+    "gold_standard": "2023-04-07",
+    "prediction": "2023-04-07",
+    "latency": 5.122361421585083,
+    "tokens": 285
+  },
+  {
+    "id": "T1_154",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-09-30",
+    "gold_standard": "2023-10-02",
+    "prediction": "2023-10-02",
+    "latency": 4.735006809234619,
+    "tokens": 283
+  },
+  {
+    "id": "T1_155",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-02-14",
+    "gold_standard": "2023-03-01",
+    "prediction": "2023-03-01",
+    "latency": 4.852710008621216,
+    "tokens": 284
+  },
+  {
+    "id": "T1_156",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-07-01",
+    "gold_standard": "2023-06-21",
+    "prediction": "2023-06-21",
+    "latency": 5.0777177810668945,
+    "tokens": 285
+  },
+  {
+    "id": "T1_157",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-03-10",
+    "gold_standard": "2023-03-07",
+    "prediction": "2023-03-07",
+    "latency": 4.877263784408569,
+    "tokens": 285
+  },
+  {
+    "id": "T1_158",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2022-12-25",
+    "gold_standard": "2023-01-09",
+    "prediction": "2023-01-08",
+    "latency": 4.776142835617065,
+    "tokens": 284
+  },
+  {
+    "id": "T1_159",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-05-20",
+    "gold_standard": "2023-05-22",
+    "prediction": "2023-05-22",
+    "latency": 5.057286262512207,
+    "tokens": 283
+  },
+  {
+    "id": "T1_160",
+    "task": "T1",
+    "input_text": "지난 달 말일",
+    "anchor_date": "2023-09-12",
+    "gold_standard": "2023-08-31",
+    "prediction": "2023-08-31",
+    "latency": 4.738529682159424,
+    "tokens": 285
+  },
+  {
+    "id": "T1_161",
+    "task": "T1",
+    "input_text": "내년 2월 15일",
+    "anchor_date": "2023-11-18",
+    "gold_standard": "2024-02-15",
+    "prediction": "2024-02-15",
+    "latency": 5.385022163391113,
+    "tokens": 289
+  },
+  {
+    "id": "T1_162",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-13",
+    "prediction": "2023-04-13",
+    "latency": 4.685322523117065,
+    "tokens": 284
+  },
+  {
+    "id": "T1_163",
+    "task": "T1",
+    "input_text": "다다음 달 25일",
+    "anchor_date": "2023-07-01",
+    "gold_standard": "2023-09-25",
+    "prediction": "2023-09-25",
+    "latency": 5.393347501754761,
+    "tokens": 288
+  },
+  {
+    "id": "T1_164",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-29",
+    "prediction": "2023-05-29",
+    "latency": 4.7076194286346436,
+    "tokens": 284
+  },
+  {
+    "id": "T1_165",
+    "task": "T1",
+    "input_text": "다음 달",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-15",
+    "prediction": "2023-06-01",
+    "latency": 4.75191593170166,
+    "tokens": 284
+  },
+  {
+    "id": "T1_166",
+    "task": "T1",
+    "input_text": "지난 주 수요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-10",
+    "prediction": "2023-05-03",
+    "latency": 6.144327640533447,
+    "tokens": 285
+  },
+  {
+    "id": "T1_167",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-18",
+    "prediction": "2023-05-18",
+    "latency": 5.0781402587890625,
+    "tokens": 285
+  },
+  {
+    "id": "T1_168",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-04-30",
+    "prediction": "2023-04-30",
+    "latency": 5.084475755691528,
+    "tokens": 284
+  },
+  {
+    "id": "T1_169",
+    "task": "T1",
+    "input_text": "다음 달 15일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-15",
+    "prediction": "2023-06-15",
+    "latency": 4.829792737960815,
+    "tokens": 287
+  },
+  {
+    "id": "T1_170",
+    "task": "T1",
+    "input_text": "재작년",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2021-05-15",
+    "prediction": "2021-01-01",
+    "latency": 4.7535560131073,
+    "tokens": 284
+  },
+  {
+    "id": "T1_171",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2022-12-31",
+    "gold_standard": "2023-01-02",
+    "prediction": "2023-01-02",
+    "latency": 5.420678377151489,
+    "tokens": 283
+  },
+  {
+    "id": "T1_172",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-08-15",
+    "gold_standard": "2023-08-05",
+    "prediction": "2023-08-05",
+    "latency": 5.186574459075928,
+    "tokens": 285
+  },
+  {
+    "id": "T1_173",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2023-03-10",
+    "gold_standard": "2024-03-10",
+    "prediction": "2024-01-01",
+    "latency": 4.729531764984131,
+    "tokens": 283
+  },
+  {
+    "id": "T1_174",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-06-20",
+    "gold_standard": "2023-06-18",
+    "prediction": "2023-06-18",
+    "latency": 4.87436842918396,
+    "tokens": 284
+  },
+  {
+    "id": "T1_175",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-09-18",
+    "gold_standard": "2023-09-25",
+    "prediction": "2023-09-25",
+    "latency": 4.766385316848755,
+    "tokens": 285
+  },
+  {
+    "id": "T1_176",
+    "task": "T1",
+    "input_text": "2주 전",
+    "anchor_date": "2023-02-28",
+    "gold_standard": "2023-02-14",
+    "prediction": "2023-02-14",
+    "latency": 4.955855369567871,
+    "tokens": 284
+  },
+  {
+    "id": "T1_177",
+    "task": "T1",
+    "input_text": "이번 달 말일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-30",
+    "prediction": "2023-11-30",
+    "latency": 4.919754266738892,
+    "tokens": 285
+  },
+  {
+    "id": "T1_178",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-06-15",
+    "prediction": "2023-06-15",
+    "latency": 5.08048415184021,
+    "tokens": 288
+  },
+  {
+    "id": "T1_179",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-06-10",
+    "gold_standard": "2023-06-07",
+    "prediction": "2023-06-07",
+    "latency": 5.063152074813843,
+    "tokens": 285
+  },
+  {
+    "id": "T1_180",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-15",
+    "prediction": "2024-03-14",
+    "latency": 5.084041595458984,
+    "tokens": 284
+  },
+  {
+    "id": "T1_181",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-09-20",
+    "gold_standard": "2023-09-22",
+    "prediction": "2023-09-22",
+    "latency": 4.667541265487671,
+    "tokens": 283
+  },
+  {
+    "id": "T1_182",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2022-03-15",
+    "prediction": "2022-03-15",
+    "latency": 4.938806772232056,
+    "tokens": 285
+  },
+  {
+    "id": "T1_183",
+    "task": "T1",
+    "input_text": "이번 주 일요일",
+    "anchor_date": "2023-08-17",
+    "gold_standard": "2023-08-20",
+    "prediction": "2023-08-20",
+    "latency": 5.075865268707275,
+    "tokens": 285
+  },
+  {
+    "id": "T1_184",
+    "task": "T1",
+    "input_text": "다음 달 15일에서 닷새 전",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-05-10",
+    "prediction": "2023-04-10",
+    "latency": 4.773800373077393,
+    "tokens": 292
+  },
+  {
+    "id": "T1_185",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-18",
+    "prediction": "2023-05-18",
+    "latency": 7.531459093093872,
+    "tokens": 284
+  },
+  {
+    "id": "T1_186",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-08-20",
+    "gold_standard": "2023-08-05",
+    "prediction": "2023-08-05",
+    "latency": 5.0421671867370605,
+    "tokens": 284
+  },
+  {
+    "id": "T1_187",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-03-13",
+    "prediction": "2024-03-13",
+    "latency": 4.734166622161865,
+    "tokens": 285
+  },
+  {
+    "id": "T1_188",
+    "task": "T1",
+    "input_text": "5일 후",
+    "anchor_date": "2022-11-30",
+    "gold_standard": "2022-12-05",
+    "prediction": "2022-12-05",
+    "latency": 4.79211950302124,
+    "tokens": 284
+  },
+  {
+    "id": "T1_189",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-07-04",
+    "gold_standard": "2023-07-11",
+    "prediction": "2023-07-11",
+    "latency": 5.028379440307617,
+    "tokens": 285
+  },
+  {
+    "id": "T1_190",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-09-18",
+    "gold_standard": "2023-09-15",
+    "prediction": "2023-09-15",
+    "latency": 5.069273948669434,
+    "tokens": 284
+  },
+  {
+    "id": "T1_191",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2024-01-01",
+    "prediction": "2024-01-01",
+    "latency": 5.067625522613525,
+    "tokens": 285
+  },
+  {
+    "id": "T1_192",
+    "task": "T1",
+    "input_text": "4일 전",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-04-01",
+    "prediction": "2023-04-01",
+    "latency": 5.085794448852539,
+    "tokens": 284
+  },
+  {
+    "id": "T1_193",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-12",
+    "prediction": "2023-11-12",
+    "latency": 5.076632499694824,
+    "tokens": 283
+  },
+  {
+    "id": "T1_194",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-12",
+    "prediction": "2023-04-12",
+    "latency": 4.69830060005188,
+    "tokens": 285
+  },
+  {
+    "id": "T1_195",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-20",
+    "gold_standard": "2023-12-05",
+    "prediction": "2023-12-05",
+    "latency": 4.645211935043335,
+    "tokens": 284
+  },
+  {
+    "id": "T1_196",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-03-12",
+    "prediction": "2024-03-12",
+    "latency": 4.849858283996582,
+    "tokens": 283
+  },
+  {
+    "id": "T1_197",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2022-08-31",
+    "gold_standard": "2022-09-07",
+    "prediction": "2022-09-07",
+    "latency": 4.772575616836548,
+    "tokens": 286
+  },
+  {
+    "id": "T1_198",
+    "task": "T1",
+    "input_text": "한 달 전",
+    "anchor_date": "2023-09-15",
+    "gold_standard": "2023-08-15",
+    "prediction": "2023-08-15",
+    "latency": 4.814684152603149,
+    "tokens": 284
+  },
+  {
+    "id": "T1_199",
+    "task": "T1",
+    "input_text": "작년",
+    "anchor_date": "2020-12-25",
+    "gold_standard": "2019-12-25",
+    "prediction": "2019",
+    "latency": 4.663085222244263,
+    "tokens": 279
+  },
+  {
+    "id": "T1_200",
+    "task": "T1",
+    "input_text": "글피",
+    "anchor_date": "2023-06-30",
+    "gold_standard": "2023-07-03",
+    "prediction": "2023-07-03",
+    "latency": 4.931892156600952,
+    "tokens": 283
+  },
+  {
+    "id": "T1_201",
+    "task": "T1",
+    "input_text": "다음 달 15일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-15",
+    "prediction": "2024-03-15",
+    "latency": 4.645067453384399,
+    "tokens": 287
+  },
+  {
+    "id": "T1_202",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2022-12-30",
+    "prediction": "2022-12-30",
+    "latency": 4.92806339263916,
+    "tokens": 284
+  },
+  {
+    "id": "T1_203",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-12",
+    "prediction": "2023-10-12",
+    "latency": 4.837301254272461,
+    "tokens": 284
+  },
+  {
+    "id": "T1_204",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-11-01",
+    "gold_standard": "2023-11-15",
+    "prediction": "2023-11-15",
+    "latency": 4.659881591796875,
+    "tokens": 284
+  },
+  {
+    "id": "T1_205",
+    "task": "T1",
+    "input_text": "일주일 전",
+    "anchor_date": "2023-07-20",
+    "gold_standard": "2023-07-13",
+    "prediction": "2023-07-13",
+    "latency": 5.127454996109009,
+    "tokens": 285
+  },
+  {
+    "id": "T1_206",
+    "task": "T1",
+    "input_text": "3일 뒤",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2023-03-18",
+    "prediction": "2023-03-18",
+    "latency": 4.626737833023071,
+    "tokens": 284
+  },
+  {
+    "id": "T1_207",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-10",
+    "prediction": "2023-12-10",
+    "latency": 4.722297430038452,
+    "tokens": 284
+  },
+  {
+    "id": "T1_208",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2023-09-04",
+    "prediction": "2023-09-04",
+    "latency": 5.237240791320801,
+    "tokens": 285
+  },
+  {
+    "id": "T1_209",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-04-30",
+    "gold_standard": "2023-05-02",
+    "prediction": "2023-05-02",
+    "latency": 4.711001634597778,
+    "tokens": 283
+  },
+  {
+    "id": "T1_210",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2022-01-01",
+    "prediction": "2022-01-01",
+    "latency": 4.7680370807647705,
+    "tokens": 285
+  },
+  {
+    "id": "T1_211",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-12",
+    "prediction": "2023-10-12",
+    "latency": 4.768434047698975,
+    "tokens": 285
+  },
+  {
+    "id": "T1_212",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-30",
+    "prediction": "2023-10-29",
+    "latency": 4.769813776016235,
+    "tokens": 284
+  },
+  {
+    "id": "T1_213",
+    "task": "T1",
+    "input_text": "재작년 첫날",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2021-01-01",
+    "prediction": "2021-01-01",
+    "latency": 4.703105688095093,
+    "tokens": 286
+  },
+  {
+    "id": "T1_214",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "prediction": "2023-10-18",
+    "latency": 4.735233783721924,
+    "tokens": 286
+  },
+  {
+    "id": "T1_215",
+    "task": "T1",
+    "input_text": "글피",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "prediction": "2023-10-17",
+    "latency": 5.079059839248657,
+    "tokens": 283
+  },
+  {
+    "id": "T1_216",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "prediction": "2023-05-12",
+    "latency": 4.664979696273804,
+    "tokens": 285
+  },
+  {
+    "id": "T1_217",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-17",
+    "prediction": "2023-05-17",
+    "latency": 5.102755308151245,
+    "tokens": 283
+  },
+  {
+    "id": "T1_218",
+    "task": "T1",
+    "input_text": "내일 모레",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-17",
+    "prediction": "2023-05-17",
+    "latency": 5.076856374740601,
+    "tokens": 285
+  },
+  {
+    "id": "T1_219",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-05",
+    "prediction": "2023-05-05",
+    "latency": 4.822150707244873,
+    "tokens": 285
+  },
+  {
+    "id": "T1_220",
+    "task": "T1",
+    "input_text": "내년 1월 1일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2024-01-01",
+    "prediction": "2024-01-01",
+    "latency": 4.764763593673706,
+    "tokens": 289
+  },
+  {
+    "id": "T1_221",
+    "task": "T1",
+    "input_text": "지난 목요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-11",
+    "prediction": "2023-05-11",
+    "latency": 4.739983320236206,
+    "tokens": 284
+  },
+  {
+    "id": "T1_222",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-08-01",
+    "gold_standard": "2023-08-03",
+    "prediction": "2023-08-03",
+    "latency": 4.825050592422485,
+    "tokens": 283
+  },
+  {
+    "id": "T1_223",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-07-20",
+    "gold_standard": "2024-07-20",
+    "prediction": "2024-07-20",
+    "latency": 5.217811346054077,
+    "tokens": 285
+  },
+  {
+    "id": "T1_224",
+    "task": "T1",
+    "input_text": "지난 주 일요일",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2023-03-12",
+    "prediction": "2023-03-05",
+    "latency": 4.675265073776245,
+    "tokens": 285
+  },
+  {
+    "id": "T1_225",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-04-10",
+    "gold_standard": "2023-06-15",
+    "prediction": "2023-06-15",
+    "latency": 5.350102663040161,
+    "tokens": 288
+  },
+  {
+    "id": "T1_226",
+    "task": "T1",
+    "input_text": "재작년 같은 날",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2021-09-01",
+    "prediction": "2021-09-01",
+    "latency": 5.002197027206421,
+    "tokens": 286
+  },
+  {
+    "id": "T1_227",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-04-01",
+    "gold_standard": "2023-04-16",
+    "prediction": "2023-04-15",
+    "latency": 5.077462434768677,
+    "tokens": 284
+  },
+  {
+    "id": "T1_228",
+    "task": "T1",
+    "input_text": "이틀 전",
+    "anchor_date": "2023-05-17",
+    "gold_standard": "2023-05-15",
+    "prediction": "2023-05-15",
+    "latency": 5.08560037612915,
+    "tokens": 284
+  },
+  {
+    "id": "T1_229",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-23",
+    "prediction": "2023-12-23",
+    "latency": 5.037810564041138,
+    "tokens": 284
+  },
+  {
+    "id": "T1_230",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-06-10",
+    "gold_standard": "2023-06-17",
+    "prediction": "2023-06-17",
+    "latency": 5.077709197998047,
+    "tokens": 285
+  },
+  {
+    "id": "T1_231",
+    "task": "T1",
+    "input_text": "다다음 주 화요일",
+    "anchor_date": "2023-03-14",
+    "gold_standard": "2023-03-28",
+    "prediction": "2023-03-28",
+    "latency": 4.6641716957092285,
+    "tokens": 287
+  },
+  {
+    "id": "T1_232",
+    "task": "T1",
+    "input_text": "일주일 전 금요일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-03",
+    "prediction": "2023-11-03",
+    "latency": 4.764011859893799,
+    "tokens": 287
+  },
+  {
+    "id": "T1_233",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-18",
+    "prediction": "2023-04-18",
+    "latency": 5.971617698669434,
+    "tokens": 284
+  },
+  {
+    "id": "T1_234",
+    "task": "T1",
+    "input_text": "지난 주 수요일",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-05",
+    "prediction": "2023-04-05",
+    "latency": 4.690951108932495,
+    "tokens": 285
+  },
+  {
+    "id": "T1_235",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-12-31",
+    "gold_standard": "2024-01-02",
+    "prediction": "2024-01-02",
+    "latency": 5.1808507442474365,
+    "tokens": 283
+  },
+  {
+    "id": "T1_236",
+    "task": "T1",
+    "input_text": "다음 달 말일",
+    "anchor_date": "2023-05-31",
+    "gold_standard": "2023-06-30",
+    "prediction": "2023-06-30",
+    "latency": 5.082807302474976,
+    "tokens": 286
+  },
+  {
+    "id": "T1_237",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2024-01-01",
+    "prediction": "2024-01-01",
+    "latency": 4.769627809524536,
+    "tokens": 285
+  },
+  {
+    "id": "T1_238",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-07-10",
+    "gold_standard": "2023-07-25",
+    "prediction": "2023-07-24",
+    "latency": 4.856959104537964,
+    "tokens": 284
+  },
+  {
+    "id": "T1_239",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-05",
+    "prediction": "2023-11-05",
+    "latency": 6.100090026855469,
+    "tokens": 285
+  },
+  {
+    "id": "T1_240",
+    "task": "T1",
+    "input_text": "다음 달 1일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-01",
+    "prediction": "2023-06-01",
+    "latency": 4.768549919128418,
+    "tokens": 287
+  },
+  {
+    "id": "T1_241",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-30",
+    "prediction": "2023-05-30",
+    "latency": 4.960007667541504,
+    "tokens": 284
+  },
+  {
+    "id": "T1_242",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-16",
+    "prediction": "2023-05-16",
+    "latency": 4.913914918899536,
+    "tokens": 283
+  },
+  {
+    "id": "T1_243",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-13",
+    "prediction": "2023-05-13",
+    "latency": 4.7351672649383545,
+    "tokens": 284
+  },
+  {
+    "id": "T1_244",
+    "task": "T1",
+    "input_text": "지난 주 월요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-08",
+    "prediction": "2023-05-08",
+    "latency": 5.881394386291504,
+    "tokens": 285
+  },
+  {
+    "id": "T1_245",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-07-15",
+    "prediction": "2023-07-15",
+    "latency": 5.079997777938843,
+    "tokens": 288
+  },
+  {
+    "id": "T1_246",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2024-05-15",
+    "prediction": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "latency": 4.702648162841797,
+    "tokens": 291
+  },
+  {
+    "id": "T1_247",
+    "task": "T1",
+    "input_text": "지난 주 금요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "prediction": "2023-05-05",
+    "latency": 4.651810169219971,
+    "tokens": 285
+  },
+  {
+    "id": "T1_248",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-11-20",
+    "gold_standard": "2023-12-04",
+    "prediction": "2023-12-04",
+    "latency": 4.839649200439453,
+    "tokens": 284
+  },
+  {
+    "id": "T1_249",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2024-03-31",
+    "gold_standard": "2024-04-01",
+    "prediction": "2024-04-01",
+    "latency": 4.7731218338012695,
+    "tokens": 283
+  },
+  {
+    "id": "T1_250",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2022-08-17",
+    "gold_standard": "2022-08-20",
+    "prediction": "2022-08-20",
+    "latency": 4.84424090385437,
+    "tokens": 285
+  },
+  {
+    "id": "T1_251",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2025-01-10",
+    "gold_standard": "2025-01-07",
+    "prediction": "2025-01-07",
+    "latency": 4.748916387557983,
+    "tokens": 285
+  },
+  {
+    "id": "T1_252",
+    "task": "T1",
+    "input_text": "이번 주가 끝나기 이틀 전",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-07",
+    "prediction": "2025-03-06",
+    "latency": 4.8744306564331055,
+    "tokens": 290
+  },
+  {
+    "id": "T1_253",
+    "task": "T1",
+    "input_text": "이번 달 셋째 목요일",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-04-17",
+    "prediction": "2025-04-17",
+    "latency": 4.774690389633179,
+    "tokens": 288
+  },
+  {
+    "id": "T1_254",
+    "task": "T1",
+    "input_text": "이번 달 마지막 수요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-25",
+    "prediction": "2025-06-25",
+    "latency": 4.85428786277771,
+    "tokens": 286
+  },
+  {
+    "id": "T1_255",
+    "task": "T1",
+    "input_text": "다음 달 같은 날",
+    "anchor_date": "2025-07-14",
+    "gold_standard": "2025-08-14",
+    "prediction": "2025-08-14",
+    "latency": 4.814872980117798,
+    "tokens": 286
+  },
+  {
+    "id": "T1_256",
+    "task": "T1",
+    "input_text": "지난 달 같은 날짜",
+    "anchor_date": "2025-03-28",
+    "gold_standard": "2025-02-28",
+    "prediction": "2025-02-28",
+    "latency": 4.749288558959961,
+    "tokens": 285
+  },
+  {
+    "id": "T1_257",
+    "task": "T1",
+    "input_text": "두 주 뒤 월요일",
+    "anchor_date": "2025-08-05",
+    "gold_standard": "2025-08-18",
+    "prediction": "2025-08-18",
+    "latency": 4.999893665313721,
+    "tokens": 286
+  },
+  {
+    "id": "T1_258",
+    "task": "T1",
+    "input_text": "세 주 전 화요일",
+    "anchor_date": "2025-11-13",
+    "gold_standard": "2025-10-21",
+    "prediction": "2025-10-21",
+    "latency": 4.783796072006226,
+    "tokens": 286
+  },
+  {
+    "id": "T1_259",
+    "task": "T1",
+    "input_text": "다음 주 월요일에서 이틀 후",
+    "anchor_date": "2025-02-06",
+    "gold_standard": "2025-02-12",
+    "prediction": "2025-02-12",
+    "latency": 4.881549119949341,
+    "tokens": 290
+  },
+  {
+    "id": "T1_260",
+    "task": "T1",
+    "input_text": "이번 달 말에서 이틀 후",
+    "anchor_date": "2025-01-09",
+    "gold_standard": "2025-02-02",
+    "prediction": "2025-02-02",
+    "latency": 5.071733236312866,
+    "tokens": 288
+  },
+  {
+    "id": "T1_261",
+    "task": "T1",
+    "input_text": "이번 달 첫날 기준 사흘 전",
+    "anchor_date": "2025-05-18",
+    "gold_standard": "2025-04-28",
+    "prediction": "2025-04-28",
+    "latency": 5.068357706069946,
+    "tokens": 290
+  },
+  {
+    "id": "T1_262",
+    "task": "T1",
+    "input_text": "이번 달 31일",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "2025-04-30",
+    "prediction": "2025-04-31",
+    "latency": 5.077862739562988,
+    "tokens": 286
+  },
+  {
+    "id": "T1_263",
+    "task": "T1",
+    "input_text": "설날 다음 주 화요일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-02-04",
+    "prediction": "2025-02-11",
+    "latency": 4.772014617919922,
+    "tokens": 287
+  },
+  {
+    "id": "T1_264",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날 다음 주 금요일",
+    "anchor_date": "2025-09-01",
+    "gold_standard": "2025-10-17",
+    "prediction": "2025-10-03",
+    "latency": 4.78985333442688,
+    "tokens": 291
+  },
+  {
+    "id": "T1_265",
+    "task": "T1",
+    "input_text": "영업일 기준 5일 후",
+    "anchor_date": "2025-03-31",
+    "gold_standard": "2025-04-07",
+    "prediction": "2025-04-08",
+    "latency": 4.997034072875977,
+    "tokens": 289
+  },
+  {
+    "id": "T1_266",
+    "task": "T1",
+    "input_text": "주말을 제외한 3주 후 수요일",
+    "anchor_date": "2025-06-02",
+    "gold_standard": "2025-06-25",
+    "prediction": "2025-06-25",
+    "latency": 5.590210437774658,
+    "tokens": 292
+  },
+  {
+    "id": "T1_267",
+    "task": "T1",
+    "input_text": "이번 분기 첫날",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-04-01",
+    "prediction": "2025-04-01",
+    "latency": 4.757473945617676,
+    "tokens": 286
+  },
+  {
+    "id": "T1_268",
+    "task": "T1",
+    "input_text": "다음 분기 첫 영업일",
+    "anchor_date": "2025-11-18",
+    "gold_standard": "2026-01-02",
+    "prediction": "2026-01-02",
+    "latency": 4.730872869491577,
+    "tokens": 289
+  },
+  {
+    "id": "T1_269",
+    "task": "T1",
+    "input_text": "윤년 2월 마지막 날",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2024-02-29",
+    "prediction": "2024-02-29",
+    "latency": 4.7350852489471436,
+    "tokens": 288
+  },
+  {
+    "id": "T1_270",
+    "task": "T1",
+    "input_text": "이번 달 말일",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "2025-04-30",
+    "prediction": "2025-04-30",
+    "latency": 5.016589641571045,
+    "tokens": 285
+  },
+  {
+    "id": "T1_271",
+    "task": "T1",
+    "input_text": "이번 주를 넘긴 뒤 처음 맞는 화요일",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-18",
+    "prediction": "2025-03-18",
+    "latency": 4.772854566574097,
+    "tokens": 292
+  },
+  {
+    "id": "T1_272",
+    "task": "T1",
+    "input_text": "다음 달 첫 영업일 다음 날",
+    "anchor_date": "2025-01-27",
+    "gold_standard": "2025-02-04",
+    "prediction": "2025-02-05",
+    "latency": 5.3859453201293945,
+    "tokens": 290
+  },
+  {
+    "id": "T1_273",
+    "task": "T1",
+    "input_text": "이번 달 말 직전 주에 있는 금요일",
+    "anchor_date": "2025-05-06",
+    "gold_standard": "2025-05-23",
+    "prediction": "2025-05-23",
+    "latency": 4.670605421066284,
+    "tokens": 291
+  },
+  {
+    "id": "T1_274",
+    "task": "T1",
+    "input_text": "다음 주가 지난 뒤 돌아오는 첫 수요일",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-18",
+    "prediction": "2025-06-18",
+    "latency": 4.915428400039673,
+    "tokens": 292
+  },
+  {
+    "id": "T1_275",
+    "task": "T1",
+    "input_text": "이번 달 중순 화요일",
+    "anchor_date": "2025-08-02",
+    "gold_standard": "2025-08-12",
+    "prediction": "2025-08-13",
+    "latency": 4.771440744400024,
+    "tokens": 287
+  },
+  {
+    "id": "T1_276",
+    "task": "T1",
+    "input_text": "이번 달 말일을 기준으로 사흘 뒤",
+    "anchor_date": "2025-01-11",
+    "gold_standard": "2025-02-03",
+    "prediction": "2025-02-03",
+    "latency": 4.817320823669434,
+    "tokens": 292
+  },
+  {
+    "id": "T1_277",
+    "task": "T1",
+    "input_text": "다음 달 중순 화요일",
+    "anchor_date": "2025-08-04",
+    "gold_standard": "2025-09-16",
+    "prediction": "2025-09-09",
+    "latency": 5.077626705169678,
+    "tokens": 288
+  },
+  {
+    "id": "T1_278",
+    "task": "T1",
+    "input_text": "주말을 제외하고 이번 달 마지막 날에서 이틀 후",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-05-05",
+    "prediction": "2025-05-02",
+    "latency": 5.080129861831665,
+    "tokens": 294
+  },
+  {
+    "id": "T1_279",
+    "task": "T1",
+    "input_text": "설날이 지난 뒤 한 주가 경과한 다음 맞는 목요일",
+    "anchor_date": "2025-01-20",
+    "gold_standard": "2025-02-06",
+    "prediction": "2025-02-06",
+    "latency": 4.791265964508057,
+    "tokens": 297
+  },
+  {
+    "id": "T1_280",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-27",
+    "prediction": "2025-06-27",
+    "latency": 4.747881174087524,
+    "tokens": 287
+  },
+  {
+    "id": "T1_281",
+    "task": "T1",
+    "input_text": "다음 분기가 시작된 후 첫 주를 지난 뒤 금요일",
+    "anchor_date": "2025-09-25",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-17",
+    "latency": 5.183967351913452,
+    "tokens": 295
+  },
+  {
+    "id": "T1_282",
+    "task": "T1",
+    "input_text": "이번 달 31일에서 하루 전",
+    "anchor_date": "2025-04-06",
+    "gold_standard": "2025-04-29",
+    "prediction": "2025-04-30",
+    "latency": 5.083390235900879,
+    "tokens": 289
+  },
+  {
+    "id": "T1_283",
+    "task": "T1",
+    "input_text": "추석 연휴가 끝난 뒤 두 번째로 맞는 평일",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-10-13",
+    "prediction": "2025-09-19",
+    "latency": 4.751464366912842,
+    "tokens": 296
+  },
+  {
+    "id": "T1_284",
+    "task": "T1",
+    "input_text": "이번 주말을 건너뛴 다음 주의 수요일 전날",
+    "anchor_date": "2025-07-11",
+    "gold_standard": "2025-07-15",
+    "prediction": "2025-07-16",
+    "latency": 5.347107172012329,
+    "tokens": 297
+  },
+  {
+    "id": "T1_285",
+    "task": "T1",
+    "input_text": "내달 초가 지난 뒤 처음 등장하는 평일",
+    "anchor_date": "2025-02-24",
+    "gold_standard": "2025-03-04",
+    "prediction": "2025-03-03",
+    "latency": 4.762094497680664,
+    "tokens": 292
+  },
+  {
+    "id": "T1_286",
+    "task": "T1",
+    "input_text": "이번 달이 끝나기 전에 마지막으로 오는 목요일",
+    "anchor_date": "2025-01-18",
+    "gold_standard": "2025-01-30",
+    "prediction": "2025-01-30",
+    "latency": 4.870328664779663,
+    "tokens": 293
+  },
+  {
+    "id": "T1_287",
+    "task": "T1",
+    "input_text": "다음 달 첫 주 지나고 화요일",
+    "anchor_date": "2025-02-20",
+    "gold_standard": "2025-03-11",
+    "prediction": "2025-03-11",
+    "latency": 4.753087282180786,
+    "tokens": 290
+  },
+  {
+    "id": "T1_288",
+    "task": "T1",
+    "input_text": "이번 주를 제외한 이후 기간 중 처음 등장하는 금요일",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-04-18",
+    "prediction": "2025-04-18",
+    "latency": 4.7673399448394775,
+    "tokens": 294
+  },
+  {
+    "id": "T1_289",
+    "task": "T1",
+    "input_text": "이번 달 말일 이후 처음 맞는 평일",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-06-02",
+    "prediction": "2025-06-02",
+    "latency": 5.15628981590271,
+    "tokens": 291
+  },
+  {
+    "id": "T1_290",
+    "task": "T1",
+    "input_text": "다음 주 전체를 건너뛴 뒤 돌아오는 수요일",
+    "anchor_date": "2025-06-03",
+    "gold_standard": "2025-06-18",
+    "prediction": "2025-06-18",
+    "latency": 5.078636169433594,
+    "tokens": 296
+  },
+  {
+    "id": "T1_291",
+    "task": "T1",
+    "input_text": "이번 분기가 끝나고 한 주가 지난 시점의 월요일",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-04-14",
+    "prediction": "2025-04-14",
+    "latency": 4.977992296218872,
+    "tokens": 296
+  },
+  {
+    "id": "T1_292",
+    "task": "T1",
+    "input_text": "다음 분기 시작 직후 첫 주말 다음 날",
+    "anchor_date": "2025-08-28",
+    "gold_standard": "2025-10-06",
+    "prediction": "2025-10-06",
+    "latency": 5.128108263015747,
+    "tokens": 293
+  },
+  {
+    "id": "T1_293",
+    "task": "T1",
+    "input_text": "이번 달 첫 주 이후 처음 나타나는 수요일",
+    "anchor_date": "2025-07-04",
+    "gold_standard": "2025-07-09",
+    "prediction": "2025-07-09",
+    "latency": 4.815718650817871,
+    "tokens": 291
+  },
+  {
+    "id": "T1_294",
+    "task": "T1",
+    "input_text": "설날 연휴 지나고 금요일",
+    "anchor_date": "2025-01-25",
+    "gold_standard": "2025-01-31",
+    "prediction": "2025-02-07",
+    "latency": 4.797308444976807,
+    "tokens": 289
+  },
+  {
+    "id": "T1_295",
+    "task": "T1",
+    "input_text": "추석 이후 처음 도래하는 평일 중 세 번째 날",
+    "anchor_date": "2025-09-18",
+    "gold_standard": "2025-10-14",
+    "prediction": "2025-09-19",
+    "latency": 7.124576091766357,
+    "tokens": 294
+  },
+  {
+    "id": "T1_296",
+    "task": "T1",
+    "input_text": "이번 주말을 기준으로 다음에 오는 평일",
+    "anchor_date": "2025-11-14",
+    "gold_standard": "2025-11-17",
+    "prediction": "2025-11-17",
+    "latency": 4.777180433273315,
+    "tokens": 292
+  },
+  {
+    "id": "T1_297",
+    "task": "T1",
+    "input_text": "다음 달 말 직후 처음 나타나는 화요일",
+    "anchor_date": "2025-06-21",
+    "gold_standard": "2025-08-05",
+    "prediction": "2025-07-01",
+    "latency": 4.754242181777954,
+    "tokens": 292
+  },
+  {
+    "id": "T1_298",
+    "task": "T1",
+    "input_text": "이번 달 중순을 지난 뒤 가장 가까운 목요일",
+    "anchor_date": "2025-10-10",
+    "gold_standard": "2025-10-16",
+    "prediction": "2025-10-16",
+    "latency": 5.146770238876343,
+    "tokens": 293
+  },
+  {
+    "id": "T1_299",
+    "task": "T1",
+    "input_text": "다음 달이 시작되고 첫 평일이 지난 시점의 화요일",
+    "anchor_date": "2025-12-28",
+    "gold_standard": "2026-01-06",
+    "prediction": "2026-01-06",
+    "latency": 4.801640748977661,
+    "tokens": 297
+  },
+  {
+    "id": "T1_300",
+    "task": "T1",
+    "input_text": "이번 주를 벗어난 뒤 처음 맞는 수요일 전날",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-06",
+    "prediction": "2025-05-06",
+    "latency": 4.816697120666504,
+    "tokens": 295
+  },
+  {
+    "id": "T1_301",
+    "task": "T1",
+    "input_text": "이번 달 15일 이후 처음 나타나는 영업일",
+    "anchor_date": "2025-04-10",
+    "gold_standard": "2025-04-16",
+    "prediction": "2025-04-16",
+    "latency": 5.070148229598999,
+    "tokens": 293
+  },
+  {
+    "id": "T1_302",
+    "task": "T1",
+    "input_text": "이번 달에서 날짜가 가장 작은 날 다음 날",
+    "anchor_date": "2025-06-08",
+    "gold_standard": "2025-06-02",
+    "prediction": "2025-06-02",
+    "latency": 5.080489635467529,
+    "tokens": 291
+  },
+  {
+    "id": "T1_303",
+    "task": "T1",
+    "input_text": "이번 주를 기준으로 사흘 뒤",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-07-12",
+    "prediction": "2025-07-12",
+    "latency": 4.697709560394287,
+    "tokens": 290
+  },
+  {
+    "id": "T1_304",
+    "task": "T1",
+    "input_text": "이번 달 말로부터 하루 전",
+    "anchor_date": "2025-02-20",
+    "gold_standard": "2025-02-27",
+    "prediction": "2025-02-27",
+    "latency": 4.90153956413269,
+    "tokens": 288
+  },
+  {
+    "id": "T1_305",
+    "task": "T1",
+    "input_text": "이번 분기 시작 이후 여섯 번째 영업일",
+    "anchor_date": "2025-08-05",
+    "gold_standard": "2025-07-08",
+    "prediction": "2025-04-09",
+    "latency": 5.083105564117432,
+    "tokens": 293
+  },
+  {
+    "id": "T1_306",
+    "task": "T1",
+    "input_text": "이번 달 중반을 지난 뒤 처음 맞는 월요일 다음 날",
+    "anchor_date": "2025-01-11",
+    "gold_standard": "2025-01-21",
+    "prediction": "2025-01-22",
+    "latency": 5.0425097942352295,
+    "tokens": 295
+  },
+  {
+    "id": "T1_307",
+    "task": "T1",
+    "input_text": "다음 달 시작 이후 둘째 주가 끝난 다음에 오는 목요일",
+    "anchor_date": "2025-02-14",
+    "gold_standard": "2025-03-20",
+    "prediction": "2025-03-13",
+    "latency": 4.732910871505737,
+    "tokens": 297
+  },
+  {
+    "id": "T1_308",
+    "task": "T1",
+    "input_text": "이번 주를 제외하고 다음으로 맞는 주의 화요일 다음 날",
+    "anchor_date": "2025-03-07",
+    "gold_standard": "2025-03-12",
+    "prediction": "2025-03-13",
+    "latency": 4.833763837814331,
+    "tokens": 296
+  },
+  {
+    "id": "T1_309",
+    "task": "T1",
+    "input_text": "이번 달 말에서 시작되는 주에 포함된 마지막 평일",
+    "anchor_date": "2025-04-03",
+    "gold_standard": "2025-04-30",
+    "prediction": "2025-04-25",
+    "latency": 5.083686590194702,
+    "tokens": 294
+  },
+  {
+    "id": "T1_310",
+    "task": "T1",
+    "input_text": "다음 주를 모두 건너뛴 뒤 도래하는 첫 번째 평일 다음 날",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-20",
+    "prediction": "2025-05-20",
+    "latency": 5.080548524856567,
+    "tokens": 301
+  },
+  {
+    "id": "T1_311",
+    "task": "T1",
+    "input_text": "이번 분기 종료 이후 첫 주가 지난 뒤 만나는 수요일",
+    "anchor_date": "2025-06-22",
+    "gold_standard": "2025-07-09",
+    "prediction": "2025-07-09",
+    "latency": 4.763593673706055,
+    "tokens": 295
+  },
+  {
+    "id": "T1_312",
+    "task": "T1",
+    "input_text": "다음 분기 시작 직후 첫 평일을 지나 가장 가까운 금요일",
+    "anchor_date": "2025-09-12",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-10",
+    "latency": 4.866520404815674,
+    "tokens": 298
+  },
+  {
+    "id": "T1_313",
+    "task": "T1",
+    "input_text": "이번 달 첫 주가 끝난 시점 이후 처음 나타나는 평일 전날",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-07-07",
+    "prediction": "2025-07-07",
+    "latency": 5.019709348678589,
+    "tokens": 298
+  },
+  {
+    "id": "T1_314",
+    "task": "T1",
+    "input_text": "설날이 끝난 뒤 두 번째 주에 포함된 마지막 평일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-14",
+    "prediction": "2025-02-14",
+    "latency": 5.089531421661377,
+    "tokens": 296
+  },
+  {
+    "id": "T1_315",
+    "task": "T1",
+    "input_text": "추석 연휴 종료 후 주말을 넘긴 다음 맞는 화요일",
+    "anchor_date": "2025-09-23",
+    "gold_standard": "2025-10-14",
+    "prediction": "2025-09-30",
+    "latency": 5.040109872817993,
+    "tokens": 297
+  },
+  {
+    "id": "T1_316",
+    "task": "T1",
+    "input_text": "이번 주말 이후 도래하는 주의 월요일 다음 날",
+    "anchor_date": "2025-11-08",
+    "gold_standard": "2025-11-18",
+    "prediction": "2025-11-19",
+    "latency": 5.016427755355835,
+    "tokens": 294
+  },
+  {
+    "id": "T1_317",
+    "task": "T1",
+    "input_text": "다음 달 말이 지난 시점 이후 가장 가까운 평일",
+    "anchor_date": "2025-06-02",
+    "gold_standard": "2025-08-01",
+    "prediction": "2025-07-01",
+    "latency": 4.990445852279663,
+    "tokens": 295
+  },
+  {
+    "id": "T1_318",
+    "task": "T1",
+    "input_text": "이번 달 중순 이전 기간을 제외한 뒤 처음 만나는 목요일",
+    "anchor_date": "2025-10-05",
+    "gold_standard": "2025-10-16",
+    "prediction": "2025-10-16",
+    "latency": 5.185105085372925,
+    "tokens": 296
+  },
+  {
+    "id": "T1_319",
+    "task": "T1",
+    "input_text": "다음 달 첫 평일이 끝난 뒤 포함되는 주의 금요일",
+    "anchor_date": "2025-12-27",
+    "gold_standard": "2026-01-09",
+    "prediction": "2026-01-09",
+    "latency": 4.801912546157837,
+    "tokens": 297
+  },
+  {
+    "id": "T1_320",
+    "task": "T1",
+    "input_text": "이번 주 전부를 건너뛴 뒤 처음 맞는 화요일 전날",
+    "anchor_date": "2025-05-20",
+    "gold_standard": "2025-05-26",
+    "prediction": "2025-06-02",
+    "latency": 4.851099729537964,
+    "tokens": 299
+  },
+  {
+    "id": "T1_321",
+    "task": "T1",
+    "input_text": "이번 달 말 직전 주말 다음에 오는 첫 평일",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-31",
+    "prediction": "2025-03-31",
+    "latency": 4.9187095165252686,
+    "tokens": 294
+  },
+  {
+    "id": "T1_322",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주가 끝난 뒤 평일 기준 이틀째 날",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-10-13",
+    "prediction": "2025-10-02",
+    "latency": 5.097130298614502,
+    "tokens": 298
+  },
+  {
+    "id": "T1_323",
+    "task": "T1",
+    "input_text": "이번 달 31일을 기준으로 하루 전",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-04-29",
+    "prediction": "2025-04-30",
+    "latency": 5.07981538772583,
+    "tokens": 291
+  },
+  {
+    "id": "T1_324",
+    "task": "T1",
+    "input_text": "설날 다음 주를 넘긴 뒤 처음 등장하는 평일",
+    "anchor_date": "2025-01-26",
+    "gold_standard": "2025-02-10",
+    "prediction": "2025-02-10",
+    "latency": 5.076013565063477,
+    "tokens": 294
+  },
+  {
+    "id": "T1_325",
+    "task": "T1",
+    "input_text": "이번 달 시작 직후 첫 주말을 지난 다음 오는 수요일",
+    "anchor_date": "2025-02-03",
+    "gold_standard": "2025-02-12",
+    "prediction": "2025-02-12",
+    "latency": 5.076524496078491,
+    "tokens": 295
+  },
+  {
+    "id": "T1_326",
+    "task": "T1",
+    "input_text": "이번 달 중반을 지나 처음 맞는 화요일 전날",
+    "anchor_date": "2025-01-16",
+    "gold_standard": "2025-01-20",
+    "prediction": "2025-01-21",
+    "latency": 4.6743340492248535,
+    "tokens": 294
+  },
+  {
+    "id": "T1_327",
+    "task": "T1",
+    "input_text": "다음 달 첫 주가 끝난 이후 가장 가까운 평일",
+    "anchor_date": "2025-02-23",
+    "gold_standard": "2025-03-10",
+    "prediction": "2025-03-10",
+    "latency": 4.8890299797058105,
+    "tokens": 295
+  },
+  {
+    "id": "T1_328",
+    "task": "T1",
+    "input_text": "이번 주를 벗어난 뒤 처음 등장하는 목요일 다음 날",
+    "anchor_date": "2025-03-14",
+    "gold_standard": "2025-03-21",
+    "prediction": "2025-03-21",
+    "latency": 5.152103424072266,
+    "tokens": 295
+  },
+  {
+    "id": "T1_329",
+    "task": "T1",
+    "input_text": "이번 달 말 직후 포함되는 주의 수요일",
+    "anchor_date": "2025-04-11",
+    "gold_standard": "2025-05-07",
+    "prediction": "2025-05-07",
+    "latency": 5.170253038406372,
+    "tokens": 292
+  },
+  {
+    "id": "T1_330",
+    "task": "T1",
+    "input_text": "다음 주 전체가 지난 뒤 돌아오는 첫 금요일 전날",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-06-19",
+    "prediction": "2025-06-12",
+    "latency": 4.785154104232788,
+    "tokens": 295
+  },
+  {
+    "id": "T1_331",
+    "task": "T1",
+    "input_text": "이번 분기 종료 직후 주말을 넘긴 다음 맞는 평일",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-04-07",
+    "prediction": "2025-04-01",
+    "latency": 4.696974039077759,
+    "tokens": 297
+  },
+  {
+    "id": "T1_332",
+    "task": "T1",
+    "input_text": "다음 분기 시작 후 첫 주말 다음에 오는 화요일",
+    "anchor_date": "2025-09-19",
+    "gold_standard": "2025-10-07",
+    "prediction": "2025-10-14",
+    "latency": 5.06930136680603,
+    "tokens": 295
+  },
+  {
+    "id": "T1_333",
+    "task": "T1",
+    "input_text": "이달 초 이후 첫 수요일",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-07-09",
+    "prediction": "2025-07-09",
+    "latency": 5.076630592346191,
+    "tokens": 288
+  },
+  {
+    "id": "T1_334",
+    "task": "T1",
+    "input_text": "설날 연휴가 끝난 후 주말을 제외하고 세 번째 평일",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-05",
+    "prediction": "2025-02-07",
+    "latency": 5.075722694396973,
+    "tokens": 298
+  },
+  {
+    "id": "T1_335",
+    "task": "T1",
+    "input_text": "추석 이후 첫 주말이 지난 다음 맞는 목요일",
+    "anchor_date": "2025-09-21",
+    "gold_standard": "2025-10-16",
+    "prediction": "2025-10-02",
+    "latency": 4.657225847244263,
+    "tokens": 294
+  },
+  {
+    "id": "T1_336",
+    "task": "T1",
+    "input_text": "이번 주말을 기준으로 다음 주가 끝난 뒤 만나는 월요일",
+    "anchor_date": "2025-11-08",
+    "gold_standard": "2025-11-17",
+    "prediction": "2025-11-24",
+    "latency": 4.7652177810668945,
+    "tokens": 297
+  },
+  {
+    "id": "T1_337",
+    "task": "T1",
+    "input_text": "다음 달 말이 지나고 처음 포함되는 주의 화요일",
+    "anchor_date": "2025-06-19",
+    "gold_standard": "2025-08-05",
+    "prediction": "2025-07-08",
+    "latency": 4.778079509735107,
+    "tokens": 295
+  },
+  {
+    "id": "T1_338",
+    "task": "T1",
+    "input_text": "이번 달 중순 이전을 제외한 구간에서 처음 맞는 금요일",
+    "anchor_date": "2025-10-04",
+    "gold_standard": "2025-10-17",
+    "prediction": "2025-10-17",
+    "latency": 4.7081520557403564,
+    "tokens": 297
+  },
+  {
+    "id": "T1_339",
+    "task": "T1",
+    "input_text": "다음 달 초 가장 빠른 평일 다음 날",
+    "anchor_date": "2025-12-29",
+    "gold_standard": "2026-01-03",
+    "prediction": "2026-01-06",
+    "latency": 4.85173225402832,
+    "tokens": 292
+  },
+  {
+    "id": "T1_340",
+    "task": "T1",
+    "input_text": "이번 주 전체를 지나고 난 뒤 처음 맞는 수요일 다음 날",
+    "anchor_date": "2025-05-23",
+    "gold_standard": "2025-05-29",
+    "prediction": "2025-05-29",
+    "latency": 5.055050373077393,
+    "tokens": 296
+  },
+  {
+    "id": "T1_341",
+    "task": "T1",
+    "input_text": "이번 달 마지막 영업일",
+    "anchor_date": "2025-03-18",
+    "gold_standard": "2025-03-31",
+    "prediction": "2025-03-31",
+    "latency": 5.045006275177002,
+    "tokens": 287
+  },
+  {
+    "id": "T1_342",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주를 넘긴 뒤 평일 기준 이틀 후",
+    "anchor_date": "2025-08-26",
+    "gold_standard": "2025-10-13",
+    "prediction": "2025-10-09",
+    "latency": 4.64893364906311,
+    "tokens": 297
+  },
+  {
+    "id": "T1_343",
+    "task": "T1",
+    "input_text": "이번 달 31일 이후 첫 평일",
+    "anchor_date": "2025-06-07",
+    "gold_standard": "2025-07-01",
+    "prediction": "2025-07-01",
+    "latency": 4.984697103500366,
+    "tokens": 290
+  },
+  {
+    "id": "T1_344",
+    "task": "T1",
+    "input_text": "설날 다음 주가 끝난 뒤 맞는 두 번째 평일",
+    "anchor_date": "2025-01-27",
+    "gold_standard": "2025-02-11",
+    "prediction": "2025-02-13",
+    "latency": 4.742791175842285,
+    "tokens": 295
+  },
+  {
+    "id": "T1_345",
+    "task": "T1",
+    "input_text": "이번 달 시작 후 첫 주말을 건너뛴 다음 맞는 금요일",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-09",
+    "prediction": "2025-05-23",
+    "latency": 4.854544401168823,
+    "tokens": 299
+  },
+  {
+    "id": "T1_346",
+    "task": "T1",
+    "input_text": "이번 달 안에서 월요일이 아닌 날 중 가장 마지막 날",
+    "anchor_date": "2025-01-05",
+    "gold_standard": "2025-01-31",
+    "prediction": "2025-01-31",
+    "latency": 5.022608041763306,
+    "tokens": 294
+  },
+  {
+    "id": "T1_347",
+    "task": "T1",
+    "input_text": "이번 주 이후로 처음 시작되는 달의 첫 평일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-03-04",
+    "prediction": "2025-03-03",
+    "latency": 5.080116033554077,
+    "tokens": 293
+  },
+  {
+    "id": "T1_348",
+    "task": "T1",
+    "input_text": "이번 달에서 주말이 포함되지 않은 가장 긴 연속 평일 구간의 마지막 날",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-06-27",
+    "prediction": "2025-06-27",
+    "latency": 5.029332876205444,
+    "tokens": 301
+  },
+  {
+    "id": "T1_349",
+    "task": "T1",
+    "input_text": "다음 달이 시작되기 전 마지막으로 남는 평일",
+    "anchor_date": "2025-07-19",
+    "gold_standard": "2025-07-31",
+    "prediction": "2025-07-31",
+    "latency": 5.06036114692688,
+    "tokens": 295
+  },
+  {
+    "id": "T1_350",
+    "task": "T1",
+    "input_text": "이번 분기 안에서 주말 중 가장 늦은 날",
+    "anchor_date": "2025-05-08",
+    "gold_standard": "2025-05-31",
+    "prediction": "2025-06-29",
+    "latency": 5.034539461135864,
+    "tokens": 294
+  },
+  {
+    "id": "T1_351",
+    "task": "T1",
+    "input_text": "이번 달 중순 첫 영업일",
+    "anchor_date": "2025-08-01",
+    "gold_standard": "2025-08-18",
+    "prediction": "2025-08-11",
+    "latency": 5.0602500438690186,
+    "tokens": 289
+  },
+  {
+    "id": "T1_352",
+    "task": "T1",
+    "input_text": "이번 주 기준으로 가장 늦게 도래하는 평일",
+    "anchor_date": "2025-09-09",
+    "gold_standard": "2025-09-12",
+    "prediction": "2025-09-12",
+    "latency": 5.058478116989136,
+    "tokens": 294
+  },
+  {
+    "id": "T1_353",
+    "task": "T1",
+    "input_text": "이번 달 중에서 날짜가 20일을 넘는 최초의 평일",
+    "anchor_date": "2025-03-02",
+    "gold_standard": "2025-03-21",
+    "prediction": "2025-03-21",
+    "latency": 5.072035789489746,
+    "tokens": 297
+  },
+  {
+    "id": "T1_354",
+    "task": "T1",
+    "input_text": "이번 달에서 평일 수가 가장 많은 주에 포함된 마지막 날",
+    "anchor_date": "2025-10-04",
+    "gold_standard": "2025-10-31",
+    "prediction": "2025-10-12",
+    "latency": 5.065897226333618,
+    "tokens": 296
+  },
+  {
+    "id": "T1_355",
+    "task": "T1",
+    "input_text": "다음 달을 기준으로 가장 먼저 맞는 주말의 다음 날",
+    "anchor_date": "2025-11-21",
+    "gold_standard": "2025-12-08",
+    "prediction": "2025-12-08",
+    "latency": 5.0649731159210205,
+    "tokens": 296
+  },
+  {
+    "id": "T1_356",
+    "task": "T1",
+    "input_text": "이번 달에서 날짜가 가장 큰 평일 다음 날",
+    "anchor_date": "2025-12-02",
+    "gold_standard": "2026-01-01",
+    "prediction": "2025-12-31",
+    "latency": 4.926628828048706,
+    "tokens": 292
+  },
+  {
+    "id": "T1_357",
+    "task": "T1",
+    "input_text": "이번 분기 전체에서 가장 앞부분에 속한 주말 이후 첫 평일",
+    "anchor_date": "2025-04-06",
+    "gold_standard": "2025-04-07",
+    "prediction": "2025-01-06",
+    "latency": 4.721389293670654,
+    "tokens": 298
+  },
+  {
+    "id": "T1_358",
+    "task": "T1",
+    "input_text": "이번 달 안에서 두 번째로 늦게 도래하는 평일",
+    "anchor_date": "2025-02-09",
+    "gold_standard": "2025-02-27",
+    "prediction": "2025-02-27",
+    "latency": 5.051457643508911,
+    "tokens": 296
+  },
+  {
+    "id": "T1_359",
+    "task": "T1",
+    "input_text": "이번 주 안에서 평일만 고려했을 때 마지막 날",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2025-06-13",
+    "prediction": "2025-06-13",
+    "latency": 5.104034423828125,
+    "tokens": 294
+  },
+  {
+    "id": "T1_360",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-07-31",
+    "prediction": "2025-07-31",
+    "latency": 5.0482401847839355,
+    "tokens": 285
+  },
+  {
+    "id": "T1_361",
+    "task": "T1",
+    "input_text": "이번 달에서 연속된 평일 구간이 끝나는 시점",
+    "anchor_date": "2025-02-03",
+    "gold_standard": "2025-02-28",
+    "prediction": "2025-02-28",
+    "latency": 5.082250118255615,
+    "tokens": 296
+  },
+  {
+    "id": "T1_362",
+    "task": "T1",
+    "input_text": "이번 달 중 평일이 아닌 마지막 날",
+    "anchor_date": "2025-05-02",
+    "gold_standard": "2025-05-31",
+    "prediction": "2025-05-31",
+    "latency": 4.660736083984375,
+    "tokens": 290
+  },
+  {
+    "id": "T1_363",
+    "task": "T1",
+    "input_text": "이번 분기에서 날짜 기준으로 가장 뒤쪽에 있는 날",
+    "anchor_date": "2025-08-14",
+    "gold_standard": "2025-09-30",
+    "prediction": "2025-09-30",
+    "latency": 4.86741042137146,
+    "tokens": 294
+  },
+  {
+    "id": "T1_364",
+    "task": "T1",
+    "input_text": "이번 달 기준으로 평일 비율이 가장 낮은 주의 마지막 날",
+    "anchor_date": "2025-10-02",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-05",
+    "latency": 5.075514793395996,
+    "tokens": 297
+  },
+  {
+    "id": "T1_365",
+    "task": "T1",
+    "input_text": "내일 말고 그다음 날",
+    "anchor_date": "2025-03-18",
+    "gold_standard": "2025-03-20",
+    "prediction": "2025-03-20",
+    "latency": 5.54056453704834,
+    "tokens": 289
+  },
+  {
+    "id": "T1_366",
+    "task": "T1",
+    "input_text": "이번 달 마지막 영업일 다음 날",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2025-11-29",
+    "prediction": "2025-11-30",
+    "latency": 5.589349985122681,
+    "tokens": 289
+  },
+  {
+    "id": "T1_367",
+    "task": "T1",
+    "input_text": "이번 달 첫 영업일 작일",
+    "anchor_date": "2025-12-04",
+    "gold_standard": "2025-11-30",
+    "prediction": "2025-12-01",
+    "latency": 5.079395055770874,
+    "tokens": 289
+  },
+  {
+    "id": "T1_368",
+    "task": "T1",
+    "input_text": "올해 첫 영업일",
+    "anchor_date": "2025-01-07",
+    "gold_standard": "2025-01-02",
+    "prediction": "2025-01-02",
+    "latency": 5.046905040740967,
+    "tokens": 287
+  },
+  {
+    "id": "T1_369",
+    "task": "T1",
+    "input_text": "이번 달 중 평일이 연속으로 끝나는 날",
+    "anchor_date": "2025-03-08",
+    "gold_standard": "2025-03-28",
+    "prediction": "2025-03-28",
+    "latency": 4.738279104232788,
+    "tokens": 293
+  },
+  {
+    "id": "T1_370",
+    "task": "T1",
+    "input_text": "다음 달 세번째 목요일",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-07-17",
+    "prediction": "2025-07-17",
+    "latency": 4.826900005340576,
+    "tokens": 288
+  },
+  {
+    "id": "T1_371",
+    "task": "T1",
+    "input_text": "다다음 주 첫 영업일",
+    "anchor_date": "2025-07-17",
+    "gold_standard": "2025-07-28",
+    "prediction": "2025-07-28",
+    "latency": 5.110159635543823,
+    "tokens": 289
+  },
+  {
+    "id": "T1_372",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날 명일",
+    "anchor_date": "2025-09-01",
+    "gold_standard": "2025-10-01",
+    "prediction": "2025-09-30",
+    "latency": 4.964245796203613,
+    "tokens": 287
+  },
+  {
+    "id": "T1_373",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 날",
+    "anchor_date": "2025-11-20",
+    "gold_standard": "2025-12-31",
+    "prediction": "2025-12-31",
+    "latency": 5.054523229598999,
+    "tokens": 286
+  },
+  {
+    "id": "T1_374",
+    "task": "T1",
+    "input_text": "이번 달 마지막 주말",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-04-26",
+    "prediction": [
+      "2025-04-26",
+      "2025-04-27"
+    ],
+    "latency": 5.027201890945435,
+    "tokens": 299
+  },
+  {
+    "id": "T1_375",
+    "task": "T1",
+    "input_text": "다음 주 첫 영업일",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-05-19",
+    "prediction": "2025-05-19",
+    "latency": 4.72775411605835,
+    "tokens": 288
+  },
+  {
+    "id": "T1_376",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2025-11-21",
+    "gold_standard": "2025-11-28",
+    "prediction": "2025-11-28",
+    "latency": 4.8619701862335205,
+    "tokens": 286
+  },
+  {
+    "id": "T1_377",
+    "task": "T1",
+    "input_text": "지난 주 화요일",
+    "anchor_date": "2025-03-10",
+    "gold_standard": "2025-03-04",
+    "prediction": "2025-03-04",
+    "latency": 5.074910879135132,
+    "tokens": 285
+  },
+  {
+    "id": "T1_378",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2025-06-15",
+    "gold_standard": "2025-06-18",
+    "prediction": "2025-06-18",
+    "latency": 5.080725431442261,
+    "tokens": 284
+  },
+  {
+    "id": "T1_379",
+    "task": "T1",
+    "input_text": "2주 후 월요일",
+    "anchor_date": "2025-09-05",
+    "gold_standard": "​2025-09-22​",
+    "prediction": "2025-09-22",
+    "latency": 5.081104278564453,
+    "tokens": 286
+  },
+  {
+    "id": "T1_380",
+    "task": "T1",
+    "input_text": "이번 달 마지막 수요일",
+    "anchor_date": "2025-11-15",
+    "gold_standard": "2025-11-26",
+    "prediction": "2025-11-26",
+    "latency": 5.084365129470825,
+    "tokens": 286
+  },
+  {
+    "id": "T1_381",
+    "task": "T1",
+    "input_text": "다음 달 같은 날",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-10",
+    "prediction": "2025-03-10",
+    "latency": 4.654211521148682,
+    "tokens": 286
+  },
+  {
+    "id": "T1_382",
+    "task": "T1",
+    "input_text": "다음 주 월요일에서 2일 후",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "​2025-04-16​",
+    "prediction": "2025-04-16",
+    "latency": 4.98084282875061,
+    "tokens": 291
+  },
+  {
+    "id": "T1_383",
+    "task": "T1",
+    "input_text": "추석 다음 주 월요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-13",
+    "prediction": "2025-09-23",
+    "latency": 5.0011656284332275,
+    "tokens": 287
+  },
+  {
+    "id": "T1_384",
+    "task": "T1",
+    "input_text": "1년 후 같은 날",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2026-12-25",
+    "prediction": "2026-12-25",
+    "latency": 5.026521444320679,
+    "tokens": 286
+  },
+  {
+    "id": "T1_385",
+    "task": "T1",
+    "input_text": "주말을 제외한 5일 후",
+    "anchor_date": "2025-07-05",
+    "gold_standard": "​2025-07-11",
+    "prediction": "2025-07-11",
+    "latency": 4.678344249725342,
+    "tokens": 290
+  },
+  {
+    "id": "T1_386",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일",
+    "anchor_date": "2025-08-18",
+    "gold_standard": "2025-09-12",
+    "prediction": "2025-09-12",
+    "latency": 4.893982172012329,
+    "tokens": 288
+  },
+  {
+    "id": "T1_387",
+    "task": "T1",
+    "input_text": "광복절 다음 주 월요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-18",
+    "prediction": "2025-08-18",
+    "latency": 4.630709886550903,
+    "tokens": 288
+  },
+  {
+    "id": "T1_388",
+    "task": "T1",
+    "input_text": "전 일요일",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-05-04",
+    "prediction": "2025-05-04",
+    "latency": 4.7533228397369385,
+    "tokens": 284
+  },
+  {
+    "id": "T1_389",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-01-29",
+    "prediction": "2025-01-29",
+    "latency": 4.942234992980957,
+    "tokens": 288
+  },
+  {
+    "id": "T1_390",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주 월요일",
+    "anchor_date": "2025-03-20",
+    "gold_standard": "2025-04-07",
+    "prediction": "2025-04-07",
+    "latency": 5.048253774642944,
+    "tokens": 289
+  },
+  {
+    "id": "T1_391",
+    "task": "T1",
+    "input_text": "2월 30일",
+    "anchor_date": "2024-02-20",
+    "gold_standard": "2024-02-29",
+    "prediction": [],
+    "latency": 4.666326999664307,
+    "tokens": 279
+  },
+  {
+    "id": "T1_392",
+    "task": "T1",
+    "input_text": "설날 3일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-01",
+    "prediction": "2025-02-05",
+    "latency": 4.659404754638672,
+    "tokens": 287
+  },
+  {
+    "id": "T1_393",
+    "task": "T1",
+    "input_text": "이번 달 31일",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-04-30",
+    "prediction": "2025-04-30",
+    "latency": 4.710036516189575,
+    "tokens": 286
+  },
+  {
+    "id": "T1_394",
+    "task": "T1",
+    "input_text": "이번 주말 이전 금요일",
+    "anchor_date": "2025-10-11",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-10",
+    "latency": 5.180505752563477,
+    "tokens": 287
+  },
+  {
+    "id": "T1_395",
+    "task": "T1",
+    "input_text": "다음 달 첫 주 금요일에서 10일 후",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2025-12-15",
+    "prediction": "2025-12-19",
+    "latency": 4.968481779098511,
+    "tokens": 293
+  },
+  {
+    "id": "T1_396",
+    "task": "T1",
+    "input_text": "한글날 다음 주 화요일",
+    "anchor_date": "2025-10-09",
+    "gold_standard": "2025-10-14",
+    "prediction": "2025-10-21",
+    "latency": 5.186408519744873,
+    "tokens": 288
+  },
+  {
+    "id": "T1_397",
+    "task": "T1",
+    "input_text": "3주 후 수요일",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-05",
+    "prediction": "2025-03-05",
+    "latency": 5.072980880737305,
+    "tokens": 286
+  },
+  {
+    "id": "T1_398",
+    "task": "T1",
+    "input_text": "크리스마스 3영업일 전 (주말 제외)",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-22",
+    "prediction": "2025-12-22",
+    "latency": 5.021636962890625,
+    "tokens": 295
+  },
+  {
+    "id": "T1_399",
+    "task": "T1",
+    "input_text": "설날 연휴를 제외한 5일 후",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-05",
+    "prediction": "2025-02-05",
+    "latency": 4.727781772613525,
+    "tokens": 292
+  },
+  {
+    "id": "T1_400",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일에서 3일 전",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-05-21",
+    "prediction": "2025-05-21",
+    "latency": 4.8081910610198975,
+    "tokens": 293
+  },
+  {
+    "id": "T1_401",
+    "task": "T1",
+    "input_text": "이번 달 30일에서 2일 후",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-05-02",
+    "prediction": "2025-05-02",
+    "latency": 5.032390832901001,
+    "tokens": 291
+  },
+  {
+    "id": "T1_402",
+    "task": "T1",
+    "input_text": "내년 1월 첫 주 월요일",
+    "anchor_date": "2025-12-20",
+    "gold_standard": "2026-01-05",
+    "prediction": "2026-01-05",
+    "latency": 4.770961761474609,
+    "tokens": 290
+  },
+  {
+    "id": "T1_403",
+    "task": "T1",
+    "input_text": "지난 주 월요일에서 4일 후",
+    "anchor_date": "2025-07-12",
+    "gold_standard": "2025-07-11​",
+    "prediction": "2025-07-07",
+    "latency": 4.853136777877808,
+    "tokens": 290
+  },
+  {
+    "id": "T1_404",
+    "task": "T1",
+    "input_text": "이번 달 15일 다음 주 금요일",
+    "anchor_date": "2025-11-15",
+    "gold_standard": "2025-11-21",
+    "prediction": "2025-11-21",
+    "latency": 4.740430116653442,
+    "tokens": 290
+  },
+  {
+    "id": "T1_405",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날 다음 주 화요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-14",
+    "prediction": "2025-10-07",
+    "latency": 4.805927038192749,
+    "tokens": 291
+  },
+  {
+    "id": "T1_406",
+    "task": "T1",
+    "input_text": "이번 주 일요일 다음 주 월요일",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-10",
+    "prediction": [
+      "2025-03-09",
+      "2025-03-10"
+    ],
+    "latency": 5.08317232131958,
+    "tokens": 297
+  },
+  {
+    "id": "T1_407",
+    "task": "T1",
+    "input_text": "2월 29일에서 1년 후",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2025-02-28",
+    "prediction": "2025-02-28",
+    "latency": 5.05448317527771,
+    "tokens": 291
+  },
+  {
+    "id": "T1_408",
+    "task": "T1",
+    "input_text": "이번 달 마지막 주 수요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-25",
+    "prediction": "2025-06-25",
+    "latency": 5.019150495529175,
+    "tokens": 287
+  },
+  {
+    "id": "T1_409",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 날",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 4.772385835647583,
+    "tokens": 288
+  },
+  {
+    "id": "T1_410",
+    "task": "T1",
+    "input_text": "크리스마스 2주 전 일요일",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "​2025-12-07​",
+    "prediction": "2025-12-07",
+    "latency": 4.73621129989624,
+    "tokens": 291
+  },
+  {
+    "id": "T1_411",
+    "task": "T1",
+    "input_text": "2주 후이지만 공휴일이면 제외",
+    "anchor_date": "2025-08-14",
+    "gold_standard": "2025-08-28",
+    "prediction": "2025-08-28",
+    "latency": 4.9383864402771,
+    "tokens": 291
+  },
+  {
+    "id": "T1_412",
+    "task": "T1",
+    "input_text": "이번 주 일요일을 기준으로 10일 후",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "​2025-09-17​",
+    "prediction": "2025-09-13",
+    "latency": 4.818413496017456,
+    "tokens": 292
+  },
+  {
+    "id": "T1_413",
+    "task": "T1",
+    "input_text": "이번 달 첫 번째 금요일에 2주 후",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-03-21",
+    "prediction": "2025-03-21",
+    "latency": 5.066725492477417,
+    "tokens": 292
+  },
+  {
+    "id": "T1_414",
+    "task": "T1",
+    "input_text": "설날과 추석 사이의 첫 번째 금요일",
+    "anchor_date": "2025-02-01",
+    "gold_standard": "2025-01-31",
+    "prediction": "2025-02-07",
+    "latency": 5.05527663230896,
+    "tokens": 292
+  },
+  {
+    "id": "T1_415",
+    "task": "T1",
+    "input_text": "다음 분기 마지막 주 금요일",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-06-27",
+    "prediction": "2025-06-27",
+    "latency": 4.757166147232056,
+    "tokens": 289
+  },
+  {
+    "id": "T1_416",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날에서 3일 후",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-10-11​",
+    "prediction": "2025-10-02",
+    "latency": 4.877779722213745,
+    "tokens": 292
+  },
+  {
+    "id": "T1_417",
+    "task": "T1",
+    "input_text": "다음 윤년의 2월 29일",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2028-02-29",
+    "prediction": "2028-02-29",
+    "latency": 5.031680583953857,
+    "tokens": 292
+  },
+  {
+    "id": "T1_418",
+    "task": "T1",
+    "input_text": "2월 29일 다음 주 월요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-04",
+    "prediction": "2024-03-04",
+    "latency": 4.770474433898926,
+    "tokens": 290
+  },
+  {
+    "id": "T1_419",
+    "task": "T1",
+    "input_text": "2주 후이지만 한글날이면 제외",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-10-15",
+    "prediction": "2025-10-15",
+    "latency": 4.876556158065796,
+    "tokens": 291
+  },
+  {
+    "id": "T1_420",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 목요일 다음 달 15일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-07-15",
+    "prediction": [
+      "2025-06-26",
+      "2025-07-15"
+    ],
+    "latency": 27.365992784500122,
+    "tokens": 305
+  },
+  {
+    "id": "T1_421",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 날에서 2주 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-15",
+    "prediction": "2026-04-15",
+    "latency": 5.317255020141602,
+    "tokens": 293
+  },
+  {
+    "id": "T1_422",
+    "task": "T1",
+    "input_text": "추석 다음 달",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-11-06​",
+    "prediction": "2025-10-01",
+    "latency": 4.973734378814697,
+    "tokens": 285
+  },
+  {
+    "id": "T1_423",
+    "task": "T1",
+    "input_text": "50일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-03-19",
+    "prediction": "2025-03-19",
+    "latency": 7.228539943695068,
+    "tokens": 284
+  },
+  {
+    "id": "T1_424",
+    "task": "T1",
+    "input_text": "추석 연휴가 끝난 후 첫 번째 영업일",
+    "anchor_date": "2026-09-06",
+    "gold_standard": "2026-09-07",
+    "prediction": "2026-09-22",
+    "latency": 5.081806421279907,
+    "tokens": 294
+  },
+  {
+    "id": "T1_425",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일에서 10일 후이지만 공휴일이면 제외",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "​2025-08-18",
+    "prediction": "2025-08-22",
+    "latency": 5.038318157196045,
+    "tokens": 300
+  },
+  {
+    "id": "T1_426",
+    "task": "T1",
+    "input_text": "이번 달 두 번째 수요일에서 1개월 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-12-12",
+    "prediction": "2023-12-13",
+    "latency": 5.070487022399902,
+    "tokens": 292
+  },
+  {
+    "id": "T1_427",
+    "task": "T1",
+    "input_text": "영업일 기준 5일 후",
+    "anchor_date": "2025-09-06",
+    "gold_standard": "2025-09-12",
+    "prediction": "2025-09-12",
+    "latency": 5.0771918296813965,
+    "tokens": 289
+  },
+  {
+    "id": "T1_428",
+    "task": "T1",
+    "input_text": "다음 2월 29일의 다음 해 3월 1일",
+    "anchor_date": "2028-02-29",
+    "gold_standard": "2029-03-01",
+    "prediction": "2029-03-01",
+    "latency": 4.86033034324646,
+    "tokens": 298
+  },
+  {
+    "id": "T1_429",
+    "task": "T1",
+    "input_text": "주말을 제외하고 4주 후 화요일",
+    "anchor_date": "2025-01-05",
+    "gold_standard": "2025-02-04​",
+    "prediction": "2025-02-04",
+    "latency": 5.766345500946045,
+    "tokens": 292
+  },
+  {
+    "id": "T1_430",
+    "task": "T1",
+    "input_text": "설날 연휴 기간 중 화요일",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-01-28",
+    "prediction": "2025-02-05",
+    "latency": 5.027656316757202,
+    "tokens": 289
+  },
+  {
+    "id": "T1_431",
+    "task": "T1",
+    "input_text": "12월 31일 다음 날",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-01",
+    "prediction": "2026-01-01",
+    "latency": 4.867861986160278,
+    "tokens": 288
+  },
+  {
+    "id": "T1_432",
+    "task": "T1",
+    "input_text": "현충일 다음 주 월요일",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-06-09",
+    "prediction": "2025-06-16",
+    "latency": 4.767578601837158,
+    "tokens": 288
+  },
+  {
+    "id": "T1_433",
+    "task": "T1",
+    "input_text": "추석 전 공휴일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-03",
+    "prediction": "2025-09-19",
+    "latency": 5.039994239807129,
+    "tokens": 287
+  },
+  {
+    "id": "T1_434",
+    "task": "T1",
+    "input_text": "이번 달 30일에서 5일 후",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-05-05",
+    "prediction": "2025-05-05",
+    "latency": 5.080013751983643,
+    "tokens": 291
+  },
+  {
+    "id": "T1_435",
+    "task": "T1",
+    "input_text": "다음 분기 첫 영업일",
+    "anchor_date": "2025-03-31",
+    "gold_standard": "​2025-04-01",
+    "prediction": "2025-04-01",
+    "latency": 4.998712778091431,
+    "tokens": 289
+  },
+  {
+    "id": "T1_436",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일 기준 10일 후",
+    "anchor_date": "2022-09-15",
+    "gold_standard": "2022-10-10",
+    "prediction": "2022-10-14",
+    "latency": 4.949119329452515,
+    "tokens": 292
+  },
+  {
+    "id": "T1_437",
+    "task": "T1",
+    "input_text": "개천절 이전 금요일 (공휴일 제외)",
+    "anchor_date": "2023-10-03",
+    "gold_standard": "2023-09-26",
+    "prediction": "2023-09-29",
+    "latency": 5.232407569885254,
+    "tokens": 292
+  },
+  {
+    "id": "T1_438",
+    "task": "T1",
+    "input_text": "2주 후이지만 주말은 제외",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-16",
+    "prediction": [
+      "2025-06-13",
+      "2025-06-16",
+      "2025-06-17",
+      "2025-06-18",
+      "2025-06-19",
+      "2025-06-20"
+    ],
+    "latency": 5.076831817626953,
+    "tokens": 339
+  },
+  {
+    "id": "T1_439",
+    "task": "T1",
+    "input_text": "성탄절 이후 첫 번째 월요일부터 2주 후",
+    "anchor_date": "2024-12-25",
+    "gold_standard": "2025-01-13",
+    "prediction": "2025-01-06",
+    "latency": 5.054715394973755,
+    "tokens": 294
+  },
+  {
+    "id": "T1_440",
+    "task": "T1",
+    "input_text": "광복절 3일 후의 첫 번째 화요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-19",
+    "prediction": "2025-08-19",
+    "latency": 4.662604331970215,
+    "tokens": 293
+  },
+  {
+    "id": "T1_441",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫날 30일 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-31",
+    "prediction": "2026-01-30",
+    "latency": 4.667406320571899,
+    "tokens": 292
+  },
+  {
+    "id": "T1_442",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날에서 7일 후",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-10-15",
+    "prediction": "2025-10-04",
+    "latency": 4.876880884170532,
+    "tokens": 292
+  },
+  {
+    "id": "T1_443",
+    "task": "T1",
+    "input_text": "30영업일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-03-11",
+    "prediction": "2025-03-11",
+    "latency": 6.054701805114746,
+    "tokens": 286
+  },
+  {
+    "id": "T1_444",
+    "task": "T1",
+    "input_text": "이번 달 세 번째 화요일",
+    "anchor_date": "2027-02-15",
+    "gold_standard": "2027-02-16",
+    "prediction": "2027-02-16",
+    "latency": 5.072214365005493,
+    "tokens": 287
+  },
+  {
+    "id": "T1_445",
+    "task": "T1",
+    "input_text": "다음 달 20일 이후 첫 번째 월요일 (공휴일 제외)",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "2025-08-25",
+    "prediction": "2025-08-04",
+    "latency": 5.426756381988525,
+    "tokens": 297
+  },
+  {
+    "id": "T1_446",
+    "task": "T1",
+    "input_text": "올해 한글날",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-10-09",
+    "prediction": "2024-10-09",
+    "latency": 5.178101301193237,
+    "tokens": 286
+  },
+  {
+    "id": "T1_447",
+    "task": "T1",
+    "input_text": "올해 30주차 월요일",
+    "anchor_date": "2024-01-01",
+    "gold_standard": "2024-07-22",
+    "prediction": "2024-07-22",
+    "latency": 4.7246644496917725,
+    "tokens": 289
+  },
+  {
+    "id": "T1_448",
+    "task": "T1",
+    "input_text": "추석 다음 달 같은 요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-11-03​",
+    "prediction": "2025-10-15",
+    "latency": 4.733342409133911,
+    "tokens": 288
+  },
+  {
+    "id": "T1_449",
+    "task": "T1",
+    "input_text": "개학일 이후 첫 번째 수요일 다음 주 금요일",
+    "anchor_date": "2025-03-04",
+    "gold_standard": "2025-03-14​",
+    "prediction": "2025-03-21",
+    "latency": 5.678258180618286,
+    "tokens": 293
+  },
+  {
+    "id": "T1_450",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 영업일 (설날 제외)",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-02",
+    "prediction": "2026-01-02",
+    "latency": 12.90976881980896,
+    "tokens": 294
+  },
+  {
+    "id": "T1_451",
+    "task": "T1",
+    "input_text": "어린이날 7일 후",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-12",
+    "prediction": "2025-05-12",
+    "latency": 4.926284551620483,
+    "tokens": 289
+  },
+  {
+    "id": "T1_452",
+    "task": "T1",
+    "input_text": "주말을 제외하고 6주 후 목요일",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-27",
+    "prediction": "2025-03-27",
+    "latency": 5.076117992401123,
+    "tokens": 292
+  },
+  {
+    "id": "T1_453",
+    "task": "T1",
+    "input_text": "윤년의 12월 25일 다음 해 1월 1일",
+    "anchor_date": "2020-12-25",
+    "gold_standard": "2021-01-01",
+    "prediction": "2021-01-01",
+    "latency": 4.95167875289917,
+    "tokens": 298
+  },
+  {
+    "id": "T1_454",
+    "task": "T1",
+    "input_text": "추석 연휴 기간 후의 금요일",
+    "anchor_date": "2025-10-07",
+    "gold_standard": "2025-10-10",
+    "prediction": "2025-10-17",
+    "latency": 6.35468864440918,
+    "tokens": 290
+  },
+  {
+    "id": "T1_455",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 번째 월요일 (현충일 제외)",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-05​",
+    "prediction": "2026-07-06",
+    "latency": 4.66439414024353,
+    "tokens": 295
+  },
+  {
+    "id": "T1_456",
+    "task": "T1",
+    "input_text": "삼일절 다음 달 같은 요일",
+    "anchor_date": "2025-03-01",
+    "gold_standard": "​2025-04-05",
+    "prediction": "2025-04-03",
+    "latency": 4.873138666152954,
+    "tokens": 289
+  },
+  {
+    "id": "T1_457",
+    "task": "T1",
+    "input_text": "2월 29일 다음 주 같은 요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-07",
+    "prediction": "2024-03-07",
+    "latency": 4.691442012786865,
+    "tokens": 291
+  },
+  {
+    "id": "T1_458",
+    "task": "T1",
+    "input_text": "성탄절 40영업일 전",
+    "anchor_date": "2025-12-20",
+    "gold_standard": "2025-10-30",
+    "prediction": "2025-10-01",
+    "latency": 4.799083948135376,
+    "tokens": 290
+  },
+  {
+    "id": "T1_459",
+    "task": "T1",
+    "input_text": "설날과 추석 사이 두 번째 월요일",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2024-02-19",
+    "prediction": "2024-03-11",
+    "latency": 4.9450907707214355,
+    "tokens": 291
+  },
+  {
+    "id": "T1_460",
+    "task": "T1",
+    "input_text": "성탄절 이전 주 월요일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-15",
+    "prediction": "2025-12-15",
+    "latency": 11.165946245193481,
+    "tokens": 288
+  },
+  {
+    "id": "T1_461",
+    "task": "T1",
+    "input_text": "2주 후의 1일 후",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-16",
+    "prediction": "2025-05-16",
+    "latency": 4.946390390396118,
+    "tokens": 289
+  },
+  {
+    "id": "T1_462",
+    "task": "T1",
+    "input_text": "이번 달의 첫 번째 목요일 다음 주 금요일",
+    "anchor_date": "2025-03-10",
+    "gold_standard": "2025-03-14​",
+    "prediction": "2025-03-14",
+    "latency": 5.39113712310791,
+    "tokens": 292
+  },
+  {
+    "id": "T1_463",
+    "task": "T1",
+    "input_text": "광복절 5일 후 일요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-24",
+    "prediction": "2025-08-24",
+    "latency": 4.773404598236084,
+    "tokens": 290
+  },
+  {
+    "id": "T1_464",
+    "task": "T1",
+    "input_text": "다음 회계년도 31일 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-02-01",
+    "prediction": "2026-01-31",
+    "latency": 4.820031642913818,
+    "tokens": 290
+  },
+  {
+    "id": "T1_465",
+    "task": "T1",
+    "input_text": "설날 연휴 마지막 날에서 14일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-13",
+    "prediction": "2025-02-18",
+    "latency": 5.389443874359131,
+    "tokens": 292
+  },
+  {
+    "id": "T1_466",
+    "task": "T1",
+    "input_text": "추석과 성탄절 사이의 첫 번째 화요일",
+    "anchor_date": "2025-10-05",
+    "gold_standard": "2025-10-14",
+    "prediction": "2025-12-02",
+    "latency": 5.277335166931152,
+    "tokens": 293
+  },
+  {
+    "id": "T1_467",
+    "task": "T1",
+    "input_text": "한글날 이후 4주차 월요일",
+    "anchor_date": "2024-10-09",
+    "gold_standard": "2024-11-04",
+    "prediction": "2024-11-04",
+    "latency": 4.921297788619995,
+    "tokens": 291
+  },
+  {
+    "id": "T1_468",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-09-24",
+    "prediction": "2025-09-24",
+    "latency": 4.777390718460083,
+    "tokens": 288
+  },
+  {
+    "id": "T1_469",
+    "task": "T1",
+    "input_text": "성탄절 다음 달 같은 요일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2026-01-29​",
+    "prediction": "2026-01-25",
+    "latency": 5.456892490386963,
+    "tokens": 289
+  },
+  {
+    "id": "T1_470",
+    "task": "T1",
+    "input_text": "개학일 이후 두 번째 화요일 다음 주 목요일",
+    "anchor_date": "2025-03-04",
+    "gold_standard": "2025-03-13",
+    "prediction": "2025-03-13",
+    "latency": 5.078036308288574,
+    "tokens": 293
+  },
+  {
+    "id": "T1_471",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 영업일 3일 후",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-05",
+    "prediction": "2026-01-06",
+    "latency": 5.08146858215332,
+    "tokens": 294
+  },
+  {
+    "id": "T1_472",
+    "task": "T1",
+    "input_text": "한글날 2주 후 월요일",
+    "anchor_date": "2025-10-09",
+    "gold_standard": "2025-10-27",
+    "prediction": "2025-10-27",
+    "latency": 4.797814607620239,
+    "tokens": 290
+  },
+  {
+    "id": "T1_473",
+    "task": "T1",
+    "input_text": "다음 달 25일 이후 첫 번째 수요일 (공휴일 제외)",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "2025-08-27",
+    "prediction": "2025-08-06",
+    "latency": 4.671746253967285,
+    "tokens": 297
+  },
+  {
+    "id": "T1_474",
+    "task": "T1",
+    "input_text": "2월 29일 이후 다음 어린이날",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-05-05",
+    "prediction": "2025-05-05",
+    "latency": 5.883852958679199,
+    "tokens": 291
+  },
+  {
+    "id": "T1_475",
+    "task": "T1",
+    "input_text": "개천절 이전 금요일 (공휴일 제외)",
+    "anchor_date": "2025-10-03",
+    "gold_standard": "2025-09-26",
+    "prediction": "2025-09-26",
+    "latency": 4.87443470954895,
+    "tokens": 292
+  },
+  {
+    "id": "T1_476",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 월요일",
+    "anchor_date": "2025-03-20",
+    "gold_standard": "2025-04-07",
+    "prediction": "2025-04-07",
+    "latency": 4.72681736946106,
+    "tokens": 288
+  },
+  {
+    "id": "T1_477",
+    "task": "T1",
+    "input_text": "올해 추석 10일 전",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-09-26",
+    "prediction": "2025-09-04",
+    "latency": 4.875340461730957,
+    "tokens": 289
+  },
+  {
+    "id": "T1_478",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-06-27",
+    "prediction": "2025-06-27",
+    "latency": 43.15152621269226,
+    "tokens": 287
+  },
+  {
+    "id": "T1_479",
+    "task": "T1",
+    "input_text": "설날 다음 두 번째 월요일",
+    "anchor_date": "2026-02-17",
+    "gold_standard": "2026-03-02",
+    "prediction": "2026-02-23",
+    "latency": 4.672887563705444,
+    "tokens": 288
+  },
+  {
+    "id": "T1_480",
+    "task": "T1",
+    "input_text": "다음 달 시작일 전날",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-30",
+    "prediction": "2025-05-31",
+    "latency": 5.074241638183594,
+    "tokens": 288
+  },
+  {
+    "id": "T1_481",
+    "task": "T1",
+    "input_text": "다음 분기 첫 평일",
+    "anchor_date": "2025-09-28",
+    "gold_standard": "2025-10-01",
+    "prediction": "2025-10-01",
+    "latency": 4.735047817230225,
+    "tokens": 288
+  },
+  {
+    "id": "T1_482",
+    "task": "T1",
+    "input_text": "다음 어린이날 직후 월요일",
+    "anchor_date": "2025-01-10",
+    "gold_standard": "2025-05-12",
+    "prediction": "2025-05-06",
+    "latency": 4.755330324172974,
+    "tokens": 290
+  },
+  {
+    "id": "T1_483",
+    "task": "T1",
+    "input_text": "한글날 다음 주 수요일",
+    "anchor_date": "2026-10-09",
+    "gold_standard": "2026-10-14",
+    "prediction": "2026-10-21",
+    "latency": 4.88052773475647,
+    "tokens": 288
+  },
+  {
+    "id": "T1_484",
+    "task": "T1",
+    "input_text": "다음 학기 개강일로부터 3일 전",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-08-29",
+    "prediction": "2025-08-28",
+    "latency": 4.830365180969238,
+    "tokens": 294
+  },
+  {
+    "id": "T1_485",
+    "task": "T1",
+    "input_text": "올해 마지막 영업일",
+    "anchor_date": "2025-03-01",
+    "gold_standard": "2025-12-31",
+    "prediction": "2025-12-31",
+    "latency": 4.734815359115601,
+    "tokens": 287
+  },
+  {
+    "id": "T1_486",
+    "task": "T1",
+    "input_text": "이번 달 둘째 금요일",
+    "anchor_date": "2025-04-01",
+    "gold_standard": "2025-04-11",
+    "prediction": "2025-04-11",
+    "latency": 4.826778411865234,
+    "tokens": 287
+  },
+  {
+    "id": "T1_487",
+    "task": "T1",
+    "input_text": "추석 다음 평일 첫날",
+    "anchor_date": "2025-09-16",
+    "gold_standard": "2025-10-13",
+    "prediction": "2025-09-19",
+    "latency": 5.051987886428833,
+    "tokens": 288
+  },
+  {
+    "id": "T1_488",
+    "task": "T1",
+    "input_text": "다음 해 첫 번째 금요일",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2026-01-02",
+    "prediction": "2026-01-02",
+    "latency": 4.783384561538696,
+    "tokens": 288
+  },
+  {
+    "id": "T1_489",
+    "task": "T1",
+    "input_text": "부처님오신날 이틀 후",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-07",
+    "prediction": "2025-05-18",
+    "latency": 4.985665321350098,
+    "tokens": 290
+  },
+  {
+    "id": "T1_490",
+    "task": "T1",
+    "input_text": "다음 분기 첫 번째 수요일",
+    "anchor_date": "2025-01-20",
+    "gold_standard": "2025-04-02",
+    "prediction": "2025-04-02",
+    "latency": 4.835742950439453,
+    "tokens": 289
+  },
+  {
+    "id": "T1_491",
+    "task": "T1",
+    "input_text": "어린이날 이전 마지막 평일",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-02",
+    "prediction": "2025-05-02",
+    "latency": 5.2643303871154785,
+    "tokens": 289
+  },
+  {
+    "id": "T1_492",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 공휴일",
+    "anchor_date": "2025-07-10",
+    "gold_standard": "2025-08-15",
+    "prediction": "2025-08-15",
+    "latency": 4.87294864654541,
+    "tokens": 289
+  },
+  {
+    "id": "T1_493",
+    "task": "T1",
+    "input_text": "다다음 주 월요일",
+    "anchor_date": "2025-02-11",
+    "gold_standard": "2025-02-24",
+    "prediction": "2025-02-24",
+    "latency": 4.75954270362854,
+    "tokens": 287
+  },
+  {
+    "id": "T1_494",
+    "task": "T1",
+    "input_text": "광복절 다음 토요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-16",
+    "prediction": "2025-08-16",
+    "latency": 4.6907007694244385,
+    "tokens": 287
+  },
+  {
+    "id": "T1_495",
+    "task": "T1",
+    "input_text": "다음 해 설날 다음 금요일",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2026-02-20",
+    "prediction": "2026-02-13",
+    "latency": 4.856781482696533,
+    "tokens": 289
+  },
+  {
+    "id": "T1_496",
+    "task": "T1",
+    "input_text": "한글날 다음 다음 월요일",
+    "anchor_date": "2024-10-09",
+    "gold_standard": "2024-10-21",
+    "prediction": "2024-10-21",
+    "latency": 5.023013353347778,
+    "tokens": 288
+  },
+  {
+    "id": "T1_497",
+    "task": "T1",
+    "input_text": "이번 주 목요일",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-06-05",
+    "prediction": "2025-06-05",
+    "latency": 4.820529460906982,
+    "tokens": 285
+  },
+  {
+    "id": "T1_498",
+    "task": "T1",
+    "input_text": "다음 분기 종료 1주 전",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-06-23",
+    "prediction": "2025-05-24",
+    "latency": 4.670318126678467,
+    "tokens": 290
+  },
+  {
+    "id": "T1_499",
+    "task": "T1",
+    "input_text": "추석 전주 월요일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-09-29",
+    "prediction": "2025-09-15",
+    "latency": 4.660265684127808,
+    "tokens": 287
+  },
+  {
+    "id": "T1_500",
+    "task": "T1",
+    "input_text": "크리스마스 다음 평일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-26",
+    "prediction": "2025-12-26",
+    "latency": 5.154644727706909,
+    "tokens": 288
+  }
+]

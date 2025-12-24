@@ -1,0 +1,29 @@
+{
+  "accuracy": {
+    "t1": 0.66,
+    "t1_sentence": 0.6666666666666666,
+    "t2": 0.168
+  },
+  "latency_seconds": {
+    "t1": 1.6842495894432068,
+    "t1_sentence": 1.613330382786825,
+    "t2": 2.8475044302940367
+  },
+  "tokens": {
+    "t1": {
+      "prompt_avg": 1261.472,
+      "completion_avg": 139.7,
+      "total_avg": 1401.172
+    },
+    "t1_sentence": {
+      "prompt_avg": 1264.9660678642715,
+      "completion_avg": 64.45908183632734,
+      "total_avg": 1329.4251497005987
+    },
+    "t2": {
+      "prompt_avg": 1277.526,
+      "completion_avg": 168.152,
+      "total_avg": 1445.678
+    }
+  }
+}

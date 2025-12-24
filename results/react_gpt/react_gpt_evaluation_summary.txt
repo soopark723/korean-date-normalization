@@ -1,0 +1,13 @@
+📌 File: 1205_t1_react_results.json
+Total=500, Correct=395, Wrong=105, Accuracy=79.00%
+❗ Wrong cases saved to: wrong_1205_t1_react_results.json
+
+📌 File: 1205_t1_react_sentence_results.json
+Total=501, Correct=396, Wrong=105, Accuracy=79.04%
+❗ Wrong cases saved to: wrong_1205_t1_react_sentence_results.json
+
+📌 File: 1205_t2_react_results.json
+Total=500, Correct=110, Wrong=390, Accuracy=22.00%
+❗ Wrong cases saved to: wrong_1205_t2_react_results.json
+
+📌 Summary: {'1205_t1_react_results.json': {'accuracy': 79.0, 'wrong_file': 'wrong_1205_t1_react_results.json'}, '1205_t1_react_sentence_results.json': {'accuracy': 79.04191616766467, 'wrong_file': 'wrong_1205_t1_react_sentence_results.json'}, '1205_t2_react_results.json': {'accuracy': 22.0, 'wrong_file': 'wrong_1205_t2_react_results.json'}}

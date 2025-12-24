@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "T1_001",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-01-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_002",
+    "task": "T1",
+    "input_text": "어제",
+    "anchor_date": "2025-01-08",
+    "gold_standard": "2025-01-07",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "yesterday"
+    }
+  },
+  {
+    "id": "T1_003",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-01-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "tomorrow"
+    }
+  },
+  {
+    "id": "T1_004",
+    "task": "T1",
+    "input_text": "지난주 월요일",
+    "anchor_date": "2025-01-22",
+    "gold_standard": "2025-01-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_005",
+    "task": "T1",
+    "input_text": "다음주 화요일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-04",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_006",
+    "task": "T1",
+    "input_text": "오늘",
+    "anchor_date": "2025-02-05",
+    "gold_standard": "2025-02-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "today"
+    }
+  },
+  {
+    "id": "T1_007",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2025-02-12",
+    "gold_standard": "2025-02-14",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "day_after_tomorrow"
+    }
+  },
+  {
+    "id": "T1_008",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2025-02-19",
+    "gold_standard": "2025-02-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "day_before_yesterday"
+    }
+  },
+  {
+    "id": "T1_009",
+    "task": "T1",
+    "input_text": "다음 달 1일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-03-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_date"
+    }
+  },
+  {
+    "id": "T1_010",
+    "task": "T1",
+    "input_text": "지난 달 마지막 날",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-02-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_end"
+    }
+  },
+  {
+    "id": "T1_011",
+    "task": "T1",
+    "input_text": "2주 뒤",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-26",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_012",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_013",
+    "task": "T1",
+    "input_text": "4주 전 수요일",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-02-26",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_weekday"
+    }
+  },
+  {
+    "id": "T1_014",
+    "task": "T1",
+    "input_text": "2달 뒤",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-06-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_015",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2026-04-09",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_year"
+    }
+  },
+  {
+    "id": "T1_016",
+    "task": "T1",
+    "input_text": "지난달 첫 번째 일요일",
+    "anchor_date": "2025-04-16",
+    "gold_standard": "2025-03-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_017",
+    "task": "T1",
+    "input_text": "다음 달 세 번째 토요일",
+    "anchor_date": "2025-04-23",
+    "gold_standard": "2025-05-17",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_018",
+    "task": "T1",
+    "input_text": "이번 주말 첫째 날",
+    "anchor_date": "2025-04-30",
+    "gold_standard": "2025-05-03",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekend_start"
+    }
+  },
+  {
+    "id": "T1_019",
+    "task": "T1",
+    "input_text": "지난주 주말 마지막 날",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-05-04",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekend_end"
+    }
+  },
+  {
+    "id": "T1_020",
+    "task": "T1",
+    "input_text": "다음 주 주말 첫째 날",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-05-24",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekend_start"
+    }
+  },
+  {
+    "id": "T1_021",
+    "task": "T1",
+    "input_text": "5일 뒤",
+    "anchor_date": "2025-05-21",
+    "gold_standard": "2025-05-26",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_022",
+    "task": "T1",
+    "input_text": "1주 전 목요일",
+    "anchor_date": "2025-05-28",
+    "gold_standard": "2025-05-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_weekday"
+    }
+  },
+  {
+    "id": "T1_023",
+    "task": "T1",
+    "input_text": "6달 뒤",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-12-04",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_024",
+    "task": "T1",
+    "input_text": "1년 전",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2024-06-11",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_025",
+    "task": "T1",
+    "input_text": "다음 달 둘째 주 수요일",
+    "anchor_date": "2025-06-18",
+    "gold_standard": "2025-07-09",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_026",
+    "task": "T1",
+    "input_text": "지난 달 마지막 주 화요일",
+    "anchor_date": "2025-06-25",
+    "gold_standard": "2025-05-27",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_last_weekday"
+    }
+  },
+  {
+    "id": "T1_027",
+    "task": "T1",
+    "input_text": "올해 마지막 날",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-12-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "year_end"
+    }
+  },
+  {
+    "id": "T1_028",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-07-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_month_end"
+    }
+  },
+  {
+    "id": "T1_029",
+    "task": "T1",
+    "input_text": "지난 달 첫날",
+    "anchor_date": "2025-07-16",
+    "gold_standard": "2025-06-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_start"
+    }
+  },
+  {
+    "id": "T1_030",
+    "task": "T1",
+    "input_text": "다음 주 월요일",
+    "anchor_date": "2025-07-23",
+    "gold_standard": "2025-07-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_031",
+    "task": "T1",
+    "input_text": "지난 달 15일",
+    "anchor_date": "2025-07-30",
+    "gold_standard": "2025-06-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_date"
+    }
+  },
+  {
+    "id": "T1_032",
+    "task": "T1",
+    "input_text": "10일 뒤",
+    "anchor_date": "2025-08-06",
+    "gold_standard": "2025-08-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_033",
+    "task": "T1",
+    "input_text": "1주 뒤",
+    "anchor_date": "2025-08-13",
+    "gold_standard": "2025-08-20",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_034",
+    "task": "T1",
+    "input_text": "3주 전",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-07-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_035",
+    "task": "T1",
+    "input_text": "지난 달 마지막 금요일",
+    "anchor_date": "2025-08-27",
+    "gold_standard": "2025-07-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_last_weekday"
+    }
+  },
+  {
+    "id": "T1_036",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_037",
+    "task": "T1",
+    "input_text": "8주 뒤",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-11-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_038",
+    "task": "T1",
+    "input_text": "5달 전",
+    "anchor_date": "2025-09-17",
+    "gold_standard": "2025-04-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_039",
+    "task": "T1",
+    "input_text": "2년 뒤",
+    "anchor_date": "2025-09-24",
+    "gold_standard": "2027-09-24",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_040",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-10-08",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_041",
+    "task": "T1",
+    "input_text": "지난주 일요일",
+    "anchor_date": "2025-10-08",
+    "gold_standard": "2025-10-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_042",
+    "task": "T1",
+    "input_text": "3달 뒤 첫날",
+    "anchor_date": "2025-10-15",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_month_start"
+    }
+  },
+  {
+    "id": "T1_043",
+    "task": "T1",
+    "input_text": "4일 뒤",
+    "anchor_date": "2025-10-22",
+    "gold_standard": "2025-10-26",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_044",
+    "task": "T1",
+    "input_text": "7일 전",
+    "anchor_date": "2025-10-29",
+    "gold_standard": "2025-10-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_045",
+    "task": "T1",
+    "input_text": "다음 달 마지막 주 목요일",
+    "anchor_date": "2025-11-05",
+    "gold_standard": "2025-12-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_last_weekday"
+    }
+  },
+  {
+    "id": "T1_046",
+    "task": "T1",
+    "input_text": "1년 뒤 첫날",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_year_start"
+    }
+  },
+  {
+    "id": "T1_047",
+    "task": "T1",
+    "input_text": "1년 전 마지막 날",
+    "anchor_date": "2025-11-19",
+    "gold_standard": "2024-12-31",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_year_end"
+    }
+  },
+  {
+    "id": "T1_048",
+    "task": "T1",
+    "input_text": "다음 달 20일",
+    "anchor_date": "2025-11-26",
+    "gold_standard": "2025-12-20",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_date"
+    }
+  },
+  {
+    "id": "T1_049",
+    "task": "T1",
+    "input_text": "지난 달 두 번째 화요일",
+    "anchor_date": "2025-12-03",
+    "gold_standard": "2025-11-11",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_050",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 월요일",
+    "anchor_date": "2025-12-10",
+    "gold_standard": "2026-01-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_051",
+    "task": "T1",
+    "input_text": "5주 뒤",
+    "anchor_date": "2025-12-17",
+    "gold_standard": "2026-01-21",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_052",
+    "task": "T1",
+    "input_text": "2일 전",
+    "anchor_date": "2025-12-24",
+    "gold_standard": "2025-12-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_053",
+    "task": "T1",
+    "input_text": "다음 주 목요일",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-08",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_054",
+    "task": "T1",
+    "input_text": "지난주 화요일",
+    "anchor_date": "2026-01-07",
+    "gold_standard": "2025-12-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_055",
+    "task": "T1",
+    "input_text": "12달 전",
+    "anchor_date": "2026-01-14",
+    "gold_standard": "2025-01-14",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_056",
+    "task": "T1",
+    "input_text": "60일 뒤",
+    "anchor_date": "2026-01-21",
+    "gold_standard": "2026-03-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_057",
+    "task": "T1",
+    "input_text": "30일 전",
+    "anchor_date": "2026-01-28",
+    "gold_standard": "2025-12-29",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_058",
+    "task": "T1",
+    "input_text": "다음 달 첫날",
+    "anchor_date": "2026-02-04",
+    "gold_standard": "2026-03-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_start"
+    }
+  },
+  {
+    "id": "T1_059",
+    "task": "T1",
+    "input_text": "지난 달 마지막 날",
+    "anchor_date": "2026-02-11",
+    "gold_standard": "2026-01-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_end"
+    }
+  },
+  {
+    "id": "T1_060",
+    "task": "T1",
+    "input_text": "다음 달 10일",
+    "anchor_date": "2026-02-18",
+    "gold_standard": "2026-03-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_date"
+    }
+  },
+  {
+    "id": "T1_061",
+    "task": "T1",
+    "input_text": "지난 달 25일",
+    "anchor_date": "2026-02-25",
+    "gold_standard": "2026-01-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_date"
+    }
+  },
+  {
+    "id": "T1_062",
+    "task": "T1",
+    "input_text": "90일 뒤",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-04-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_063",
+    "task": "T1",
+    "input_text": "4년 전",
+    "anchor_date": "2025-01-08",
+    "gold_standard": "2021-01-08",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_064",
+    "task": "T1",
+    "input_text": "3년 뒤",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2028-01-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_065",
+    "task": "T1",
+    "input_text": "지난 달 첫 번째 수요일",
+    "anchor_date": "2025-01-22",
+    "gold_standard": "2025-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_066",
+    "task": "T1",
+    "input_text": "다음 달 세 번째 일요일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-16",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_067",
+    "task": "T1",
+    "input_text": "이번 주 월요일",
+    "anchor_date": "2025-02-05",
+    "gold_standard": "2025-02-03",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_068",
+    "task": "T1",
+    "input_text": "이번 주 화요일",
+    "anchor_date": "2025-02-12",
+    "gold_standard": "2025-02-11",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_069",
+    "task": "T1",
+    "input_text": "이번 주 수요일",
+    "anchor_date": "2025-02-19",
+    "gold_standard": "2025-02-19",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_070",
+    "task": "T1",
+    "input_text": "이번 주 목요일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-02-27",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_071",
+    "task": "T1",
+    "input_text": "이번 주 토요일",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-08",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_072",
+    "task": "T1",
+    "input_text": "이번 주 일요일",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_weekday"
+    }
+  },
+  {
+    "id": "T1_073",
+    "task": "T1",
+    "input_text": "1주 전",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_074",
+    "task": "T1",
+    "input_text": "2달 전",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-01-26",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_075",
+    "task": "T1",
+    "input_text": "3달 뒤",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-07-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_076",
+    "task": "T1",
+    "input_text": "6달 전",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2024-10-09",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_077",
+    "task": "T1",
+    "input_text": "10달 뒤",
+    "anchor_date": "2025-04-16",
+    "gold_standard": "2026-02-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_078",
+    "task": "T1",
+    "input_text": "다음 달 마지막 날",
+    "anchor_date": "2025-04-23",
+    "gold_standard": "2025-05-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_end"
+    }
+  },
+  {
+    "id": "T1_079",
+    "task": "T1",
+    "input_text": "지난 달 첫날",
+    "anchor_date": "2025-04-30",
+    "gold_standard": "2025-03-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_start"
+    }
+  },
+  {
+    "id": "T1_080",
+    "task": "T1",
+    "input_text": "다음 달 첫날",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-06-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_start"
+    }
+  },
+  {
+    "id": "T1_081",
+    "task": "T1",
+    "input_text": "5주 전",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-04-09",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_082",
+    "task": "T1",
+    "input_text": "2주 전 화요일",
+    "anchor_date": "2025-05-21",
+    "gold_standard": "2025-05-06",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_weekday"
+    }
+  },
+  {
+    "id": "T1_083",
+    "task": "T1",
+    "input_text": "4주 뒤 금요일",
+    "anchor_date": "2025-05-28",
+    "gold_standard": "2025-06-27",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_weekday"
+    }
+  },
+  {
+    "id": "T1_084",
+    "task": "T1",
+    "input_text": "지난주 목요일",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-05-29",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_085",
+    "task": "T1",
+    "input_text": "다음 주 토요일",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2025-06-21",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_086",
+    "task": "T1",
+    "input_text": "180일 뒤",
+    "anchor_date": "2025-06-18",
+    "gold_standard": "2025-12-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_087",
+    "task": "T1",
+    "input_text": "365일 뒤",
+    "anchor_date": "2025-06-25",
+    "gold_standard": "2026-06-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_088",
+    "task": "T1",
+    "input_text": "100일 전",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-03-24",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_089",
+    "task": "T1",
+    "input_text": "50일 뒤",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-08-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_090",
+    "task": "T1",
+    "input_text": "다음 달 네 번째 목요일",
+    "anchor_date": "2025-07-16",
+    "gold_standard": "2025-08-28",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_091",
+    "task": "T1",
+    "input_text": "지난 달 마지막 수요일",
+    "anchor_date": "2025-07-23",
+    "gold_standard": "2025-06-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_last_weekday"
+    }
+  },
+  {
+    "id": "T1_092",
+    "task": "T1",
+    "input_text": "3달 전 마지막 날",
+    "anchor_date": "2025-07-30",
+    "gold_standard": "2025-04-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_month_end"
+    }
+  },
+  {
+    "id": "T1_093",
+    "task": "T1",
+    "input_text": "6개월 뒤 첫날",
+    "anchor_date": "2025-08-06",
+    "gold_standard": "2026-02-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_month_start"
+    }
+  },
+  {
+    "id": "T1_094",
+    "task": "T1",
+    "input_text": "지난주 금요일",
+    "anchor_date": "2025-08-13",
+    "gold_standard": "2025-08-08",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_095",
+    "task": "T1",
+    "input_text": "이번 달 첫날",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-08-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_month_start"
+    }
+  },
+  {
+    "id": "T1_096",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-08-27",
+    "gold_standard": "2025-08-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "this_month_end"
+    }
+  },
+  {
+    "id": "T1_097",
+    "task": "T1",
+    "input_text": "다음 주 일요일",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "2025-09-14",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_098",
+    "task": "T1",
+    "input_text": "10년 뒤",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2035-09-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_099",
+    "task": "T1",
+    "input_text": "5년 전",
+    "anchor_date": "2025-09-17",
+    "gold_standard": "2020-09-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_year"
+    }
+  },
+  {
+    "id": "T1_100",
+    "task": "T1",
+    "input_text": "다음 달 25일",
+    "anchor_date": "2025-09-24",
+    "gold_standard": "2025-10-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month_date"
+    }
+  },
+  {
+    "id": "T1_101",
+    "task": "T1",
+    "input_text": "지난 달 5일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-09-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_month_date"
+    }
+  },
+  {
+    "id": "T1_102",
+    "task": "T1",
+    "input_text": "20일 뒤",
+    "anchor_date": "2025-10-08",
+    "gold_standard": "2025-10-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_103",
+    "task": "T1",
+    "input_text": "15일 전",
+    "anchor_date": "2025-10-15",
+    "gold_standard": "2025-09-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_104",
+    "task": "T1",
+    "input_text": "7달 뒤",
+    "anchor_date": "2025-10-22",
+    "gold_standard": "2026-05-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_105",
+    "task": "T1",
+    "input_text": "8달 전",
+    "anchor_date": "2025-10-29",
+    "gold_standard": "2025-02-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_106",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 수요일",
+    "anchor_date": "2025-11-05",
+    "gold_standard": "2025-12-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_107",
+    "task": "T1",
+    "input_text": "지난 달 네 번째 토요일",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2025-10-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_108",
+    "task": "T1",
+    "input_text": "2달 뒤 마지막 날",
+    "anchor_date": "2025-11-19",
+    "gold_standard": "2026-01-31",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_month_end"
+    }
+  },
+  {
+    "id": "T1_109",
+    "task": "T1",
+    "input_text": "1년 전 첫날",
+    "anchor_date": "2025-11-26",
+    "gold_standard": "2024-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_year_start"
+    }
+  },
+  {
+    "id": "T1_110",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2025-12-03",
+    "gold_standard": "2025-12-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_111",
+    "task": "T1",
+    "input_text": "지난주 토요일",
+    "anchor_date": "2025-12-10",
+    "gold_standard": "2025-12-06",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_weekday"
+    }
+  },
+  {
+    "id": "T1_112",
+    "task": "T1",
+    "input_text": "4주 뒤",
+    "anchor_date": "2025-12-17",
+    "gold_standard": "2026-01-14",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_113",
+    "task": "T1",
+    "input_text": "6주 전",
+    "anchor_date": "2025-12-24",
+    "gold_standard": "2025-11-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_week"
+    }
+  },
+  {
+    "id": "T1_114",
+    "task": "T1",
+    "input_text": "120일 전",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2025-09-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_115",
+    "task": "T1",
+    "input_text": "240일 뒤",
+    "anchor_date": "2026-01-07",
+    "gold_standard": "2026-09-04",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_116",
+    "task": "T1",
+    "input_text": "다음 분기 첫 번째 월요일",
+    "anchor_date": "2026-01-14",
+    "gold_standard": "2026-04-06",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_quarter_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_117",
+    "task": "T1",
+    "input_text": "지난 분기 마지막 금요일",
+    "anchor_date": "2026-01-21",
+    "gold_standard": "2025-12-26",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_quarter_last_weekday"
+    }
+  },
+  {
+    "id": "T1_118",
+    "task": "T1",
+    "input_text": "다음 달 마지막 월요일",
+    "anchor_date": "2026-01-28",
+    "gold_standard": "2026-02-23",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month_last_weekday"
+    }
+  },
+  {
+    "id": "T1_119",
+    "task": "T1",
+    "input_text": "지난 달 첫 번째 목요일",
+    "anchor_date": "2026-02-04",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "last_month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_120",
+    "task": "T1",
+    "input_text": "오늘",
+    "anchor_date": "2026-02-11",
+    "gold_standard": "2026-02-11",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "today"
+    }
+  },
+  {
+    "id": "T1_121",
+    "task": "T1",
+    "input_text": "9달 뒤",
+    "anchor_date": "2026-02-18",
+    "gold_standard": "2026-11-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_122",
+    "task": "T1",
+    "input_text": "11달 전",
+    "anchor_date": "2026-02-25",
+    "gold_standard": "2025-03-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_month"
+    }
+  },
+  {
+    "id": "T1_123",
+    "task": "T1",
+    "input_text": "내년 첫날",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_year_start"
+    }
+  },
+  {
+    "id": "T1_124",
+    "task": "T1",
+    "input_text": "작년 마지막 날",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2024-12-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "last_year_end"
+    }
+  },
+  {
+    "id": "T1_125",
+    "task": "T1",
+    "input_text": "30일 뒤",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-04-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "duration_day"
+    }
+  },
+  {
+    "id": "T1_126",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_day_add"
+    }
+  },
+  {
+    "id": "T1_127",
+    "task": "T1",
+    "input_text": "5일 전",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_day_subtract"
+    }
+  },
+  {
+    "id": "T1_128",
+    "task": "T1",
+    "input_text": "지난 주 토요일",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-11",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_week_day"
+    }
+  },
+  {
+    "id": "T1_129",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_day_korean"
+    }
+  },
+  {
+    "id": "T1_130",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_sino_korean"
+    }
+  },
+  {
+    "id": "T1_131",
+    "task": "T1",
+    "input_text": "올해 2월 1일",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-02-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "absolute_month_day_same_year"
+    }
+  },
+  {
+    "id": "T1_132",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days"
+    }
+  },
+  {
+    "id": "T1_133",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-01",
+    "gold_standard": "2023-11-16",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "korean_days"
+    }
+  },
+  {
+    "id": "T1_134",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2024-08-20",
+    "gold_standard": "2024-08-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "korean_specific_day"
+    }
+  },
+  {
+    "id": "T1_135",
+    "task": "T1",
+    "input_text": "작년",
+    "anchor_date": "2022-02-14",
+    "gold_standard": "2021-02-14",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year"
+    }
+  },
+  {
+    "id": "T1_136",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2023-06-30",
+    "gold_standard": "2023-07-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday"
+    }
+  },
+  {
+    "id": "T1_137",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-02-27",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "korean_days"
+    }
+  },
+  {
+    "id": "T1_138",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-09-15",
+    "gold_standard": "2023-09-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "korean_days"
+    }
+  },
+  {
+    "id": "T1_139",
+    "task": "T1",
+    "input_text": "재작년",
+    "anchor_date": "2023-04-10",
+    "gold_standard": "2021-04-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year"
+    }
+  },
+  {
+    "id": "T1_140",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_future"
+    }
+  },
+  {
+    "id": "T1_141",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-03-20",
+    "gold_standard": "2023-03-17",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_days_korean_past"
+    }
+  },
+  {
+    "id": "T1_142",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2024-01-10",
+    "gold_standard": "2024-01-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_half_month_future"
+    }
+  },
+  {
+    "id": "T1_143",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-07-15",
+    "gold_standard": "2023-07-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "absolute_next_day"
+    }
+  },
+  {
+    "id": "T1_144",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2024-11-11",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_future_specific"
+    }
+  },
+  {
+    "id": "T1_145",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-04-30",
+    "gold_standard": "2023-04-20",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_ten_days_past"
+    }
+  },
+  {
+    "id": "T1_146",
+    "task": "T1",
+    "input_text": "지난 주 토요일",
+    "anchor_date": "2023-06-15",
+    "gold_standard": "2023-06-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_past"
+    }
+  },
+  {
+    "id": "T1_147",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-27",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "absolute_two_days_future"
+    }
+  },
+  {
+    "id": "T1_148",
+    "task": "T1",
+    "input_text": "다음 주 화요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_future"
+    }
+  },
+  {
+    "id": "T1_149",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2022-09-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_past_specific"
+    }
+  },
+  {
+    "id": "T1_150",
+    "task": "T1",
+    "input_text": "일주일 전",
+    "anchor_date": "2023-03-20",
+    "gold_standard": "2023-03-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "absolute_date_subtraction"
+    }
+  },
+  {
+    "id": "T1_151",
+    "task": "T1",
+    "input_text": "6개월 후",
+    "anchor_date": "2022-11-11",
+    "gold_standard": "2023-05-11",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "time_interval"
+    }
+  },
+  {
+    "id": "T1_152",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-08-17",
+    "gold_standard": "2022-08-17",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "year_relative_same_day"
+    }
+  },
+  {
+    "id": "T1_153",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-04-04",
+    "gold_standard": "2023-04-07",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "native_korean_days"
+    }
+  },
+  {
+    "id": "T1_154",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-09-30",
+    "gold_standard": "2023-10-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "specific_day_relative"
+    }
+  },
+  {
+    "id": "T1_155",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-02-14",
+    "gold_standard": "2023-03-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "lunar_relative"
+    }
+  },
+  {
+    "id": "T1_156",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-07-01",
+    "gold_standard": "2023-06-21",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "native_korean_days"
+    }
+  },
+  {
+    "id": "T1_157",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-03-10",
+    "gold_standard": "2023-03-07",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_days_korean_past"
+    }
+  },
+  {
+    "id": "T1_158",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2022-12-25",
+    "gold_standard": "2023-01-09",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_15days_future"
+    }
+  },
+  {
+    "id": "T1_159",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-05-20",
+    "gold_standard": "2023-05-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_korean_future"
+    }
+  },
+  {
+    "id": "T1_160",
+    "task": "T1",
+    "input_text": "지난 달 말일",
+    "anchor_date": "2023-09-12",
+    "gold_standard": "2023-08-31",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_end_past"
+    }
+  },
+  {
+    "id": "T1_161",
+    "task": "T1",
+    "input_text": "내년 2월 15일",
+    "anchor_date": "2023-11-18",
+    "gold_standard": "2024-02-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "absolute_future_year"
+    }
+  },
+  {
+    "id": "T1_162",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_korean_past"
+    }
+  },
+  {
+    "id": "T1_163",
+    "task": "T1",
+    "input_text": "다다음 달 25일",
+    "anchor_date": "2023-07-01",
+    "gold_standard": "2023-09-25",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_month_date_future"
+    }
+  },
+  {
+    "id": "T1_164",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-29",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks"
+    }
+  },
+  {
+    "id": "T1_165",
+    "task": "T1",
+    "input_text": "다음 달",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_months"
+    }
+  },
+  {
+    "id": "T1_166",
+    "task": "T1",
+    "input_text": "지난 주 수요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_weekday"
+    }
+  },
+  {
+    "id": "T1_167",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-18",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "native_days"
+    }
+  },
+  {
+    "id": "T1_168",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-04-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "native_periods"
+    }
+  },
+  {
+    "id": "T1_169",
+    "task": "T1",
+    "input_text": "다음 달 15일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_day"
+    }
+  },
+  {
+    "id": "T1_170",
+    "task": "T1",
+    "input_text": "재작년",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2021-05-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_years"
+    }
+  },
+  {
+    "id": "T1_171",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2022-12-31",
+    "gold_standard": "2023-01-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "specific_days_future"
+    }
+  },
+  {
+    "id": "T1_172",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-08-15",
+    "gold_standard": "2023-08-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_terms"
+    }
+  },
+  {
+    "id": "T1_173",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2023-03-10",
+    "gold_standard": "2024-03-10",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_years_future"
+    }
+  },
+  {
+    "id": "T1_174",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-06-20",
+    "gold_standard": "2023-06-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "specific_days_past"
+    }
+  },
+  {
+    "id": "T1_175",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-09-18",
+    "gold_standard": "2023-09-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_future"
+    }
+  },
+  {
+    "id": "T1_176",
+    "task": "T1",
+    "input_text": "2주 전",
+    "anchor_date": "2023-02-28",
+    "gold_standard": "2023-02-14",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_past"
+    }
+  },
+  {
+    "id": "T1_177",
+    "task": "T1",
+    "input_text": "이번 달 말일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_end"
+    }
+  },
+  {
+    "id": "T1_178",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-06-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_month_day_combination"
+    }
+  },
+  {
+    "id": "T1_179",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-06-10",
+    "gold_standard": "2023-06-07",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "native_days_past"
+    }
+  },
+  {
+    "id": "T1_180",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "native_halfmonth_future"
+    }
+  },
+  {
+    "id": "T1_181",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-09-20",
+    "gold_standard": "2023-09-22",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "specific_day_future"
+    }
+  },
+  {
+    "id": "T1_182",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2022-03-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "annual_past"
+    }
+  },
+  {
+    "id": "T1_183",
+    "task": "T1",
+    "input_text": "이번 주 일요일",
+    "anchor_date": "2023-08-17",
+    "gold_standard": "2023-08-20",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "weekly_specific"
+    }
+  },
+  {
+    "id": "T1_184",
+    "task": "T1",
+    "input_text": "다음 달 15일에서 닷새 전",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-05-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "conditional_month_day_past"
+    }
+  },
+  {
+    "id": "T1_185",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_future"
+    }
+  },
+  {
+    "id": "T1_186",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-08-20",
+    "gold_standard": "2023-08-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_half_month_past"
+    }
+  },
+  {
+    "id": "T1_187",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-03-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_korean_future"
+    }
+  },
+  {
+    "id": "T1_188",
+    "task": "T1",
+    "input_text": "5일 후",
+    "anchor_date": "2022-11-30",
+    "gold_standard": "2022-12-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_future"
+    }
+  },
+  {
+    "id": "T1_189",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-07-04",
+    "gold_standard": "2023-07-11",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_future"
+    }
+  },
+  {
+    "id": "T1_190",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-09-18",
+    "gold_standard": "2023-09-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_past"
+    }
+  },
+  {
+    "id": "T1_191",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2024-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_weeks_future_cross_year"
+    }
+  },
+  {
+    "id": "T1_192",
+    "task": "T1",
+    "input_text": "4일 전",
+    "anchor_date": "2023-04-05",
+    "gold_standard": "2023-04-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_past"
+    }
+  },
+  {
+    "id": "T1_193",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_day_next"
+    }
+  },
+  {
+    "id": "T1_194",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-12",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "순우리말(3일 전)"
+    }
+  },
+  {
+    "id": "T1_195",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-11-20",
+    "gold_standard": "2023-12-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "순우리말(15일 후)"
+    }
+  },
+  {
+    "id": "T1_196",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2024-03-10",
+    "gold_standard": "2024-03-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "특정일(2일 후)"
+    }
+  },
+  {
+    "id": "T1_197",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2022-08-31",
+    "gold_standard": "2022-09-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "주/요일 조합"
+    }
+  },
+  {
+    "id": "T1_198",
+    "task": "T1",
+    "input_text": "한 달 전",
+    "anchor_date": "2023-09-15",
+    "gold_standard": "2023-08-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "월 단위(과거)"
+    }
+  },
+  {
+    "id": "T1_199",
+    "task": "T1",
+    "input_text": "작년",
+    "anchor_date": "2020-12-25",
+    "gold_standard": "2019-12-25",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "연도(1년 전)"
+    }
+  },
+  {
+    "id": "T1_200",
+    "task": "T1",
+    "input_text": "글피",
+    "anchor_date": "2023-06-30",
+    "gold_standard": "2023-07-03",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "특정일(4일 후)"
+    }
+  },
+  {
+    "id": "T1_201",
+    "task": "T1",
+    "input_text": "다음 달 15일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "월/일 조합"
+    }
+  },
+  {
+    "id": "T1_202",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2022-12-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "특정일(2일 전)"
+    }
+  },
+  {
+    "id": "T1_203",
+    "task": "T1",
+    "input_text": "3일 전",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_before"
+    }
+  },
+  {
+    "id": "T1_204",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-11-01",
+    "gold_standard": "2023-11-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_weeks_after"
+    }
+  },
+  {
+    "id": "T1_205",
+    "task": "T1",
+    "input_text": "일주일 전",
+    "anchor_date": "2023-07-20",
+    "gold_standard": "2023-07-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_before"
+    }
+  },
+  {
+    "id": "T1_206",
+    "task": "T1",
+    "input_text": "3일 뒤",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2023-03-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_after"
+    }
+  },
+  {
+    "id": "T1_207",
+    "task": "T1",
+    "input_text": "보름 전",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_days_before"
+    }
+  },
+  {
+    "id": "T1_208",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2023-09-04",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_days_after"
+    }
+  },
+  {
+    "id": "T1_209",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-04-30",
+    "gold_standard": "2023-05-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "absolute_days_after"
+    }
+  },
+  {
+    "id": "T1_210",
+    "task": "T1",
+    "input_text": "작년 같은 날",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2022-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_same_date"
+    }
+  },
+  {
+    "id": "T1_211",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "순우리말 상대적 표현"
+    }
+  },
+  {
+    "id": "T1_212",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "순우리말 기간 표현"
+    }
+  },
+  {
+    "id": "T1_213",
+    "task": "T1",
+    "input_text": "재작년 첫날",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2021-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "과거 연도 표현"
+    }
+  },
+  {
+    "id": "T1_214",
+    "task": "T1",
+    "input_text": "다음 주 수요일",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "상대적 요일 표현"
+    }
+  },
+  {
+    "id": "T1_215",
+    "task": "T1",
+    "input_text": "글피",
+    "anchor_date": "2023-10-15",
+    "gold_standard": "2023-10-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "순우리말 특정일"
+    }
+  },
+  {
+    "id": "T1_216",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "상대일(과거, 순우리말)"
+    }
+  },
+  {
+    "id": "T1_217",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "특정일(미래)"
+    }
+  },
+  {
+    "id": "T1_218",
+    "task": "T1",
+    "input_text": "내일 모레",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-17",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "특정일 조합(미래)"
+    }
+  },
+  {
+    "id": "T1_219",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "상대일(과거, 순우리말)"
+    }
+  },
+  {
+    "id": "T1_220",
+    "task": "T1",
+    "input_text": "내년 1월 1일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2024-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "연도+특정일(미래)"
+    }
+  },
+  {
+    "id": "T1_221",
+    "task": "T1",
+    "input_text": "지난 목요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-11",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "상대주+요일(과거)"
+    }
+  },
+  {
+    "id": "T1_222",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-08-01",
+    "gold_standard": "2023-08-03",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "specific_day"
+    }
+  },
+  {
+    "id": "T1_223",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-07-20",
+    "gold_standard": "2024-07-20",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year"
+    }
+  },
+  {
+    "id": "T1_224",
+    "task": "T1",
+    "input_text": "지난 주 일요일",
+    "anchor_date": "2023-03-15",
+    "gold_standard": "2023-03-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday"
+    }
+  },
+  {
+    "id": "T1_225",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-04-10",
+    "gold_standard": "2023-06-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_month_day"
+    }
+  },
+  {
+    "id": "T1_226",
+    "task": "T1",
+    "input_text": "재작년 같은 날",
+    "anchor_date": "2023-09-01",
+    "gold_standard": "2021-09-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_same_day"
+    }
+  },
+  {
+    "id": "T1_227",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-04-01",
+    "gold_standard": "2023-04-16",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_positive"
+    }
+  },
+  {
+    "id": "T1_228",
+    "task": "T1",
+    "input_text": "이틀 전",
+    "anchor_date": "2023-05-17",
+    "gold_standard": "2023-05-15",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_negative_korean"
+    }
+  },
+  {
+    "id": "T1_229",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-12-25",
+    "gold_standard": "2023-12-23",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_negative_specific"
+    }
+  },
+  {
+    "id": "T1_230",
+    "task": "T1",
+    "input_text": "일주일 후",
+    "anchor_date": "2023-06-10",
+    "gold_standard": "2023-06-17",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_positive"
+    }
+  },
+  {
+    "id": "T1_231",
+    "task": "T1",
+    "input_text": "다다음 주 화요일",
+    "anchor_date": "2023-03-14",
+    "gold_standard": "2023-03-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_positive"
+    }
+  },
+  {
+    "id": "T1_232",
+    "task": "T1",
+    "input_text": "일주일 전 금요일",
+    "anchor_date": "2023-11-11",
+    "gold_standard": "2023-11-03",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_negative"
+    }
+  },
+  {
+    "id": "T1_233",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days_after"
+    }
+  },
+  {
+    "id": "T1_234",
+    "task": "T1",
+    "input_text": "지난 주 수요일",
+    "anchor_date": "2023-04-15",
+    "gold_standard": "2023-04-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_previous_week"
+    }
+  },
+  {
+    "id": "T1_235",
+    "task": "T1",
+    "input_text": "모레",
+    "anchor_date": "2023-12-31",
+    "gold_standard": "2024-01-02",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_korean_days_after"
+    }
+  },
+  {
+    "id": "T1_236",
+    "task": "T1",
+    "input_text": "다음 달 말일",
+    "anchor_date": "2023-05-31",
+    "gold_standard": "2023-06-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_end"
+    }
+  },
+  {
+    "id": "T1_237",
+    "task": "T1",
+    "input_text": "내년 같은 날",
+    "anchor_date": "2023-01-01",
+    "gold_standard": "2024-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_after"
+    }
+  },
+  {
+    "id": "T1_238",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-07-10",
+    "gold_standard": "2023-07-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_days_after"
+    }
+  },
+  {
+    "id": "T1_239",
+    "task": "T1",
+    "input_text": "열흘 전",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-11-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_korean_days_before"
+    }
+  },
+  {
+    "id": "T1_240",
+    "task": "T1",
+    "input_text": "다음 달 1일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-06-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "상대적 월 단위"
+    }
+  },
+  {
+    "id": "T1_241",
+    "task": "T1",
+    "input_text": "보름 후",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "순우리말 상대적"
+    }
+  },
+  {
+    "id": "T1_242",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "특정일 미래"
+    }
+  },
+  {
+    "id": "T1_243",
+    "task": "T1",
+    "input_text": "그저께",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-13",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "특정일 과거"
+    }
+  },
+  {
+    "id": "T1_244",
+    "task": "T1",
+    "input_text": "지난 주 월요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-08",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "상대적 요일"
+    }
+  },
+  {
+    "id": "T1_245",
+    "task": "T1",
+    "input_text": "다다음 달 15일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-07-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "복합 상대적"
+    }
+  },
+  {
+    "id": "T1_246",
+    "task": "T1",
+    "input_text": "내년",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2024-05-15",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_year_after"
+    }
+  },
+  {
+    "id": "T1_247",
+    "task": "T1",
+    "input_text": "지난 주 금요일",
+    "anchor_date": "2023-05-15",
+    "gold_standard": "2023-05-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday_before"
+    }
+  },
+  {
+    "id": "T1_248",
+    "task": "T1",
+    "input_text": "2주 후",
+    "anchor_date": "2023-11-20",
+    "gold_standard": "2023-12-04",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_weeks_future"
+    }
+  },
+  {
+    "id": "T1_249",
+    "task": "T1",
+    "input_text": "내일",
+    "anchor_date": "2024-03-31",
+    "gold_standard": "2024-04-01",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "absolute_near_future"
+    }
+  },
+  {
+    "id": "T1_250",
+    "task": "T1",
+    "input_text": "사흘 뒤",
+    "anchor_date": "2022-08-17",
+    "gold_standard": "2022-08-20",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "korean_days_future"
+    }
+  },
+  {
+    "id": "T1_251",
+    "task": "T1",
+    "input_text": "사흘 전",
+    "anchor_date": "2025-01-10",
+    "gold_standard": "2025-01-07",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "anchor_relative_offset_days_backward"
+    }
+  },
+  {
+    "id": "T1_252",
+    "task": "T1",
+    "input_text": "이번 주가 끝나기 이틀 전",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-07",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "pre_week_end_offset"
+    }
+  },
+  {
+    "id": "T1_253",
+    "task": "T1",
+    "input_text": "이번 달 셋째 목요일",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-04-17",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_254",
+    "task": "T1",
+    "input_text": "이번 달 마지막 수요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_end_weekday"
+    }
+  },
+  {
+    "id": "T1_255",
+    "task": "T1",
+    "input_text": "다음 달 같은 날",
+    "anchor_date": "2025-07-14",
+    "gold_standard": "2025-08-14",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_same_day"
+    }
+  },
+  {
+    "id": "T1_256",
+    "task": "T1",
+    "input_text": "지난 달 같은 날짜",
+    "anchor_date": "2025-03-28",
+    "gold_standard": "2025-02-28",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "relative_month_same_day"
+    }
+  },
+  {
+    "id": "T1_257",
+    "task": "T1",
+    "input_text": "두 주 뒤 월요일",
+    "anchor_date": "2025-08-05",
+    "gold_standard": "2025-08-18",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_offset_weekday"
+    }
+  },
+  {
+    "id": "T1_258",
+    "task": "T1",
+    "input_text": "세 주 전 화요일",
+    "anchor_date": "2025-11-13",
+    "gold_standard": "2025-10-21",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_offset_weekday"
+    }
+  },
+  {
+    "id": "T1_259",
+    "task": "T1",
+    "input_text": "다음 주 월요일에서 이틀 후",
+    "anchor_date": "2025-02-06",
+    "gold_standard": "2025-02-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekday_offset_relative_days"
+    }
+  },
+  {
+    "id": "T1_260",
+    "task": "T1",
+    "input_text": "이번 달 말에서 이틀 후",
+    "anchor_date": "2025-01-09",
+    "gold_standard": "2025-02-02",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_end_offset"
+    }
+  },
+  {
+    "id": "T1_261",
+    "task": "T1",
+    "input_text": "이번 달 첫날 기준 사흘 전",
+    "anchor_date": "2025-05-18",
+    "gold_standard": "2025-04-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_start_offset"
+    }
+  },
+  {
+    "id": "T1_262",
+    "task": "T1",
+    "input_text": "이번 달 31일",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "2025-04-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_handling"
+    }
+  },
+  {
+    "id": "T1_263",
+    "task": "T1",
+    "input_text": "설날 다음 주 화요일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-02-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_weekday_offset"
+    }
+  },
+  {
+    "id": "T1_264",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날 다음 주 금요일",
+    "anchor_date": "2025-09-01",
+    "gold_standard": "2025-10-17",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_span_weekday_offset"
+    }
+  },
+  {
+    "id": "T1_265",
+    "task": "T1",
+    "input_text": "영업일 기준 5일 후",
+    "anchor_date": "2025-03-31",
+    "gold_standard": "2025-04-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "business_day_offset"
+    }
+  },
+  {
+    "id": "T1_266",
+    "task": "T1",
+    "input_text": "주말을 제외한 3주 후 수요일",
+    "anchor_date": "2025-06-02",
+    "gold_standard": "2025-06-25",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekday_exclusion_week_offset"
+    }
+  },
+  {
+    "id": "T1_267",
+    "task": "T1",
+    "input_text": "이번 분기 첫날",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-04-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_start"
+    }
+  },
+  {
+    "id": "T1_268",
+    "task": "T1",
+    "input_text": "다음 분기 첫 영업일",
+    "anchor_date": "2025-11-18",
+    "gold_standard": "2026-01-02",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_start_business_day"
+    }
+  },
+  {
+    "id": "T1_269",
+    "task": "T1",
+    "input_text": "윤년 2월 마지막 날",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2024-02-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year_handling"
+    }
+  },
+  {
+    "id": "T1_270",
+    "task": "T1",
+    "input_text": "이번 달 말일",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "2025-04-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_handling"
+    }
+  },
+  {
+    "id": "T1_271",
+    "task": "T1",
+    "input_text": "이번 주를 넘긴 뒤 처음 맞는 화요일",
+    "anchor_date": "2025-03-12",
+    "gold_standard": "2025-03-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_range_first_weekday"
+    }
+  },
+  {
+    "id": "T1_272",
+    "task": "T1",
+    "input_text": "다음 달 첫 영업일 다음 날",
+    "anchor_date": "2025-01-27",
+    "gold_standard": "2025-02-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_start_business_then_offset"
+    }
+  },
+  {
+    "id": "T1_273",
+    "task": "T1",
+    "input_text": "이번 달 말 직전 주에 있는 금요일",
+    "anchor_date": "2025-05-06",
+    "gold_standard": "2025-05-23",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "pre_month_end_weekday"
+    }
+  },
+  {
+    "id": "T1_274",
+    "task": "T1",
+    "input_text": "다음 주가 지난 뒤 돌아오는 첫 수요일",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_next_week_first_weekday"
+    }
+  },
+  {
+    "id": "T1_275",
+    "task": "T1",
+    "input_text": "이번 달 중순 화요일",
+    "anchor_date": "2025-08-02",
+    "gold_standard": "2025-08-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "exclude_range_then_weekday_offset"
+    }
+  },
+  {
+    "id": "T1_276",
+    "task": "T1",
+    "input_text": "이번 달 말일을 기준으로 사흘 뒤",
+    "anchor_date": "2025-01-11",
+    "gold_standard": "2025-02-03",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_end_offset"
+    }
+  },
+  {
+    "id": "T1_277",
+    "task": "T1",
+    "input_text": "다음 달 중순 화요일",
+    "anchor_date": "2025-08-04",
+    "gold_standard": "2025-09-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_range_first_weekday"
+    }
+  },
+  {
+    "id": "T1_278",
+    "task": "T1",
+    "input_text": "주말을 제외하고 이번 달 마지막 날에서 이틀 후",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-05-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "business_day_post_month_end"
+    }
+  },
+  {
+    "id": "T1_279",
+    "task": "T1",
+    "input_text": "설날이 지난 뒤 한 주가 경과한 다음 맞는 목요일",
+    "anchor_date": "2025-01-20",
+    "gold_standard": "2025-02-06",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_week_then_weekday"
+    }
+  },
+  {
+    "id": "T1_280",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_end_last_business_day"
+    }
+  },
+  {
+    "id": "T1_281",
+    "task": "T1",
+    "input_text": "다음 분기가 시작된 후 첫 주를 지난 뒤 금요일",
+    "anchor_date": "2025-09-25",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_week_range_weekday"
+    }
+  },
+  {
+    "id": "T1_282",
+    "task": "T1",
+    "input_text": "이번 달 31일에서 하루 전",
+    "anchor_date": "2025-04-06",
+    "gold_standard": "2025-04-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_relative_offset"
+    }
+  },
+  {
+    "id": "T1_283",
+    "task": "T1",
+    "input_text": "추석 연휴가 끝난 뒤 두 번째로 맞는 평일",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-10-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_span_nth_business_day"
+    }
+  },
+  {
+    "id": "T1_284",
+    "task": "T1",
+    "input_text": "이번 주말을 건너뛴 다음 주의 수요일 전날",
+    "anchor_date": "2025-07-11",
+    "gold_standard": "2025-07-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "skip_weekend_then_weekday_minus_one"
+    }
+  },
+  {
+    "id": "T1_285",
+    "task": "T1",
+    "input_text": "내달 초가 지난 뒤 처음 등장하는 평일",
+    "anchor_date": "2025-02-24",
+    "gold_standard": "2025-03-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_first_business_day"
+    }
+  },
+  {
+    "id": "T1_286",
+    "task": "T1",
+    "input_text": "이번 달이 끝나기 전에 마지막으로 오는 목요일",
+    "anchor_date": "2025-01-18",
+    "gold_standard": "2025-01-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "pre_month_end_last_weekday"
+    }
+  },
+  {
+    "id": "T1_287",
+    "task": "T1",
+    "input_text": "다음 달 첫 주 지나고 화요일",
+    "anchor_date": "2025-02-20",
+    "gold_standard": "2025-03-11",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_week_then_weekday"
+    }
+  },
+  {
+    "id": "T1_288",
+    "task": "T1",
+    "input_text": "이번 주를 제외한 이후 기간 중 처음 등장하는 금요일",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-04-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "exclude_current_week_first_weekday"
+    }
+  },
+  {
+    "id": "T1_289",
+    "task": "T1",
+    "input_text": "이번 달 말일 이후 처음 맞는 평일",
+    "anchor_date": "2025-05-07",
+    "gold_standard": "2025-06-02",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_end_first_business_day"
+    }
+  },
+  {
+    "id": "T1_290",
+    "task": "T1",
+    "input_text": "다음 주 전체를 건너뛴 뒤 돌아오는 수요일",
+    "anchor_date": "2025-06-03",
+    "gold_standard": "2025-06-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "skip_next_week_then_weekday"
+    }
+  },
+  {
+    "id": "T1_291",
+    "task": "T1",
+    "input_text": "이번 분기가 끝나고 한 주가 지난 시점의 월요일",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-04-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_end_plus_week_weekday"
+    }
+  },
+  {
+    "id": "T1_292",
+    "task": "T1",
+    "input_text": "다음 분기 시작 직후 첫 주말 다음 날",
+    "anchor_date": "2025-08-28",
+    "gold_standard": "2025-10-06",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_weekend_plus_one"
+    }
+  },
+  {
+    "id": "T1_293",
+    "task": "T1",
+    "input_text": "이번 달 첫 주 이후 처음 나타나는 수요일",
+    "anchor_date": "2025-07-04",
+    "gold_standard": "2025-07-09",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_first_week_first_weekday"
+    }
+  },
+  {
+    "id": "T1_294",
+    "task": "T1",
+    "input_text": "설날 연휴 지나고 금요일",
+    "anchor_date": "2025-01-25",
+    "gold_standard": "2025-01-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_holiday_week_range_then_weekday"
+    }
+  },
+  {
+    "id": "T1_295",
+    "task": "T1",
+    "input_text": "추석 이후 처음 도래하는 평일 중 세 번째 날",
+    "anchor_date": "2025-09-18",
+    "gold_standard": "2025-10-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_nth_business_day"
+    }
+  },
+  {
+    "id": "T1_296",
+    "task": "T1",
+    "input_text": "이번 주말을 기준으로 다음에 오는 평일",
+    "anchor_date": "2025-11-14",
+    "gold_standard": "2025-11-17",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_weekend_first_business_day"
+    }
+  },
+  {
+    "id": "T1_297",
+    "task": "T1",
+    "input_text": "다음 달 말 직후 처음 나타나는 화요일",
+    "anchor_date": "2025-06-21",
+    "gold_standard": "2025-08-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_end_then_weekday"
+    }
+  },
+  {
+    "id": "T1_298",
+    "task": "T1",
+    "input_text": "이번 달 중순을 지난 뒤 가장 가까운 목요일",
+    "anchor_date": "2025-10-10",
+    "gold_standard": "2025-10-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_mid_month_closest_weekday"
+    }
+  },
+  {
+    "id": "T1_299",
+    "task": "T1",
+    "input_text": "다음 달이 시작되고 첫 평일이 지난 시점의 화요일",
+    "anchor_date": "2025-12-28",
+    "gold_standard": "2026-01-06",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_business_then_weekday"
+    }
+  },
+  {
+    "id": "T1_300",
+    "task": "T1",
+    "input_text": "이번 주를 벗어난 뒤 처음 맞는 수요일 전날",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-06",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_first_weekday_minus_one"
+    }
+  },
+  {
+    "id": "T1_301",
+    "task": "T1",
+    "input_text": "이번 달 15일 이후 처음 나타나는 영업일",
+    "anchor_date": "2025-04-10",
+    "gold_standard": "2025-04-16",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "post_fixed_date_first_weekday"
+    }
+  },
+  {
+    "id": "T1_302",
+    "task": "T1",
+    "input_text": "이번 달에서 날짜가 가장 작은 날 다음 날",
+    "anchor_date": "2025-06-08",
+    "gold_standard": "2025-06-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_min_date_plus_one"
+    }
+  },
+  {
+    "id": "T1_303",
+    "task": "T1",
+    "input_text": "이번 주를 기준으로 사흘 뒤",
+    "anchor_date": "2025-07-09",
+    "gold_standard": "2025-07-12",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "week_relative_offset"
+    }
+  },
+  {
+    "id": "T1_304",
+    "task": "T1",
+    "input_text": "이번 달 말로부터 하루 전",
+    "anchor_date": "2025-02-20",
+    "gold_standard": "2025-02-27",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "pre_month_end_offset"
+    }
+  },
+  {
+    "id": "T1_305",
+    "task": "T1",
+    "input_text": "이번 분기 시작 이후 여섯 번째 영업일",
+    "anchor_date": "2025-08-05",
+    "gold_standard": "2025-07-08",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_start_nth_weekday"
+    }
+  },
+  {
+    "id": "T1_306",
+    "task": "T1",
+    "input_text": "이번 달 중반을 지난 뒤 처음 맞는 월요일 다음 날",
+    "anchor_date": "2025-01-11",
+    "gold_standard": "2025-01-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_mid_month_weekday_plus_one"
+    }
+  },
+  {
+    "id": "T1_307",
+    "task": "T1",
+    "input_text": "다음 달 시작 이후 둘째 주가 끝난 다음에 오는 목요일",
+    "anchor_date": "2025-02-14",
+    "gold_standard": "2025-03-20",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_week_range_then_weekday"
+    }
+  },
+  {
+    "id": "T1_308",
+    "task": "T1",
+    "input_text": "이번 주를 제외하고 다음으로 맞는 주의 화요일 다음 날",
+    "anchor_date": "2025-03-07",
+    "gold_standard": "2025-03-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "exclude_current_week_weekday_plus_one"
+    }
+  },
+  {
+    "id": "T1_309",
+    "task": "T1",
+    "input_text": "이번 달 말에서 시작되는 주에 포함된 마지막 평일",
+    "anchor_date": "2025-04-03",
+    "gold_standard": "2025-04-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_end_week_last_business_day"
+    }
+  },
+  {
+    "id": "T1_310",
+    "task": "T1",
+    "input_text": "다음 주를 모두 건너뛴 뒤 도래하는 첫 번째 평일 다음 날",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-20",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "skip_week_then_business_plus_one"
+    }
+  },
+  {
+    "id": "T1_311",
+    "task": "T1",
+    "input_text": "이번 분기 종료 이후 첫 주가 지난 뒤 만나는 수요일",
+    "anchor_date": "2025-06-22",
+    "gold_standard": "2025-07-09",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_end_week_then_weekday"
+    }
+  },
+  {
+    "id": "T1_312",
+    "task": "T1",
+    "input_text": "다음 분기 시작 직후 첫 평일을 지나 가장 가까운 금요일",
+    "anchor_date": "2025-09-12",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_business_then_closest_weekday"
+    }
+  },
+  {
+    "id": "T1_313",
+    "task": "T1",
+    "input_text": "이번 달 첫 주가 끝난 시점 이후 처음 나타나는 평일 전날",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-07-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_first_week_business_minus_one"
+    }
+  },
+  {
+    "id": "T1_314",
+    "task": "T1",
+    "input_text": "설날이 끝난 뒤 두 번째 주에 포함된 마지막 평일",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_week_last_business_day"
+    }
+  },
+  {
+    "id": "T1_315",
+    "task": "T1",
+    "input_text": "추석 연휴 종료 후 주말을 넘긴 다음 맞는 화요일",
+    "anchor_date": "2025-09-23",
+    "gold_standard": "2025-10-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_weekend_then_weekday"
+    }
+  },
+  {
+    "id": "T1_316",
+    "task": "T1",
+    "input_text": "이번 주말 이후 도래하는 주의 월요일 다음 날",
+    "anchor_date": "2025-11-08",
+    "gold_standard": "2025-11-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_weekend_weekday_plus_one"
+    }
+  },
+  {
+    "id": "T1_317",
+    "task": "T1",
+    "input_text": "다음 달 말이 지난 시점 이후 가장 가까운 평일",
+    "anchor_date": "2025-06-02",
+    "gold_standard": "2025-08-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_next_month_end_closest_business_day"
+    }
+  },
+  {
+    "id": "T1_318",
+    "task": "T1",
+    "input_text": "이번 달 중순 이전 기간을 제외한 뒤 처음 만나는 목요일",
+    "anchor_date": "2025-10-05",
+    "gold_standard": "2025-10-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "exclude_pre_mid_month_first_weekday"
+    }
+  },
+  {
+    "id": "T1_319",
+    "task": "T1",
+    "input_text": "다음 달 첫 평일이 끝난 뒤 포함되는 주의 금요일",
+    "anchor_date": "2025-12-27",
+    "gold_standard": "2026-01-09",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_business_week_weekday"
+    }
+  },
+  {
+    "id": "T1_320",
+    "task": "T1",
+    "input_text": "이번 주 전부를 건너뛴 뒤 처음 맞는 화요일 전날",
+    "anchor_date": "2025-05-20",
+    "gold_standard": "2025-05-26",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "skip_current_week_weekday_minus_one"
+    }
+  },
+  {
+    "id": "T1_321",
+    "task": "T1",
+    "input_text": "이번 달 말 직전 주말 다음에 오는 첫 평일",
+    "anchor_date": "2025-03-19",
+    "gold_standard": "2025-03-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "pre_month_end_weekend_post_business"
+    }
+  },
+  {
+    "id": "T1_322",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주가 끝난 뒤 평일 기준 이틀째 날",
+    "anchor_date": "2025-08-20",
+    "gold_standard": "2025-10-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_week_nth_business_day"
+    }
+  },
+  {
+    "id": "T1_323",
+    "task": "T1",
+    "input_text": "이번 달 31일을 기준으로 하루 전",
+    "anchor_date": "2025-04-02",
+    "gold_standard": "2025-04-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_relative_offset"
+    }
+  },
+  {
+    "id": "T1_324",
+    "task": "T1",
+    "input_text": "설날 다음 주를 넘긴 뒤 처음 등장하는 평일",
+    "anchor_date": "2025-01-26",
+    "gold_standard": "2025-02-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_week_skip_then_first_business"
+    }
+  },
+  {
+    "id": "T1_325",
+    "task": "T1",
+    "input_text": "이번 달 시작 직후 첫 주말을 지난 다음 오는 수요일",
+    "anchor_date": "2025-02-03",
+    "gold_standard": "2025-02-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_weekend_then_weekday"
+    }
+  },
+  {
+    "id": "T1_326",
+    "task": "T1",
+    "input_text": "이번 달 중반을 지나 처음 맞는 화요일 전날",
+    "anchor_date": "2025-01-16",
+    "gold_standard": "2025-01-20",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_mid_month_weekday_minus_one"
+    }
+  },
+  {
+    "id": "T1_327",
+    "task": "T1",
+    "input_text": "다음 달 첫 주가 끝난 이후 가장 가까운 평일",
+    "anchor_date": "2025-02-23",
+    "gold_standard": "2025-03-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_week_closest_business"
+    }
+  },
+  {
+    "id": "T1_328",
+    "task": "T1",
+    "input_text": "이번 주를 벗어난 뒤 처음 등장하는 목요일 다음 날",
+    "anchor_date": "2025-03-14",
+    "gold_standard": "2025-03-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_first_weekday_plus_one"
+    }
+  },
+  {
+    "id": "T1_329",
+    "task": "T1",
+    "input_text": "이번 달 말 직후 포함되는 주의 수요일",
+    "anchor_date": "2025-04-11",
+    "gold_standard": "2025-05-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_end_week_weekday"
+    }
+  },
+  {
+    "id": "T1_330",
+    "task": "T1",
+    "input_text": "다음 주 전체가 지난 뒤 돌아오는 첫 금요일 전날",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-06-19",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_range_weekday_minus_one"
+    }
+  },
+  {
+    "id": "T1_331",
+    "task": "T1",
+    "input_text": "이번 분기 종료 직후 주말을 넘긴 다음 맞는 평일",
+    "anchor_date": "2025-03-26",
+    "gold_standard": "2025-04-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_end_weekend_first_business"
+    }
+  },
+  {
+    "id": "T1_332",
+    "task": "T1",
+    "input_text": "다음 분기 시작 후 첫 주말 다음에 오는 화요일",
+    "anchor_date": "2025-09-19",
+    "gold_standard": "2025-10-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_weekend_then_weekday"
+    }
+  },
+  {
+    "id": "T1_333",
+    "task": "T1",
+    "input_text": "이달 초 이후 첫 수요일",
+    "anchor_date": "2025-07-02",
+    "gold_standard": "2025-07-09",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_relative_weekday"
+    }
+  },
+  {
+    "id": "T1_334",
+    "task": "T1",
+    "input_text": "설날 연휴가 끝난 후 주말을 제외하고 세 번째 평일",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_nth_business_day"
+    }
+  },
+  {
+    "id": "T1_335",
+    "task": "T1",
+    "input_text": "추석 이후 첫 주말이 지난 다음 맞는 목요일",
+    "anchor_date": "2025-09-21",
+    "gold_standard": "2025-10-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_weekend_then_weekday"
+    }
+  },
+  {
+    "id": "T1_336",
+    "task": "T1",
+    "input_text": "이번 주말을 기준으로 다음 주가 끝난 뒤 만나는 월요일",
+    "anchor_date": "2025-11-08",
+    "gold_standard": "2025-11-17",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_weekend_then_week_end_weekday"
+    }
+  },
+  {
+    "id": "T1_337",
+    "task": "T1",
+    "input_text": "다음 달 말이 지나고 처음 포함되는 주의 화요일",
+    "anchor_date": "2025-06-19",
+    "gold_standard": "2025-08-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_next_month_end_week_weekday"
+    }
+  },
+  {
+    "id": "T1_338",
+    "task": "T1",
+    "input_text": "이번 달 중순 이전을 제외한 구간에서 처음 맞는 금요일",
+    "anchor_date": "2025-10-04",
+    "gold_standard": "2025-10-17",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "exclude_pre_mid_month_first_weekday"
+    }
+  },
+  {
+    "id": "T1_339",
+    "task": "T1",
+    "input_text": "다음 달 초 가장 빠른 평일 다음 날",
+    "anchor_date": "2025-12-29",
+    "gold_standard": "2026-01-03",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_business_plus_one"
+    }
+  },
+  {
+    "id": "T1_340",
+    "task": "T1",
+    "input_text": "이번 주 전체를 지나고 난 뒤 처음 맞는 수요일 다음 날",
+    "anchor_date": "2025-05-23",
+    "gold_standard": "2025-05-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_first_weekday_plus_one_alt"
+    }
+  },
+  {
+    "id": "T1_341",
+    "task": "T1",
+    "input_text": "이번 달 마지막 영업일",
+    "anchor_date": "2025-03-18",
+    "gold_standard": "2025-03-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_end_weekday_after_weekend"
+    }
+  },
+  {
+    "id": "T1_342",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주를 넘긴 뒤 평일 기준 이틀 후",
+    "anchor_date": "2025-08-26",
+    "gold_standard": "2025-10-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_quarter_start_week_business_offset"
+    }
+  },
+  {
+    "id": "T1_343",
+    "task": "T1",
+    "input_text": "이번 달 31일 이후 첫 평일",
+    "anchor_date": "2025-06-07",
+    "gold_standard": "2025-07-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_post_first_business"
+    }
+  },
+  {
+    "id": "T1_344",
+    "task": "T1",
+    "input_text": "설날 다음 주가 끝난 뒤 맞는 두 번째 평일",
+    "anchor_date": "2025-01-27",
+    "gold_standard": "2025-02-11",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_post_week_nth_business_day"
+    }
+  },
+  {
+    "id": "T1_345",
+    "task": "T1",
+    "input_text": "이번 달 시작 후 첫 주말을 건너뛴 다음 맞는 금요일",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-09",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_month_start_weekend_skip_weekday"
+    }
+  },
+  {
+    "id": "T1_346",
+    "task": "T1",
+    "input_text": "이번 달 안에서 월요일이 아닌 날 중 가장 마지막 날",
+    "anchor_date": "2025-01-05",
+    "gold_standard": "2025-01-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_scope_last_non_weekday"
+    }
+  },
+  {
+    "id": "T1_347",
+    "task": "T1",
+    "input_text": "이번 주 이후로 처음 시작되는 달의 첫 평일",
+    "anchor_date": "2025-02-26",
+    "gold_standard": "2025-03-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "post_week_month_start_first_business"
+    }
+  },
+  {
+    "id": "T1_348",
+    "task": "T1",
+    "input_text": "이번 달에서 주말이 포함되지 않은 가장 긴 연속 평일 구간의 마지막 날",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-06-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_longest_business_span_end"
+    }
+  },
+  {
+    "id": "T1_349",
+    "task": "T1",
+    "input_text": "다음 달이 시작되기 전 마지막으로 남는 평일",
+    "anchor_date": "2025-07-19",
+    "gold_standard": "2025-07-31",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "pre_month_start_last_business_day"
+    }
+  },
+  {
+    "id": "T1_350",
+    "task": "T1",
+    "input_text": "이번 분기 안에서 주말 중 가장 늦은 날",
+    "anchor_date": "2025-05-08",
+    "gold_standard": "2025-05-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_scope_last_weekend"
+    }
+  },
+  {
+    "id": "T1_351",
+    "task": "T1",
+    "input_text": "이번 달 중순 첫 영업일",
+    "anchor_date": "2025-08-01",
+    "gold_standard": "2025-08-18",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_late_first_weekday"
+    }
+  },
+  {
+    "id": "T1_352",
+    "task": "T1",
+    "input_text": "이번 주 기준으로 가장 늦게 도래하는 평일",
+    "anchor_date": "2025-09-09",
+    "gold_standard": "2025-09-12",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_scope_latest_business_day"
+    }
+  },
+  {
+    "id": "T1_353",
+    "task": "T1",
+    "input_text": "이번 달 중에서 날짜가 20일을 넘는 최초의 평일",
+    "anchor_date": "2025-03-02",
+    "gold_standard": "2025-03-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_threshold_first_business_day"
+    }
+  },
+  {
+    "id": "T1_354",
+    "task": "T1",
+    "input_text": "이번 달에서 평일 수가 가장 많은 주에 포함된 마지막 날",
+    "anchor_date": "2025-10-04",
+    "gold_standard": "2025-10-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_max_business_week_end"
+    }
+  },
+  {
+    "id": "T1_355",
+    "task": "T1",
+    "input_text": "다음 달을 기준으로 가장 먼저 맞는 주말의 다음 날",
+    "anchor_date": "2025-11-21",
+    "gold_standard": "2025-12-08",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "post_month_first_weekend_plus_one"
+    }
+  },
+  {
+    "id": "T1_356",
+    "task": "T1",
+    "input_text": "이번 달에서 날짜가 가장 큰 평일 다음 날",
+    "anchor_date": "2025-12-02",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_last_business_plus_one"
+    }
+  },
+  {
+    "id": "T1_357",
+    "task": "T1",
+    "input_text": "이번 분기 전체에서 가장 앞부분에 속한 주말 이후 첫 평일",
+    "anchor_date": "2025-04-06",
+    "gold_standard": "2025-04-07",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_early_weekend_post_business"
+    }
+  },
+  {
+    "id": "T1_358",
+    "task": "T1",
+    "input_text": "이번 달 안에서 두 번째로 늦게 도래하는 평일",
+    "anchor_date": "2025-02-09",
+    "gold_standard": "2025-02-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_second_latest_business"
+    }
+  },
+  {
+    "id": "T1_359",
+    "task": "T1",
+    "input_text": "이번 주 안에서 평일만 고려했을 때 마지막 날",
+    "anchor_date": "2025-06-11",
+    "gold_standard": "2025-06-13",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_scope_last_business_day"
+    }
+  },
+  {
+    "id": "T1_360",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-07-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "contextual_constraint_last_day"
+    }
+  },
+  {
+    "id": "T1_361",
+    "task": "T1",
+    "input_text": "이번 달에서 연속된 평일 구간이 끝나는 시점",
+    "anchor_date": "2025-02-03",
+    "gold_standard": "2025-02-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_business_span_end"
+    }
+  },
+  {
+    "id": "T1_362",
+    "task": "T1",
+    "input_text": "이번 달 중 평일이 아닌 마지막 날",
+    "anchor_date": "2025-05-02",
+    "gold_standard": "2025-05-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_non_business_start_span_end"
+    }
+  },
+  {
+    "id": "T1_363",
+    "task": "T1",
+    "input_text": "이번 분기에서 날짜 기준으로 가장 뒤쪽에 있는 날",
+    "anchor_date": "2025-08-14",
+    "gold_standard": "2025-09-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_scope_max_date"
+    }
+  },
+  {
+    "id": "T1_364",
+    "task": "T1",
+    "input_text": "이번 달 기준으로 평일 비율이 가장 낮은 주의 마지막 날",
+    "anchor_date": "2025-10-02",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_min_business_ratio_week_end"
+    }
+  },
+  {
+    "id": "T1_365",
+    "task": "T1",
+    "input_text": "내일 말고 그다음 날",
+    "anchor_date": "2025-03-18",
+    "gold_standard": "2025-03-20",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_day_plus_two"
+    }
+  },
+  {
+    "id": "T1_366",
+    "task": "T1",
+    "input_text": "이번 달 마지막 영업일 다음 날",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2025-11-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "single_business_day_week"
+    }
+  },
+  {
+    "id": "T1_367",
+    "task": "T1",
+    "input_text": "이번 달 첫 영업일 작일",
+    "anchor_date": "2025-12-04",
+    "gold_standard": "2025-11-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "first_business_minus_one"
+    }
+  },
+  {
+    "id": "T1_368",
+    "task": "T1",
+    "input_text": "올해 첫 영업일",
+    "anchor_date": "2025-01-07",
+    "gold_standard": "2025-01-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "early_quarter_weekend_post_business"
+    }
+  },
+  {
+    "id": "T1_369",
+    "task": "T1",
+    "input_text": "이번 달 중 평일이 연속으로 끝나는 날",
+    "anchor_date": "2025-03-08",
+    "gold_standard": "2025-03-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_contiguous_business_end"
+    }
+  },
+  {
+    "id": "T1_370",
+    "task": "T1",
+    "input_text": "다음 달 세번째 목요일",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-07-17",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_edge_case_weekday"
+    }
+  },
+  {
+    "id": "T1_371",
+    "task": "T1",
+    "input_text": "다다음 주 첫 영업일",
+    "anchor_date": "2025-07-17",
+    "gold_standard": "2025-07-28",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "post_week_first_next_week_start"
+    }
+  },
+  {
+    "id": "T1_372",
+    "task": "T1",
+    "input_text": "이번 달 마지막 날 명일",
+    "anchor_date": "2025-09-01",
+    "gold_standard": "2025-10-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "contextual_month_last_selectable_day"
+    }
+  },
+  {
+    "id": "T1_373",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 날",
+    "anchor_date": "2025-11-20",
+    "gold_standard": "2025-12-31",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "quarter_end"
+    }
+  },
+  {
+    "id": "T1_374",
+    "task": "T1",
+    "input_text": "이번 달 마지막 주말",
+    "anchor_date": "2025-04-09",
+    "gold_standard": "2025-04-26",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_last_business_day"
+    }
+  },
+  {
+    "id": "T1_375",
+    "task": "T1",
+    "input_text": "다음 주 첫 영업일",
+    "anchor_date": "2025-05-14",
+    "gold_standard": "2025-05-19",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_offset_next_day"
+    }
+  },
+  {
+    "id": "T1_376",
+    "task": "T1",
+    "input_text": "다음 주 금요일",
+    "anchor_date": "2025-11-21",
+    "gold_standard": "2025-11-28",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_weekday"
+    }
+  },
+  {
+    "id": "T1_377",
+    "task": "T1",
+    "input_text": "지난 주 화요일",
+    "anchor_date": "2025-03-10",
+    "gold_standard": "2025-03-04",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "previous_weekday"
+    }
+  },
+  {
+    "id": "T1_378",
+    "task": "T1",
+    "input_text": "3일 후",
+    "anchor_date": "2025-06-15",
+    "gold_standard": "2025-06-18",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "relative_days"
+    }
+  },
+  {
+    "id": "T1_379",
+    "task": "T1",
+    "input_text": "2주 후 월요일",
+    "anchor_date": "2025-09-05",
+    "gold_standard": "​2025-09-22​",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_offset+weekday"
+    }
+  },
+  {
+    "id": "T1_380",
+    "task": "T1",
+    "input_text": "이번 달 마지막 수요일",
+    "anchor_date": "2025-11-15",
+    "gold_standard": "2025-11-26",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "month_end+weekday"
+    }
+  },
+  {
+    "id": "T1_381",
+    "task": "T1",
+    "input_text": "다음 달 같은 날",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month+same_weekday"
+    }
+  },
+  {
+    "id": "T1_382",
+    "task": "T1",
+    "input_text": "다음 주 월요일에서 2일 후",
+    "anchor_date": "2025-04-12",
+    "gold_standard": "​2025-04-16​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekday_offset+relative_days"
+    }
+  },
+  {
+    "id": "T1_383",
+    "task": "T1",
+    "input_text": "추석 다음 주 월요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_adjacent"
+    }
+  },
+  {
+    "id": "T1_384",
+    "task": "T1",
+    "input_text": "1년 후 같은 날",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2026-12-25",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "year_offset"
+    }
+  },
+  {
+    "id": "T1_385",
+    "task": "T1",
+    "input_text": "주말을 제외한 5일 후",
+    "anchor_date": "2025-07-05",
+    "gold_standard": "​2025-07-11",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekday_exclusion"
+    }
+  },
+  {
+    "id": "T1_386",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일",
+    "anchor_date": "2025-08-18",
+    "gold_standard": "2025-09-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "month_offset+nth_weekday"
+    }
+  },
+  {
+    "id": "T1_387",
+    "task": "T1",
+    "input_text": "광복절 다음 주 월요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+relative_weekday"
+    }
+  },
+  {
+    "id": "T1_388",
+    "task": "T1",
+    "input_text": "전 일요일",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-05-04",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "negative_offset+weekday"
+    }
+  },
+  {
+    "id": "T1_389",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일",
+    "anchor_date": "2025-01-15",
+    "gold_standard": "2025-01-29",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "biweekly+same_weekday"
+    }
+  },
+  {
+    "id": "T1_390",
+    "task": "T1",
+    "input_text": "다음 분기 첫 주 월요일",
+    "anchor_date": "2025-03-20",
+    "gold_standard": "2025-04-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarter_offset+weekday"
+    }
+  },
+  {
+    "id": "T1_391",
+    "task": "T1",
+    "input_text": "2월 30일",
+    "anchor_date": "2024-02-20",
+    "gold_standard": "2024-02-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "invalid_date_handling"
+    }
+  },
+  {
+    "id": "T1_392",
+    "task": "T1",
+    "input_text": "설날 3일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_offset"
+    }
+  },
+  {
+    "id": "T1_393",
+    "task": "T1",
+    "input_text": "이번 달 31일",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-04-30",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "variable_month_length"
+    }
+  },
+  {
+    "id": "T1_394",
+    "task": "T1",
+    "input_text": "이번 주말 이전 금요일",
+    "anchor_date": "2025-10-11",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "weekend_adjacent"
+    }
+  },
+  {
+    "id": "T1_395",
+    "task": "T1",
+    "input_text": "다음 달 첫 주 금요일에서 10일 후",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2025-12-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_step_calculation"
+    }
+  },
+  {
+    "id": "T1_396",
+    "task": "T1",
+    "input_text": "한글날 다음 주 화요일",
+    "anchor_date": "2025-10-09",
+    "gold_standard": "2025-10-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_offset"
+    }
+  },
+  {
+    "id": "T1_397",
+    "task": "T1",
+    "input_text": "3주 후 수요일",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "week_offset"
+    }
+  },
+  {
+    "id": "T1_398",
+    "task": "T1",
+    "input_text": "크리스마스 3영업일 전 (주말 제외)",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-22",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+business_day"
+    }
+  },
+  {
+    "id": "T1_399",
+    "task": "T1",
+    "input_text": "설날 연휴를 제외한 5일 후",
+    "anchor_date": "2025-01-29",
+    "gold_standard": "2025-02-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_exclusion"
+    }
+  },
+  {
+    "id": "T1_400",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일에서 3일 전",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-05-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "biweekly+negative_offset"
+    }
+  },
+  {
+    "id": "T1_401",
+    "task": "T1",
+    "input_text": "이번 달 30일에서 2일 후",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-05-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "variable_month_length"
+    }
+  },
+  {
+    "id": "T1_402",
+    "task": "T1",
+    "input_text": "내년 1월 첫 주 월요일",
+    "anchor_date": "2025-12-20",
+    "gold_standard": "2026-01-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "cross_year+weekday"
+    }
+  },
+  {
+    "id": "T1_403",
+    "task": "T1",
+    "input_text": "지난 주 월요일에서 4일 후",
+    "anchor_date": "2025-07-12",
+    "gold_standard": "2025-07-11​",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "past+future_hybrid"
+    }
+  },
+  {
+    "id": "T1_404",
+    "task": "T1",
+    "input_text": "이번 달 15일 다음 주 금요일",
+    "anchor_date": "2025-11-15",
+    "gold_standard": "2025-11-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "monthly_cycle+weekday"
+    }
+  },
+  {
+    "id": "T1_405",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날 다음 주 화요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_span"
+    }
+  },
+  {
+    "id": "T1_406",
+    "task": "T1",
+    "input_text": "이번 주 일요일 다음 주 월요일",
+    "anchor_date": "2025-03-05",
+    "gold_standard": "2025-03-10",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "weekend_adjacent"
+    }
+  },
+  {
+    "id": "T1_407",
+    "task": "T1",
+    "input_text": "2월 29일에서 1년 후",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2025-02-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year_handling"
+    }
+  },
+  {
+    "id": "T1_408",
+    "task": "T1",
+    "input_text": "이번 달 마지막 주 수요일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-06-25",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "semester+weekday"
+    }
+  },
+  {
+    "id": "T1_409",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 날",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year"
+    }
+  },
+  {
+    "id": "T1_410",
+    "task": "T1",
+    "input_text": "크리스마스 2주 전 일요일",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "​2025-12-07​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_countdown"
+    }
+  },
+  {
+    "id": "T1_411",
+    "task": "T1",
+    "input_text": "2주 후이지만 공휴일이면 제외",
+    "anchor_date": "2025-08-14",
+    "gold_standard": "2025-08-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "biweekly+holiday_skip"
+    }
+  },
+  {
+    "id": "T1_412",
+    "task": "T1",
+    "input_text": "이번 주 일요일을 기준으로 10일 후",
+    "anchor_date": "2025-09-03",
+    "gold_standard": "​2025-09-17​",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "variable_week_start"
+    }
+  },
+  {
+    "id": "T1_413",
+    "task": "T1",
+    "input_text": "이번 달 첫 번째 금요일에 2주 후",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-03-21",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_month+multi_step"
+    }
+  },
+  {
+    "id": "T1_414",
+    "task": "T1",
+    "input_text": "설날과 추석 사이의 첫 번째 금요일",
+    "anchor_date": "2025-02-01",
+    "gold_standard": "2025-01-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_event_reference"
+    }
+  },
+  {
+    "id": "T1_415",
+    "task": "T1",
+    "input_text": "다음 분기 마지막 주 금요일",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-06-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_quarter"
+    }
+  },
+  {
+    "id": "T1_416",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날에서 3일 후",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-10-11​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_span+offset"
+    }
+  },
+  {
+    "id": "T1_417",
+    "task": "T1",
+    "input_text": "다음 윤년의 2월 29일",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2028-02-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year+future_date"
+    }
+  },
+  {
+    "id": "T1_418",
+    "task": "T1",
+    "input_text": "2월 29일 다음 주 월요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year+holiday"
+    }
+  },
+  {
+    "id": "T1_419",
+    "task": "T1",
+    "input_text": "2주 후이지만 한글날이면 제외",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-10-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "biweekly+cultural_event_skip"
+    }
+  },
+  {
+    "id": "T1_420",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 목요일 다음 달 15일",
+    "anchor_date": "2025-06-10",
+    "gold_standard": "2025-07-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarterly+relative_month"
+    }
+  },
+  {
+    "id": "T1_421",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 날에서 2주 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+offset"
+    }
+  },
+  {
+    "id": "T1_422",
+    "task": "T1",
+    "input_text": "추석 다음 달",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-11-06​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+variable_month"
+    }
+  },
+  {
+    "id": "T1_423",
+    "task": "T1",
+    "input_text": "50일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-03-19",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_event+offset"
+    }
+  },
+  {
+    "id": "T1_424",
+    "task": "T1",
+    "input_text": "추석 연휴가 끝난 후 첫 번째 영업일",
+    "anchor_date": "2026-09-06",
+    "gold_standard": "2026-09-07",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+business_day"
+    }
+  },
+  {
+    "id": "T1_425",
+    "task": "T1",
+    "input_text": "다음 달 두 번째 금요일에서 10일 후이지만 공휴일이면 제외",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "​2025-08-18",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_constraint_hybrid"
+    }
+  },
+  {
+    "id": "T1_426",
+    "task": "T1",
+    "input_text": "이번 달 두 번째 수요일에서 1개월 후",
+    "anchor_date": "2023-11-15",
+    "gold_standard": "2023-12-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_month+multi_step"
+    }
+  },
+  {
+    "id": "T1_427",
+    "task": "T1",
+    "input_text": "영업일 기준 5일 후",
+    "anchor_date": "2025-09-06",
+    "gold_standard": "2025-09-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "business_day_offset"
+    }
+  },
+  {
+    "id": "T1_428",
+    "task": "T1",
+    "input_text": "다음 2월 29일의 다음 해 3월 1일",
+    "anchor_date": "2028-02-29",
+    "gold_standard": "2029-03-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year+future_date"
+    }
+  },
+  {
+    "id": "T1_429",
+    "task": "T1",
+    "input_text": "주말을 제외하고 4주 후 화요일",
+    "anchor_date": "2025-01-05",
+    "gold_standard": "2025-02-04​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekend_exclusion+week_offset"
+    }
+  },
+  {
+    "id": "T1_430",
+    "task": "T1",
+    "input_text": "설날 연휴 기간 중 화요일",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-01-28",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_span"
+    }
+  },
+  {
+    "id": "T1_431",
+    "task": "T1",
+    "input_text": "12월 31일 다음 날",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "cross_year_fixed"
+    }
+  },
+  {
+    "id": "T1_432",
+    "task": "T1",
+    "input_text": "현충일 다음 주 월요일",
+    "anchor_date": "2025-06-06",
+    "gold_standard": "2025-06-09",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+weekday"
+    }
+  },
+  {
+    "id": "T1_433",
+    "task": "T1",
+    "input_text": "추석 전 공휴일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "2025-10-03",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_event_reference"
+    }
+  },
+  {
+    "id": "T1_434",
+    "task": "T1",
+    "input_text": "이번 달 30일에서 5일 후",
+    "anchor_date": "2025-04-15",
+    "gold_standard": "2025-05-05",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "variable_month+offset"
+    }
+  },
+  {
+    "id": "T1_435",
+    "task": "T1",
+    "input_text": "다음 분기 첫 영업일",
+    "anchor_date": "2025-03-31",
+    "gold_standard": "​2025-04-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_quarter+holiday"
+    }
+  },
+  {
+    "id": "T1_436",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일 기준 10일 후",
+    "anchor_date": "2022-09-15",
+    "gold_standard": "2022-10-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "quarterly+offset"
+    }
+  },
+  {
+    "id": "T1_437",
+    "task": "T1",
+    "input_text": "개천절 이전 금요일 (공휴일 제외)",
+    "anchor_date": "2023-10-03",
+    "gold_standard": "2023-09-26",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+exclusion"
+    }
+  },
+  {
+    "id": "T1_438",
+    "task": "T1",
+    "input_text": "2주 후이지만 주말은 제외",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "biweekly+cultural_skip"
+    }
+  },
+  {
+    "id": "T1_439",
+    "task": "T1",
+    "input_text": "성탄절 이후 첫 번째 월요일부터 2주 후",
+    "anchor_date": "2024-12-25",
+    "gold_standard": "2025-01-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+multi_step"
+    }
+  },
+  {
+    "id": "T1_440",
+    "task": "T1",
+    "input_text": "광복절 3일 후의 첫 번째 화요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-19",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+offset"
+    }
+  },
+  {
+    "id": "T1_441",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫날 30일 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-31",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+variable_month"
+    }
+  },
+  {
+    "id": "T1_442",
+    "task": "T1",
+    "input_text": "추석 연휴 마지막 날에서 7일 후",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-10-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_span+offset"
+    }
+  },
+  {
+    "id": "T1_443",
+    "task": "T1",
+    "input_text": "30영업일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-03-11",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_event+business_days"
+    }
+  },
+  {
+    "id": "T1_444",
+    "task": "T1",
+    "input_text": "이번 달 세 번째 화요일",
+    "anchor_date": "2027-02-15",
+    "gold_standard": "2027-02-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "relative_weekday"
+    }
+  },
+  {
+    "id": "T1_445",
+    "task": "T1",
+    "input_text": "다음 달 20일 이후 첫 번째 월요일 (공휴일 제외)",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "2025-08-25",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_constraint_hybrid"
+    }
+  },
+  {
+    "id": "T1_446",
+    "task": "T1",
+    "input_text": "올해 한글날",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-10-09",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "leap_year+cultural_event"
+    }
+  },
+  {
+    "id": "T1_447",
+    "task": "T1",
+    "input_text": "올해 30주차 월요일",
+    "anchor_date": "2024-01-01",
+    "gold_standard": "2024-07-22",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "iso_week"
+    }
+  },
+  {
+    "id": "T1_448",
+    "task": "T1",
+    "input_text": "추석 다음 달 같은 요일",
+    "anchor_date": "2025-09-20",
+    "gold_standard": "​2025-11-03​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+variable_month"
+    }
+  },
+  {
+    "id": "T1_449",
+    "task": "T1",
+    "input_text": "개학일 이후 첫 번째 수요일 다음 주 금요일",
+    "anchor_date": "2025-03-04",
+    "gold_standard": "2025-03-14​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+multi_step"
+    }
+  },
+  {
+    "id": "T1_450",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 영업일 (설날 제외)",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-02",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+holiday_span"
+    }
+  },
+  {
+    "id": "T1_451",
+    "task": "T1",
+    "input_text": "어린이날 7일 후",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-12",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_offset"
+    }
+  },
+  {
+    "id": "T1_452",
+    "task": "T1",
+    "input_text": "주말을 제외하고 6주 후 목요일",
+    "anchor_date": "2025-02-10",
+    "gold_standard": "2025-03-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "weekend_exclusion+week_offset"
+    }
+  },
+  {
+    "id": "T1_453",
+    "task": "T1",
+    "input_text": "윤년의 12월 25일 다음 해 1월 1일",
+    "anchor_date": "2020-12-25",
+    "gold_standard": "2021-01-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year+holiday"
+    }
+  },
+  {
+    "id": "T1_454",
+    "task": "T1",
+    "input_text": "추석 연휴 기간 후의 금요일",
+    "anchor_date": "2025-10-07",
+    "gold_standard": "2025-10-10",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_span+offset"
+    }
+  },
+  {
+    "id": "T1_455",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 번째 월요일 (현충일 제외)",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-01-05​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+cultural_event_exclusion"
+    }
+  },
+  {
+    "id": "T1_456",
+    "task": "T1",
+    "input_text": "삼일절 다음 달 같은 요일",
+    "anchor_date": "2025-03-01",
+    "gold_standard": "​2025-04-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+variable_month"
+    }
+  },
+  {
+    "id": "T1_457",
+    "task": "T1",
+    "input_text": "2월 29일 다음 주 같은 요일",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-03-07",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "leap_year"
+    }
+  },
+  {
+    "id": "T1_458",
+    "task": "T1",
+    "input_text": "성탄절 40영업일 전",
+    "anchor_date": "2025-12-20",
+    "gold_standard": "2025-10-30",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+business_day"
+    }
+  },
+  {
+    "id": "T1_459",
+    "task": "T1",
+    "input_text": "설날과 추석 사이 두 번째 월요일",
+    "anchor_date": "2024-02-10",
+    "gold_standard": "2024-02-19",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_holiday"
+    }
+  },
+  {
+    "id": "T1_460",
+    "task": "T1",
+    "input_text": "성탄절 이전 주 월요일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+weekday"
+    }
+  },
+  {
+    "id": "T1_461",
+    "task": "T1",
+    "input_text": "2주 후의 1일 후",
+    "anchor_date": "2025-05-01",
+    "gold_standard": "2025-05-16",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "biweekly+negative_offset"
+    }
+  },
+  {
+    "id": "T1_462",
+    "task": "T1",
+    "input_text": "이번 달의 첫 번째 목요일 다음 주 금요일",
+    "anchor_date": "2025-03-10",
+    "gold_standard": "2025-03-14​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "seasonal+multi_step"
+    }
+  },
+  {
+    "id": "T1_463",
+    "task": "T1",
+    "input_text": "광복절 5일 후 일요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-24",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+offset"
+    }
+  },
+  {
+    "id": "T1_464",
+    "task": "T1",
+    "input_text": "다음 회계년도 31일 후",
+    "anchor_date": "2025-12-01",
+    "gold_standard": "2026-02-01",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+variable_month"
+    }
+  },
+  {
+    "id": "T1_465",
+    "task": "T1",
+    "input_text": "설날 연휴 마지막 날에서 14일 후",
+    "anchor_date": "2025-01-28",
+    "gold_standard": "2025-02-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event_span+offset"
+    }
+  },
+  {
+    "id": "T1_466",
+    "task": "T1",
+    "input_text": "추석과 성탄절 사이의 첫 번째 화요일",
+    "anchor_date": "2025-10-05",
+    "gold_standard": "2025-10-14",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_event+weekday"
+    }
+  },
+  {
+    "id": "T1_467",
+    "task": "T1",
+    "input_text": "한글날 이후 4주차 월요일",
+    "anchor_date": "2024-10-09",
+    "gold_standard": "2024-11-04",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+iso_week"
+    }
+  },
+  {
+    "id": "T1_468",
+    "task": "T1",
+    "input_text": "2주 후의 같은 요일",
+    "anchor_date": "2025-09-10",
+    "gold_standard": "2025-09-24",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "biweekly+same_weekday"
+    }
+  },
+  {
+    "id": "T1_469",
+    "task": "T1",
+    "input_text": "성탄절 다음 달 같은 요일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2026-01-29​",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+variable_month"
+    }
+  },
+  {
+    "id": "T1_470",
+    "task": "T1",
+    "input_text": "개학일 이후 두 번째 화요일 다음 주 목요일",
+    "anchor_date": "2025-03-04",
+    "gold_standard": "2025-03-13",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+multi_step"
+    }
+  },
+  {
+    "id": "T1_471",
+    "task": "T1",
+    "input_text": "다음 회계년도 첫 영업일 3일 후",
+    "anchor_date": "2025-12-31",
+    "gold_standard": "2026-01-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "fiscal_year+offset"
+    }
+  },
+  {
+    "id": "T1_472",
+    "task": "T1",
+    "input_text": "한글날 2주 후 월요일",
+    "anchor_date": "2025-10-09",
+    "gold_standard": "2025-10-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+week_offset"
+    }
+  },
+  {
+    "id": "T1_473",
+    "task": "T1",
+    "input_text": "다음 달 25일 이후 첫 번째 수요일 (공휴일 제외)",
+    "anchor_date": "2025-07-15",
+    "gold_standard": "2025-08-27",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "multi_constraint_hybrid"
+    }
+  },
+  {
+    "id": "T1_474",
+    "task": "T1",
+    "input_text": "2월 29일 이후 다음 어린이날",
+    "anchor_date": "2024-02-29",
+    "gold_standard": "2024-05-05",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "leap_year+cultural_event"
+    }
+  },
+  {
+    "id": "T1_475",
+    "task": "T1",
+    "input_text": "개천절 이전 금요일 (공휴일 제외)",
+    "anchor_date": "2025-10-03",
+    "gold_standard": "2025-09-26",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+exclusion"
+    }
+  },
+  {
+    "id": "T1_476",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 월요일",
+    "anchor_date": "2025-03-20",
+    "gold_standard": "2025-04-07",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_month+weekday"
+    }
+  },
+  {
+    "id": "T1_477",
+    "task": "T1",
+    "input_text": "올해 추석 10일 전",
+    "anchor_date": "2025-01-01",
+    "gold_standard": "2025-09-26",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday_offset"
+    }
+  },
+  {
+    "id": "T1_478",
+    "task": "T1",
+    "input_text": "이번 분기 마지막 금요일",
+    "anchor_date": "2025-05-10",
+    "gold_standard": "2025-06-27",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_end+weekday"
+    }
+  },
+  {
+    "id": "T1_479",
+    "task": "T1",
+    "input_text": "설날 다음 두 번째 월요일",
+    "anchor_date": "2026-02-17",
+    "gold_standard": "2026-03-02",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "cultural_event+weekday_offset"
+    }
+  },
+  {
+    "id": "T1_480",
+    "task": "T1",
+    "input_text": "다음 달 시작일 전날",
+    "anchor_date": "2025-06-01",
+    "gold_standard": "2025-06-30",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "next_month+previous_day"
+    }
+  },
+  {
+    "id": "T1_481",
+    "task": "T1",
+    "input_text": "다음 분기 첫 평일",
+    "anchor_date": "2025-09-28",
+    "gold_standard": "2025-10-01",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_start+business_day"
+    }
+  },
+  {
+    "id": "T1_482",
+    "task": "T1",
+    "input_text": "다음 어린이날 직후 월요일",
+    "anchor_date": "2025-01-10",
+    "gold_standard": "2025-05-12",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday+following_weekday"
+    }
+  },
+  {
+    "id": "T1_483",
+    "task": "T1",
+    "input_text": "한글날 다음 주 수요일",
+    "anchor_date": "2026-10-09",
+    "gold_standard": "2026-10-14",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday+week_offset"
+    }
+  },
+  {
+    "id": "T1_484",
+    "task": "T1",
+    "input_text": "다음 학기 개강일로부터 3일 전",
+    "anchor_date": "2025-07-01",
+    "gold_standard": "2025-08-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "school+offset"
+    }
+  },
+  {
+    "id": "T1_485",
+    "task": "T1",
+    "input_text": "올해 마지막 영업일",
+    "anchor_date": "2025-03-01",
+    "gold_standard": "2025-12-31",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "year_end+business_day"
+    }
+  },
+  {
+    "id": "T1_486",
+    "task": "T1",
+    "input_text": "이번 달 둘째 금요일",
+    "anchor_date": "2025-04-01",
+    "gold_standard": "2025-04-11",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "week_offset"
+    }
+  },
+  {
+    "id": "T1_487",
+    "task": "T1",
+    "input_text": "추석 다음 평일 첫날",
+    "anchor_date": "2025-09-16",
+    "gold_standard": "2025-10-13",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday+business_day"
+    }
+  },
+  {
+    "id": "T1_488",
+    "task": "T1",
+    "input_text": "다음 해 첫 번째 금요일",
+    "anchor_date": "2025-11-12",
+    "gold_standard": "2026-01-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "next_year+weekday"
+    }
+  },
+  {
+    "id": "T1_489",
+    "task": "T1",
+    "input_text": "부처님오신날 이틀 후",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-07",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "holiday_offset"
+    }
+  },
+  {
+    "id": "T1_490",
+    "task": "T1",
+    "input_text": "다음 분기 첫 번째 수요일",
+    "anchor_date": "2025-01-20",
+    "gold_standard": "2025-04-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_start+weekday"
+    }
+  },
+  {
+    "id": "T1_491",
+    "task": "T1",
+    "input_text": "어린이날 이전 마지막 평일",
+    "anchor_date": "2025-05-05",
+    "gold_standard": "2025-05-02",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday+business_day"
+    }
+  },
+  {
+    "id": "T1_492",
+    "task": "T1",
+    "input_text": "다음 달 첫 번째 공휴일",
+    "anchor_date": "2025-07-10",
+    "gold_standard": "2025-08-15",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday_lookup"
+    }
+  },
+  {
+    "id": "T1_493",
+    "task": "T1",
+    "input_text": "다다음 주 월요일",
+    "anchor_date": "2025-02-11",
+    "gold_standard": "2025-02-24",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "week_offset"
+    }
+  },
+  {
+    "id": "T1_494",
+    "task": "T1",
+    "input_text": "광복절 다음 토요일",
+    "anchor_date": "2025-08-15",
+    "gold_standard": "2025-08-16",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "holiday+weekday"
+    }
+  },
+  {
+    "id": "T1_495",
+    "task": "T1",
+    "input_text": "다음 해 설날 다음 금요일",
+    "anchor_date": "2025-11-01",
+    "gold_standard": "2026-02-20",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "next_year+holiday_offset"
+    }
+  },
+  {
+    "id": "T1_496",
+    "task": "T1",
+    "input_text": "한글날 다음 다음 월요일",
+    "anchor_date": "2024-10-09",
+    "gold_standard": "2024-10-21",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "holiday+weekday_offset"
+    }
+  },
+  {
+    "id": "T1_497",
+    "task": "T1",
+    "input_text": "이번 주 목요일",
+    "anchor_date": "2025-06-04",
+    "gold_standard": "2025-06-05",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "week+weekday"
+    }
+  },
+  {
+    "id": "T1_498",
+    "task": "T1",
+    "input_text": "다음 분기 종료 1주 전",
+    "anchor_date": "2025-03-15",
+    "gold_standard": "2025-06-23",
+    "metadata": {
+      "complexity": "medium",
+      "temporal_pattern": "quarter_end+offset"
+    }
+  },
+  {
+    "id": "T1_499",
+    "task": "T1",
+    "input_text": "추석 전주 월요일",
+    "anchor_date": "2025-10-01",
+    "gold_standard": "2025-09-29",
+    "metadata": {
+      "complexity": "high",
+      "temporal_pattern": "holiday+week_offset"
+    }
+  },
+  {
+    "id": "T1_500",
+    "task": "T1",
+    "input_text": "크리스마스 다음 평일",
+    "anchor_date": "2025-12-25",
+    "gold_standard": "2025-12-26",
+    "metadata": {
+      "complexity": "low",
+      "temporal_pattern": "holiday+business_day"
+    }
+  }
+]

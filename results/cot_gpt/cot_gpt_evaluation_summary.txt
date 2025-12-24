@@ -1,0 +1,11 @@
+📌 File: results_T1_word_merged.json
+Total=500, Correct=361, Wrong=139, Accuracy=72.20%
+❗ Wrong cases saved to: wrong_results_T1_word_merged.json
+
+📌 File: results_T1_sentence_merged.json
+Total=500, Correct=372, Wrong=128, Accuracy=74.40%
+❗ Wrong cases saved to: wrong_results_T1_sentence_merged.json
+
+📌 File: result_T2.json
+Total=500, Correct=111, Wrong=389, Accuracy=22.20%
+❗ Wrong cases saved to: wrong_result_T2.json
