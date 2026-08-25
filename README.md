@@ -20,8 +20,8 @@ Korean temporal expressions often combine:
 
 We compare two reasoning paradigms:
 
-- **CoT prompting** — single-pass reasoning, no tools  
-- **ReAct agents** — iterative reasoning with tool invocation  
+- **CoT prompting** – single-pass reasoning, no tools  
+- **ReAct agents** – iterative reasoning with tool invocation  
 
 across three temporal reasoning tasks with increasing complexity.
 
@@ -31,19 +31,19 @@ across three temporal reasoning tasks with increasing complexity.
 
 We define three task settings to isolate different dimensions of temporal reasoning.
 
-### **T1 — Date Normalization (Phrase-level)**
+### **T1 – Date Normalization (Phrase-level)**
 - **Input:** Standalone Korean temporal expressions  
   (e.g., *“다음 달 마지막 날 다음 평일”*)
 - **Output:** Single normalized date (`YYYY-MM-DD`)
 - **Focus:** Temporal arithmetic and boundary reasoning
 
-### **T2 — Date Normalization with Sentences**
+### **T2 – Date Normalization with Sentences**
 - **Input:** Full Korean sentences containing temporal expressions  
   (e.g., *“다음 주 금요일 날짜 알려줘”*)
 - **Output:** Single normalized date (`YYYY-MM-DD`)
 - **Focus:** Temporal span detection + normalization
 
-### **T3 — Constraint-based Schedule Generation**
+### **T3 – Constraint-based Schedule Generation**
 - **Input:** Korean scheduling instructions with multiple constraints  
   (weekday-only, interval rules, holiday exclusion, count limits)
 - **Output:** Ordered list of dates (`YYYY-MM-DD`)
@@ -62,9 +62,9 @@ We define three task settings to isolate different dimensions of temporal reason
 ### **ReAct Agent**
 - Iterative **Thought → Action → Observation** loop
 - Tool primitives:
-  - `calculator` — date arithmetic (offsets, intervals, weekdays)
-  - `calendar_db` — holidays, solar terms, anniversaries
-  - `search` — external event lookup
+  - `calculator` – date arithmetic (offsets, intervals, weekdays)
+  - `calendar_db` – holidays, solar terms, anniversaries
+  - `search` – external event lookup
 - Single-step reasoning for **T1 / T2**
 - Multi-step planning loop for **T3** (max 10 turns)
 
