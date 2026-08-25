@@ -106,7 +106,7 @@ Failures include:
 - **All models fail to scale on T3**  
   (≤22% accuracy, no statistical difference between CoT and ReAct)
 - **Tool-driven instability dominates ReAct failures** in multi-event reasoning
-- **Ablation replacing hand-coded tools with LLM-driven reasoning improves T3 accuracy to 31.4%**, highlighting **orchestration—not tool availability—as the key factor**
+- **Ablation replacing hand-coded tools with LLM-driven reasoning improves T3 accuracy to 31.4%**, highlighting **orchestration – not tool availability – as the key factor**
 
 ---
 
